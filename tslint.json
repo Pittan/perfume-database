@@ -1,5 +1,5 @@
 {
-  "extends": "tslint:recommended",
+  "extends": "tslint-config-standard",
   "rules": {
     "array-type": false,
     "arrow-parens": false,
