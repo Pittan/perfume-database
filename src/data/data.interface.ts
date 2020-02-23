@@ -89,13 +89,13 @@ export interface Event {
   /** サブタイトル(あれば) */
   sub_name?: string
   /** 会場 */
-  live_house: LiveHouseId
+  live_house?: LiveHouseId
   /** ツアーのID(このイベントがツアーの中の1公演であることを示す場合) */
   tour_id?: TourId
   /** 開催日(日をまたぐ場合は開演した日) */
   date: string
   /** セットリスト */
-  songs?: SetListItem[]
+  songs?: SetListItem[][]
   /** フリーメモ。 */
   memo?: string
 }

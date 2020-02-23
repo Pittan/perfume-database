@@ -1000,6 +1000,11 @@ export const SONGS: Song[] = [
     id: 177,
     title: '再生',
     kana: 'さいせい'
+  },
+  {
+    id: 178,
+    title: 'カウンターアトラクション',
+    kana: 'かうんたーあとらくしょん'
   }
 ]
 

@@ -1,4 +1,4 @@
-import { ALBUMS, SINGLES, Song, SONGS, TOURS } from '../src/data'
+import { ALBUMS, EVENTS, MC, SINGLES, Song, SONGS, TOURS } from '../src/data'
 
 let DEBUG = false
 function log (message: string) {
@@ -83,6 +83,27 @@ function validateTours () {
   })
 }
 
+function checkEvents () {
+  const events = [...EVENTS].filter(e => e.songs)
+  events.forEach(e => {
+    log(`===========\n${e.name}`)
+    e.songs.forEach(section => {
+      section.forEach(s => {
+        const song = SONGS.find(so => so.id === s)
+        if (s === MC) {
+          log('-- MC')
+          return
+        }
+        if (!song) {
+          throw Error(`Couldn\'t find song on ${e.name} ${e.id}`)
+        }
+        log(`-- ${song.title}`)
+      })
+      log('')
+    })
+  })
+}
+
 // ALBUMS
 checkAllAlbumAndSingleIDsAreUnique()
 console.log('👍 Single and Albums looking good!')
@@ -96,3 +117,7 @@ console.log('👍 Songs looking good!')
 // TOURS
 validateTours()
 console.log('👍 Tours looking good!')
+
+// EVENTS
+checkEvents()
+console.log('👍 Events looking good!')
