@@ -1,4 +1,9 @@
-import { ALBUMS, SINGLES, Song, SONGS } from '../src/data'
+import { ALBUMS, SINGLES, Song, SONGS, TOURS } from '../src/data'
+
+let DEBUG = false
+function log (message: string) {
+  if (DEBUG) { console.log(message) }
+}
 
 function checkAllAlbumAndSingleIDsAreUnique () {
   const allAlbumAndSingles = [...ALBUMS, ...SINGLES]
@@ -67,9 +72,15 @@ function checkAlbumsAndSongsAreProperlyRegistered () {
   })
 }
 
-let debug = false
-function log (message: string) {
-  if (debug) { console.log(message) }
+function validateTours () {
+  const allTours = [ ...TOURS ]
+  const uniqDictionary = {}
+  allTours.forEach(t => {
+    if (uniqDictionary[t.id]) {
+      throw Error(`ID conflict detected!! (${t.name})`)
+    }
+    uniqDictionary[t.id] = true
+  })
 }
 
 // ALBUMS
@@ -81,3 +92,7 @@ checkAllSongIDsAreUnique()
 checkSongsParentsAndChildrenRelation()
 checkAlbumsAndSongsAreProperlyRegistered()
 console.log('👍 Songs looking good!')
+
+// TOURS
+validateTours()
+console.log('👍 Tours looking good!')

@@ -129,10 +129,12 @@ export interface Tour {
   id: TourId
   /** ツアーの名称 */
   name: string
+  /** よみがな */
+  kana: string
   /** ツアーの最初の日 */
   from: string
   /** ツアーの最後の日 */
   to: string
   /** 関連するアルバムがある場合はそのID */
-  related_album: AlbumId
+  related_album?: AlbumId
 }
