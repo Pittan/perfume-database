@@ -67,7 +67,8 @@ export interface Album {
  * ライブで披露するセットリストの単位。基本的に楽曲の披露であればSongIdで十分だが
  * それ以外のことをする場合には任意で入力可能にしてある。
  */
-export type SetListItem = SongId | {
+export type SetListItem = SongId | SetListItemDefinition
+export interface SetListItemDefinition {
   /** タイトル */
   title: string
   /** メドレー or MC or PTAのコーナー */
