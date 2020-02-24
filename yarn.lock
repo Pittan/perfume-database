@@ -5339,6 +5339,11 @@ mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1, mkdirp@~0.5.x:
   dependencies:
     minimist "0.0.8"
 
+modern-css-reset@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/modern-css-reset/-/modern-css-reset-1.1.0.tgz#91be70bcf6b2aefed0d16e8a439ef174a5f7459a"
+  integrity sha512-JOsOWxyDiZJWhvvx0LVtY9l4MT/1tlDevBkmPbGFEvxTLGVwCOJ/f0ZoT9moTdMsrqZeShJOX/bTaUfI4WfFQw==
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
