@@ -21,7 +21,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: yarn
     - run: yarn build
-    - run: yarn test-headless
+#    - run: yarn test-headless
     - run: yarn validate-db
       env:
         CI: true
