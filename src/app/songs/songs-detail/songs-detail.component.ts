@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core'
 import { ActivatedRoute } from '@angular/router'
 import { Event, EVENTS, SetListItemDefinition, Song, SONGS } from '../../../data'
 import { flatten } from 'lodash-es'
+import { SongsService } from '../songs.service'
 
 @Component({
   selector: 'app-songs-detail',
@@ -17,6 +18,7 @@ export class SongsDetailComponent implements OnInit {
   relatedLives: Event[] = []
 
   constructor (
+    private songs: SongsService,
     private activeRoute: ActivatedRoute
   ) { }
 
@@ -25,28 +27,8 @@ export class SongsDetailComponent implements OnInit {
       if (params['id']) {
         this.id = Number(params['id'])
       }
-      this.song = SONGS.find(s => s.id === this.id)
-
-      const events = [...EVENTS]
-      this.relatedLives = events.filter(event => {
-        const flattened = flatten(event.songs)
-        return flattened.some(item => {
-          if (isSetListItemDefinition(item)) {
-            if (!item.songs) return false
-            return item.songs.some(so => {
-              return so === this.id
-            })
-          }
-          return item === this.id
-        })
-      })
+      this.song = this.songs.getSongById(this.id)
+      this.relatedLives = this.songs.getRelatedLives(this.id)
     })
   }
-}
-
-/**
- * User Defined Type Guard!
- */
-function isSetListItemDefinition (arg: any): arg is SetListItemDefinition {
-  return arg.songs !== undefined
 }

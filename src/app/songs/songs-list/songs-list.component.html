@@ -1,1 +1,12 @@
-<a class="song" *ngFor="let song of songs" routerLink="/songs/{{song.id}}">{{song.title}}</a>
+<div class="view-header">
+  <input type="text" [(ngModel)]="query" (ngModelChange)="queryChange()" placeholder="曲名を入力してください">
+  <label class="inst-switch" for="inst-switch">
+    Show Instrumental
+    <label class="switch">
+      <input type="checkbox" id="inst-switch" [(ngModel)]="showInstrumental" (ngModelChange)="showInstrumentalChanged()">
+      <span class="slider"></span>
+    </label>
+  </label>
+</div>
+
+<a class="song" @fadeIn *ngFor="let song of songs" routerLink="/songs/{{song.id}}">{{song.title}}</a>

@@ -1,1 +1,30 @@
-<p>albums-detail works!</p>
+<h1>{{album.title}}</h1>
+<p><small>{{album.released_on}}発売</small></p>
+
+<ng-container *ngIf="tours.length > 0">
+  <h2>Related Tours</h2>
+  <p routerLink="/tours/{{tour.id}}" *ngFor="let tour of tours"><small>{{tour.from}}〜{{tour.to}}</small><br>{{tour.name}}</p>
+</ng-container>
+
+<h2>Songs</h2>
+<ul>
+  <li class="edition" *ngFor="let edition of album.editions">
+    <h3>{{edition.name}}</h3>
+    <ol>
+      <ng-container *ngIf="edition.songs.length === 1; else multipleDiscs">
+        <li class="song" routerLink="/songs/{{song}}" *ngFor="let song of edition.songs[0]">
+          {{getSongTitle(song)}}
+        </li>
+      </ng-container>
+
+      <ng-template #multipleDiscs>
+        <li *ngFor="let disc of edition.songs">
+          <ol>
+            <li class="song" routerLink="/songs/{{song}}" *ngFor="let song of disc">{{getSongTitle(song)}}</li>
+          </ol>
+        </li>
+      </ng-template>
+
+    </ol>
+  </li>
+</ul>

@@ -1,1 +1,5 @@
-<p>albums-list works!</p>
+<div class="view-header">
+  <input type="text" [(ngModel)]="query" (ngModelChange)="queryChange()" placeholder="曲名を入力してください">
+</div>
+
+<a class="song" @fadeIn *ngFor="let album of albums" routerLink="/albums/{{album.id}}">{{album.title}}</a>
