@@ -1,5 +1,5 @@
 <h1>{{album.title}}</h1>
-<p><small>{{album.released_on}}発売</small></p>
+<p *ngIf="album.released_on"><small>{{album.released_on}}発売</small></p>
 
 <ng-container *ngIf="tours.length > 0">
   <h2>Related Tours</h2>

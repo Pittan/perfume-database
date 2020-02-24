@@ -1,4 +1,47 @@
+$footer-height: 45px
 \:host
   display: block
   min-height: 100vh
+
+.container
+  min-height: 100vh
+  padding-bottom: $footer-height
+
+// TODO PC Layout
+.footer
+  position: fixed
+  bottom: 0
+  left: 0
+  width: 100%
+  height: $footer-height
+  background-color: #fff
+  border-top: 1px solid #e0e0e0
+  display: flex
+  justify-content: center
+
+  .buttons
+    height: 100%
+    display: flex
+    align-items: center
+    flex: 1
+
+    @media screen and (min-width: 769px)
+      max-width: 500px
+
+  a
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 100%
+    flex: 1
+    text-align: center
+    text-decoration: none
+    color: #424242
+
+    &:visited
+      color: #424242
+
+    &.current
+      background-color: #e0e0e0
+
 
