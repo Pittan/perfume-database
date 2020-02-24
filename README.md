@@ -19,6 +19,51 @@
   <img src="https://via.placeholder.com/800x300?text=Big+Image" width="100%" />
 </center>
 
+_English follows Japanese_
+
+
+## データ
+[`/src/data`](https://github.com/Pittan/perfume-database/tree/master/src/data) で詳細を確認できます。
+
+## クライアントアプリ
+[Angular CLI](https://github.com/angular/angular-cli) v9.0.3 で生成されました。
+
+### 開発用サーバー
+
+`ng serve` で開発用サーバーを起動できます。 `http://localhost:4200/` で確認できます。 ソースファイルを変更すると、自動で更新して内容を反映します。
+
+### コードのスキャフォールディング
+
+`ng generate component component-name` で新しいコンポーネントを生成することができます。 他には、 `ng generate directive|pipe|service|class|guard|interface|enum|module` もできます。
+
+### ビルド
+
+`ng build` でプロジェクトをビルドすることができます。成果物は `dist/` ディレクトリに格納されます。 `--prod` フラグで本番環境用のビルドを行うことができます。
+
+### ユニットテストを実行する
+
+`ng test` で [Karma](https://karma-runner.github.io) を使ったユニットテストを行うことができます。
+
+### エンドツーエンドテストを実行する
+
+`ng e2e` で、 [Protractor](http://www.protractortest.org/) を使ったエンドツーエンドテストを行うことができます。
+
+### さらに不明な点は…
+
+Angular CLI についてもっとヘルプが欲しい場合は `ng help` コマンドまたは [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md) を参照してください。
+
+## やること
+- [ ] 実装
+  - [ ] Songs
+  - [ ] Albums
+  - [ ] Tours
+  - [ ] Events
+  - [ ] Places
+  - [ ] Helper
+- [ ] Perfumeのライブデータを入力する
+- [ ] UIデザイン
+- [ ] UIの多言語対応(英語)
+
 ## Data
 See [`/src/data`](https://github.com/Pittan/perfume-database/tree/master/src/data) for more details.
 
@@ -48,3 +93,15 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ### Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## やること
+- [ ] Implementation
+  - [ ] Songs
+  - [ ] Albums
+  - [ ] Tours
+  - [ ] Events
+  - [ ] Places
+  - [ ] Helper
+- [ ] Input all Perfume's live data
+- [ ] UI Design
+- [ ] UI i18n(en)
