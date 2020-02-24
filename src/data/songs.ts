@@ -910,13 +910,15 @@ export const SONGS: Song[] = [
     id: 160,
     title: 'TOKYO GIRL -Original Instrumental-',
     kana: 'とーきょーがーる おりじなるいんすとぅるめんたる',
-    parent: 158
+    parent: 158,
+    is_instrumental: true
   },
   {
     id: 161,
     title: '宝石の雨 -Original Instrumental-',
     kana: 'ほうせきのあめ おりじなるいんすとぅるめんたる',
-    parent: 159
+    parent: 159,
+    is_instrumental: true
   },
   {
     id: 162,
@@ -932,13 +934,15 @@ export const SONGS: Song[] = [
     id: 164,
     title: 'If you wanna -Original Instrumental-',
     kana: 'いふゆーわな おりじなるいんすとぅるめんたる',
-    parent: 162
+    parent: 162,
+    is_instrumental: true
   },
   {
     id: 165,
     title: 'Everyday -Original Instrumental-',
     kana: 'えぶりでい おりじなるいんすとぅるめんたる',
-    parent: 163
+    parent: 163,
+    is_instrumental: true
   },
   {
     id: 166,
@@ -954,7 +958,8 @@ export const SONGS: Song[] = [
     id: 168,
     title: '無限未来 -Original Instrumental-',
     kana: 'むげんみらい おりじなるいんすとぅるめんたる',
-    parent: 166
+    parent: 166,
+    is_instrumental: true
   },
   {
     id: 169,

@@ -21,8 +21,7 @@ export const TOURS: Tour[] = [
     name: 'ディスコ！ディスコ！ディスコ！',
     kana: 'でぃすこ でぃすこ でぃすこ',
     from: '2009/05/09',
-    to: '2009/05/10',
-    related_album: 1
+    to: '2009/05/10'
   },
   {
     id: 4,
@@ -96,8 +95,7 @@ export const TOURS: Tour[] = [
     name: 'Perfume WORLD TOUR 3rd',
     kana: 'ぱふゅーむ わーるどつあー さーど',
     from: '2014/10/31',
-    to: '2014/11/15',
-    related_album: 1
+    to: '2014/11/15'
   },
   {
     id: 14,

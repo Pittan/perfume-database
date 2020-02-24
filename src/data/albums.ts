@@ -149,10 +149,10 @@ const ALBUM_8_COSMIC_EXPLORER: Album = {
 
 const ALBUM_9_FUTURE_POP: Album = {
   id: 9,
-  title: '',
-  kana: '',
+  title: 'Future Pop',
+  kana: 'ふゅーちゃーぽっぷ',
   album_type: 'ALBUM',
-  released_on: '',
+  released_on: '2018/08/15',
   editions: [
     {
       name: '初回限定盤',
@@ -167,10 +167,10 @@ const ALBUM_9_FUTURE_POP: Album = {
 
 const ALBUM_10_P_CUBED: Album = {
   id: 10,
-  title: '',
-  kana: '',
+  title: 'Perfume The Best "P Cubed"',
+  kana: 'ぱふゅーむざべすと ぴーきゅーぶど',
   album_type: 'ALBUM',
-  released_on: '',
+  released_on: '2019/09/18',
   editions: [
     {
       name: '完全生産限定盤',
