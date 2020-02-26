@@ -12,8 +12,7 @@ const FUSE_OPTIONS = {
   maxPatternLength: 32,
   minMatchCharLength: 2,
   keys: [
-    'title',
-    'kana'
+    'name'
   ]
 }
 
