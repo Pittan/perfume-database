@@ -109,10 +109,10 @@ export interface LiveHouse {
   id: LiveHouseId
   /** 会場名 */
   name: string
-  /** 会場のある国 */
-  country: string
-  /** 会場のある都道府県(日本以外なら州など) */
-  prefecture: string
+  /** 会場のある国や県 */
+  place: string,
+  /** 別名だけど同じ場所である場合、別場所のID */
+  alias?: LiveHouseId,
   /** 会場の場所(あれば地図を表示する予定) */
   location?: {
     /** 軽度 */
