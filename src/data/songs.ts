@@ -1010,6 +1010,107 @@ export const SONGS: Song[] = [
     id: 178,
     title: 'カウンターアトラクション',
     kana: 'かうんたーあとらくしょん'
+  },
+  {
+    id: 179,
+    title: 'シークレットシークレット(Reframe Remix)',
+    kana: 'しーくれっとしーくれっと りふれいむりみっくす',
+    parent: 37
+  },
+  {
+    id: 180,
+    title: 'シークレットシークレット(Reframe2019 ver)',
+    kana: 'しーくれっとしーくれっと りふれいむにせんじゅうきゅうばーじょん',
+    parent: 37
+  },
+  {
+    id: 181,
+    title: 'Three Walks',
+    kana: 'すりーうぉーくす'
+  },
+  {
+    id: 182,
+    title: 'Perfumeの掟',
+    kana: 'ぱふゅーむのおきて'
+  },
+  {
+    id: 183,
+    title: 'GISHIKI',
+    kana: 'ぎしき'
+  },
+  {
+    id: 184,
+    title: '12345678910',
+    kana: 'いちにさんしごろくしちはちきゅうじゅう'
+  },
+  {
+    id: 185,
+    title: 'Baby Face(English ver.)',
+    kana: 'べいびーふぇいす いんぐりっしゅばーじょん',
+    parent: 151
+  },
+  {
+    id: 186,
+    title: 'Recollect',
+    kana: 'りこれくと りふれいむ にせんじゅうきゅうばーじょん'
+  },
+  {
+    id: 187,
+    title: 'Recollect(Reframe2019 ver)',
+    kana: 'りこれくと りふれいむ にせんじゅうきゅうばーじょん'
+  },
+  {
+    id: 188,
+    title: 'DISPLAY(Reframe2019 ver)',
+    kana: 'でぃすぷれい りふれいむ にせんじゅうきゅうばーじょん',
+    parent: 126
+  },
+  {
+    id: 189,
+    title: 'Record(Reframe2019 ver)',
+    kana: 'れこーど りふれいむ にせんじゅうきゅうばーじょん',
+    parent: 187
+  },
+  {
+    id: 190,
+    title: 'Koe - Interlude',
+    kana: ''
+  },
+  {
+    id: 191,
+    title: 'Pose - Analysis',
+    kana: ''
+  },
+  {
+    id: 192,
+    title: 'Pose - Perspective',
+    kana: ''
+  },
+  {
+    id: 193,
+    title: 'Body - Analysis',
+    kana: ''
+  },
+  {
+    id: 194,
+    title: 'Kiseki - Visualization',
+    kana: ''
+  },
+  {
+    id: 195,
+    title: 'Lyric Analysis',
+    kana: ''
+  },
+  {
+    id: 196,
+    title: 'Challenger(Reframe2019 ver)',
+    kana: 'ちゃれんじゃー りふれいむ にせんじゅうきゅうばーじょん',
+    parent: 175
+  },
+  {
+    id: 197,
+    title: 'EPISODE 0',
+    kana: 'えぴそーどぜろ',
   }
 ]
 

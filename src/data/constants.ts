@@ -1,11 +1,11 @@
-import { SetListItem } from './'
+import { SetListItemDefinition } from './'
 
-export const MC: SetListItem = {
+export const MC: SetListItemDefinition = {
   title: 'MC',
   type: 'MC'
 }
 
-export const PTA: SetListItem = {
+export const PTA: SetListItemDefinition = {
   title: '「P.T.A.」のコーナー',
   type: 'PTA'
 }
