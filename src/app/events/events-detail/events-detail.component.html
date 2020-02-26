@@ -6,8 +6,10 @@
   <p routerLink="/tours/{{relatedTour.id}}">{{relatedTour.name}}</p>
 </ng-container>
 
-<h2>会場</h2>
-<p>XXXXXXXXXXXXXXX</p>
+<ng-container *ngIf="liveHouse">
+  <h2>会場</h2>
+  <p>{{liveHouse.name}}</p>
+</ng-container>
 
 <h2>セットリスト</h2>
 <ol *ngFor="let section of event.songs">

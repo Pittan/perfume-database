@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core'
-import { Event, EVENTS, SongId, SONGS, Tour, TourId, TOURS } from '../../data'
+import { Event, EVENTS, LiveHouse, LiveHouseId, PLACES, SongId, SONGS, Tour, TourId, TOURS } from '../../data'
 
 @Injectable({
   providedIn: 'root'
@@ -22,6 +22,10 @@ export class EventsService {
 
   getRelatedTour (tourId: TourId): Tour | undefined {
     return TOURS.find(t => t.id === tourId)
+  }
+
+  getLiveHouse (id: LiveHouseId): LiveHouse | undefined {
+    return PLACES.find(p => p.id === id)
   }
 
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core'
-import { Album, Event, SetListItem, SetListItemDefinition, Tour } from '../../../data'
+import { Album, Event, LiveHouse, SetListItem, SetListItemDefinition, Tour } from '../../../data'
 import { AlbumsService } from '../../albums/albums.service'
 import { ActivatedRoute } from '@angular/router'
 import { EventsService } from '../events.service'
@@ -17,6 +17,8 @@ export class EventsDetailComponent implements OnInit {
 
   relatedTour: Tour
 
+  liveHouse: LiveHouse
+
   constructor (
     private events: EventsService,
     private activatedRoute: ActivatedRoute
@@ -30,6 +32,10 @@ export class EventsDetailComponent implements OnInit {
       this.event = this.events.getEventById(this.id)
       if (this.event.tour_id) {
         this.relatedTour = this.events.getRelatedTour(this.event.tour_id)
+      }
+
+      if (this.event.live_house) {
+        this.liveHouse = this.events.getLiveHouse(this.event.live_house)
       }
     })
   }
