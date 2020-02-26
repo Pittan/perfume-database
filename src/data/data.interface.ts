@@ -109,6 +109,8 @@ export interface LiveHouse {
   id: LiveHouseId
   /** 会場名 */
   name: string
+  /** よみがな */
+  kana: string
   /** 会場のある国や県 */
   place: string,
   /** 別名だけど同じ場所である場合、別場所のID */

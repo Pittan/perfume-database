@@ -1,6 +1,8 @@
 // TODO 細かいよみがなは要確認
 // TODO 同じ会場で別ID振られているものはalias指定をすること
-export const PLACES = [
+import { LiveHouse } from './data.interface'
+
+export const PLACES: LiveHouse[] = [
   {
     id: 0,
     name: '舞洲特設会場(DANCE STAGE)',
