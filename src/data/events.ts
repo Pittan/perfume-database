@@ -308,6 +308,7 @@ export const EVENTS: Event[] = [
     date: '2008/04/27',
     name: 'Perfume First Tour「GAME」',
     event_type: 'LIVE',
+    tour_id: 1,
     songs: [
       // 本編
       [34, 18, 16, 15, MC, 23, 29, 14, 36, 37, MC, 30, 7, 24, 20, 17,],
@@ -322,6 +323,7 @@ export const EVENTS: Event[] = [
     date: '2008/04/29',
     name: 'Perfume First Tour「GAME」',
     event_type: 'LIVE',
+    tour_id: 1,
     songs: [
       // 本編
       [34, 18, 16, 15, MC, 23, 29, 14, 36, 37, MC, 30, 7, 24, 20, 17,],
@@ -336,6 +338,7 @@ export const EVENTS: Event[] = [
     date: '2008/05/01',
     name: 'Perfume First Tour「GAME」',
     event_type: 'LIVE',
+    tour_id: 1,
     songs: [
       // 本編
       [34, 18, 16, 15, MC, 23, 29, 14, 36, 37, MC, 30, 7, 24, 20, 17,],
@@ -350,6 +353,7 @@ export const EVENTS: Event[] = [
     date: '2008/05/02',
     name: 'Perfume First Tour「GAME」',
     event_type: 'LIVE',
+    tour_id: 1,
     songs: [
       // 本編
       [34, 18, 16, 15, MC, 23, 29, 14, 36, 37, MC, 30, 7, 24, 20, 17,],
@@ -364,6 +368,7 @@ export const EVENTS: Event[] = [
     date: '2008/05/04',
     name: 'Perfume First Tour「GAME」',
     event_type: 'LIVE',
+    tour_id: 1,
     songs: [
       // 本編
       [34, 18, 16, 15, MC, 23, 29, 14, 36, 37, MC, 30, 7, 24, 20, 17,],
@@ -378,6 +383,7 @@ export const EVENTS: Event[] = [
     date: '2008/05/06',
     name: 'Perfume First Tour「GAME」',
     event_type: 'LIVE',
+    tour_id: 1,
     songs: [
       // 本編
       [34, 18, 16, 15, MC, 23, 29, 14, 36, 37, MC, 30, 7, 24, 20, 17,],
@@ -392,6 +398,7 @@ export const EVENTS: Event[] = [
     date: '2008/05/10',
     name: 'Perfume First Tour「GAME」',
     event_type: 'LIVE',
+    tour_id: 1,
     songs: [
       // 本編
       [34, 18, 16, 15, MC, 23, 29, 14, 36, 37, MC, 30, 7, 24, 20, 17,],
@@ -406,6 +413,7 @@ export const EVENTS: Event[] = [
     date: '2008/05/16',
     name: 'Perfume First Tour「GAME」',
     event_type: 'LIVE',
+    tour_id: 1,
     songs: [
       // 本編
       [34, 18, 16, 15, MC, 23, 29, 14, 36, 37, MC, 30, 7, 24, 20, 17,],
@@ -420,6 +428,7 @@ export const EVENTS: Event[] = [
     date: '2008/05/18',
     name: 'Perfume First Tour「GAME」',
     event_type: 'LIVE',
+    tour_id: 1,
     songs: [
       // 本編
       [34, 18, 16, 15, MC, 23, 29, 14, 36, 37, MC, 30, 7, 24, 20, 17,],
@@ -434,6 +443,7 @@ export const EVENTS: Event[] = [
     date: '2008/05/31',
     name: 'Perfume First Tour「GAME」',
     event_type: 'LIVE',
+    tour_id: 1,
     songs: [
       // 本編
       [34, 18, 16, 15, MC, 23, 29, 14, 36, 37, MC, 30, 7, 24, 20, 17,],
@@ -448,6 +458,7 @@ export const EVENTS: Event[] = [
     date: '2008/06/01',
     name: 'Perfume First Tour「GAME」追加公演',
     event_type: 'LIVE',
+    tour_id: 1,
     songs: [
       // 本編
       [34, 18, 16, 15, MC, 23, 29, 14, 36, 37, MC, 30, 7, 24, 20, 17,],

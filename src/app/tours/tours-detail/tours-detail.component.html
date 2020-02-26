@@ -1,1 +1,5 @@
-<h2>ツアーの公演詳細が表示されます</h2>
+<h1>{{tour.name}}</h1>
+
+<h2>Related Lives</h2>
+
+<p *ngFor="let live of relatedLives" routerLink="/events/{{live.id}}"><small>{{live.date}}</small><br>{{live.name}}</p>
