@@ -1,1 +1,5 @@
-<h2>公演の一覧です</h2>
+<div class="view-header">
+  <input type="text" [(ngModel)]="query" (ngModelChange)="queryChange()" placeholder="イベント名を入力してください">
+</div>
+
+<a class="song" @fadeIn *ngFor="let event of events" routerLink="/events/{{event.id}}">{{event.name}}</a>

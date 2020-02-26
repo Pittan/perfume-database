@@ -1,1 +1,26 @@
-<h2>この画面にセトリが出ます</h2>
+<h1>{{event.name}}</h1>
+<!-- TODO 会場情報を検索して表示すること-->
+
+<ng-container *ngIf="relatedTour">
+  <h2>ツアー</h2>
+  <p routerLink="/tours/{{relatedTour.id}}">{{relatedTour.name}}</p>
+</ng-container>
+
+<h2>会場</h2>
+<p>XXXXXXXXXXXXXXX</p>
+
+<h2>セットリスト</h2>
+<ol *ngFor="let section of event.songs">
+  <ng-container *ngFor="let song of section">
+    <!-- SongID -->
+    <li class="song" *ngIf="!song.title" routerLink="/songs/{{song}}" >{{getSongTitle(song)}}</li>
+
+    <!-- SetListItemDefinition -->
+    <ng-container *ngIf="song.title">
+      <li class="song" *ngIf="song.title">{{getSongTitle(song)}}</li>
+      <ol *ngIf="song.songs">
+        <li class="song" *ngFor="let s of song.songs" routerLink="/songs/{{s}}" >{{getSongTitle(s)}}</li>
+      </ol>
+    </ng-container>
+  </ng-container>
+</ol>
