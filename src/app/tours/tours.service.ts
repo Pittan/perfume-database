@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable } from '@angular/core'
 import { Album, AlbumId, Event, EVENTS, SongId, SONGS, Tour, TourId, TOURS } from '../../data'
 
 @Injectable({
