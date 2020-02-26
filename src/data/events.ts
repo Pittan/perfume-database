@@ -1,5 +1,5 @@
 import { Event } from './data.interface'
-import { MC, PTA } from '.'
+import { MC, PTA } from './constants'
 
 // TODO スプレッドシートから変換したけど細かいところは見きれてない！
 //      メドレーの処理とか他人の曲とか、特殊なアンコールとか
