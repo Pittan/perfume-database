@@ -1,47 +1,56 @@
+@import './constants'
+
 $footer-height: 45px
 \:host
   display: block
   min-height: 100vh
 
-.container
-  min-height: 100vh
-  padding-bottom: $footer-height
-
-// TODO PC Layout
-.footer
-  position: fixed
-  bottom: 0
-  left: 0
-  width: 100%
-  height: $footer-height
-  background-color: #fff
-  border-top: 1px solid #e0e0e0
+.main-layout
+  padding-top: $header-height-sm
+  min-height: 100%
+  overflow-x: hidden
+  overflow-y: scroll
   display: flex
   justify-content: center
 
-  .buttons
-    height: 100%
-    display: flex
-    align-items: center
-    flex: 1
+  @include media-query()
+    padding-top: $header-height-md
+    padding-left: $app-nav-width-md
 
-    @media screen and (min-width: 769px)
-      max-width: 500px
+  @include media-query(lg)
+    padding-top: $header-height-lg
+    padding-left: $app-nav-width-lg
 
-  a
-    display: flex
-    align-items: center
-    justify-content: center
-    height: 100%
-    flex: 1
-    text-align: center
-    text-decoration: none
-    color: #424242
+  .container
+    @include media-query()
+      max-width: 700px
 
-    &:visited
-      color: #424242
+    @include media-query(lg)
+      max-width: 900px
 
-    &.current
-      background-color: #e0e0e0
+app-header
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 100
 
+app-nav
+  position: fixed
+  z-index: 50
+  top: $header-height-sm
+  left: 0
+  width: $app-nav-width-sm
+  height: 100vh
 
+  @include media-query()
+    height: 100vh
+    width: $app-nav-width-md
+    top: $header-height-md
+  @include media-query(lg)
+    width: $app-nav-width-lg
+    top: $header-height-lg
+
+.container
+  flex: 1
+  display: block
+  min-height: 100vh

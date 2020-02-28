@@ -1,0 +1,12 @@
+<div class="backdrop" [class.gray]="menu.isMobileView">
+  <nav>
+    <a routerLink="/songs" routerLinkActive="current" (click)="closeIfNeeded()">Songs</a>
+    <a routerLink="/albums" routerLinkActive="current" (click)="closeIfNeeded()">Albums</a>
+    <a routerLink="/tours" routerLinkActive="current" (click)="closeIfNeeded()">Tours</a>
+    <a routerLink="/events" routerLinkActive="current" (click)="closeIfNeeded()">Events</a>
+    <!-- その他の表示方法はメニューに格納 -->
+    <!--  <a routerLink="/events">Events</a>-->
+    <!--  <a routerLink="/events">Places</a>-->
+  </nav>
+</div>
+

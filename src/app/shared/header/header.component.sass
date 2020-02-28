@@ -1,0 +1,22 @@
+@import '../../constants'
+
+\:host
+  background-color: #fff
+  border-bottom: 2px solid #489BC6
+  display: flex
+  align-items: center
+  justify-content: space-between
+  height: $header-height-sm
+  width: 100%
+  padding: 0 16px
+
+  @include media-query()
+    padding: 0 32px
+    height: $header-height-md
+
+    button
+      display: none
+
+  @include media-query(lg)
+    height: $header-height-lg
+

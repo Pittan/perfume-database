@@ -1,4 +1,5 @@
 import { Component } from '@angular/core'
+import { MenuService } from './shared/menu.service'
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core'
 })
 export class AppComponent {
   title = 'perfume-database'
+
+  constructor (
+    public menu: MenuService
+  ) {
+  }
 }

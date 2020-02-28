@@ -1,0 +1,30 @@
+// Breakpoints
+// sm ... SP     ... 768px <
+// md ... tablet ... <= 768px
+// lg ... PC     ... < 960px
+$breakpoints: ("sm": "screen and (max-width: 767px)")
+$breakpoints: map-merge($breakpoints, ("md": "screen and (min-width: 768px)"))
+$breakpoints: map-merge($breakpoints, ("lg": "screen and (min-width: 960px)"))
+
+// Media Query
+// ```sass
+// @import 'path/to/this/file'
+// .foo
+//   @include media-query()
+//     height: 40px
+//   @include media-query(lg)
+//     height: 60px
+// ```
+@mixin media-query($breakpoint: md)
+  @media #{map-get($breakpoints, $breakpoint)}
+    @content
+
+// app-header
+$header-height-sm: 46px
+$header-height-md: 46px
+$header-height-lg: 62px
+
+// app-nav
+$app-nav-width-sm: 100vw
+$app-nav-width-md: 238px
+$app-nav-width-lg: 258px
