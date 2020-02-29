@@ -12,4 +12,11 @@
     (blur)="inputFocused = false"
   >
 </label>
-<a class="song" @fadeIn *ngFor="let event of events" routerLink="/events/{{event.id}}">{{event.name}}</a>
+<a class="song" @fadeIn *ngFor="let event of events" routerLink="/events/{{event.id}}">
+  <span class="title">{{event.name}}</span>
+  <span class="detail">
+    {{event.date}}
+    <ng-container *ngIf="event.sub_name">・{{event.sub_name}}</ng-container>
+    <ng-container *ngIf="event.live_house_name">・{{event.live_house_name}}</ng-container>
+  </span>
+</a>

@@ -13,4 +13,7 @@
   >
 </label>
 
-<a class="song" @fadeIn *ngFor="let album of albums" routerLink="/albums/{{album.id}}">{{album.title}}</a>
+<a class="song" @fadeIn *ngFor="let album of albums" routerLink="/albums/{{album.id}}">
+  <span class="title">{{album.title}}</span>
+  <span class="detail">{{album.album_type}}</span>
+</a>

@@ -13,4 +13,7 @@
   >
 </label>
 
-<a class="list-item" @fadeIn *ngFor="let tour of tours" routerLink="/tours/{{tour.id}}">{{tour.name}}</a>
+<a class="list-item" @fadeIn *ngFor="let tour of tours" routerLink="/tours/{{tour.id}}">
+  <span class="title">{{tour.name}}</span>
+  <span class="detail">{{tour.from}}〜{{tour.to}}</span>
+</a>

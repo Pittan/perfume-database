@@ -18,6 +18,8 @@ const FUSE_OPTIONS = {
   ]
 }
 
+type EventForList = Event & { live_house_name?: string }
+
 @Component({
   selector: 'app-events-list',
   templateUrl: './events-list.component.html',
@@ -37,7 +39,7 @@ const FUSE_OPTIONS = {
 })
 export class EventsListComponent implements OnInit {
 
-  events: Event[] = []
+  events: EventForList[] = []
 
   private fuse: Fuse<any, any>
   query = ''
@@ -60,7 +62,12 @@ export class EventsListComponent implements OnInit {
   }
 
   getEvents (): Event[] {
-    return this.eventsService.getEvents()
+    return this.eventsService.getEvents().map((ev: EventForList) => {
+      return {
+        ...ev,
+        live_house_name: this.eventsService.getLiveHouse(ev.live_house)?.name
+      }
+    })
   }
 
   queryChange () {

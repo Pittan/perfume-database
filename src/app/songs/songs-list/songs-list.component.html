@@ -23,4 +23,6 @@
   </label>
 </div>
 
-<a class="song" @fadeIn *ngFor="let song of songs" routerLink="/songs/{{song.id}}">{{song.title}}</a>
+<a class="song" @fadeIn *ngFor="let song of songs" routerLink="/songs/{{song.id}}">
+  <span class="title">{{song.title}}</span>
+</a>
