@@ -5,6 +5,7 @@ import { AlbumsRoutingModule } from './albums-routing.module'
 import { AlbumsListComponent } from './albums-list/albums-list.component'
 import { AlbumsDetailComponent } from './albums-detail/albums-detail.component'
 import { FormsModule } from '@angular/forms'
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { FormsModule } from '@angular/forms'
   imports: [
     FormsModule,
     CommonModule,
-    AlbumsRoutingModule
+    AlbumsRoutingModule,
+    FontAwesomeModule
   ]
 })
 export class AlbumsModule { }

@@ -4,6 +4,7 @@ import { SongsService } from '../songs.service'
 import * as Fuse from 'fuse.js'
 import { animate, style, transition, trigger } from '@angular/animations'
 import { Title } from '@angular/platform-browser'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 const FUSE_OPTIONS = {
   shouldSort: true,
@@ -44,6 +45,7 @@ export class SongsListComponent implements OnInit {
   private fuse: Fuse<any, any>
   query = ''
 
+  iconMag = faSearch
   inputFocused = false
 
   constructor (

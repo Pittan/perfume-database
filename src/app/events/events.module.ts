@@ -5,6 +5,7 @@ import { EventsRoutingModule } from './events-routing.module'
 import { EventsListComponent } from './events-list/events-list.component'
 import { EventsDetailComponent } from './events-detail/events-detail.component'
 import { FormsModule } from '@angular/forms'
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { FormsModule } from '@angular/forms'
   imports: [
     FormsModule,
     CommonModule,
-    EventsRoutingModule
+    EventsRoutingModule,
+    FontAwesomeModule
   ]
 })
 export class EventsModule { }

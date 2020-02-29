@@ -4,6 +4,7 @@ import * as Fuse from 'fuse.js'
 import { ToursService } from '../tours.service'
 import { animate, style, transition, trigger } from '@angular/animations'
 import { Title } from '@angular/platform-browser'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 const FUSE_OPTIONS = {
   shouldSort: true,
@@ -43,6 +44,8 @@ export class ToursListComponent implements OnInit {
   query = ''
 
   inputFocused = false
+
+  iconMag = faSearch
 
   constructor (
     private toursService: ToursService,

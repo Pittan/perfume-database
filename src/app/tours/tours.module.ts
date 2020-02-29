@@ -5,6 +5,7 @@ import { ToursRoutingModule } from './tours-routing.module'
 import { ToursListComponent } from './tours-list/tours-list.component'
 import { ToursDetailComponent } from './tours-detail/tours-detail.component'
 import { FormsModule } from '@angular/forms'
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { FormsModule } from '@angular/forms'
   imports: [
     FormsModule,
     CommonModule,
-    ToursRoutingModule
+    ToursRoutingModule,
+    FontAwesomeModule
   ]
 })
 export class ToursModule { }

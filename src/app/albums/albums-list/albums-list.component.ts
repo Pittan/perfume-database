@@ -5,6 +5,7 @@ import { SongsService } from '../../songs/songs.service'
 import { animate, style, transition, trigger } from '@angular/animations'
 import { AlbumsService } from '../albums.service'
 import { Title } from '@angular/platform-browser'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 const FUSE_OPTIONS = {
   shouldSort: true,
@@ -44,6 +45,8 @@ export class AlbumsListComponent implements OnInit {
   query = ''
 
   inputFocused = false
+
+  iconMag = faSearch
 
   constructor (
     private albumsService: AlbumsService,

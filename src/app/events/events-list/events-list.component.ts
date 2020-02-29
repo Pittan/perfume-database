@@ -4,6 +4,7 @@ import * as Fuse from 'fuse.js'
 import { animate, style, transition, trigger } from '@angular/animations'
 import { EventsService } from '../events.service'
 import { Title } from '@angular/platform-browser'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 const FUSE_OPTIONS = {
   shouldSort: true,
@@ -42,6 +43,8 @@ export class EventsListComponent implements OnInit {
   query = ''
 
   inputFocused = false
+
+  iconMag = faSearch
 
   constructor (
     private eventsService: EventsService,
