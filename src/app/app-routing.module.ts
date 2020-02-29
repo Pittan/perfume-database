@@ -6,9 +6,14 @@ import { HomeComponent } from './home/home.component'
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent,
+    redirectTo: 'songs',
     pathMatch: 'full'
   },
+  // {
+  //   path: '',
+  //   component: HomeComponent,
+  //   pathMatch: 'full'
+  // },
   {
     path: 'songs',
     loadChildren: () => import('./songs/songs.module').then(m => m.SongsModule)
