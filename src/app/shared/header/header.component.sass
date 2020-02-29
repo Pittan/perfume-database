@@ -8,7 +8,8 @@
   justify-content: space-between
   height: $header-height-sm
   width: 100%
-  padding: 0 16px
+  @include media-query(sm)
+    padding: 0 4px 0 16px
 
   @include media-query()
     padding: 0 32px
@@ -19,4 +20,21 @@
 
   @include media-query(lg)
     height: $header-height-lg
+
+  button
+    height: 40px
+    width: 44px
+    background-color: transparent
+    padding-top: 2px
+    border: 2px solid transparent
+    border-radius: 4px
+
+    &:active
+      background-color: #e0e0e0
+
+    //&:focus
+    //  border-color: #489BC6
+
+
+
 

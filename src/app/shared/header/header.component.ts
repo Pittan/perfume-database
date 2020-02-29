@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core'
 import { MenuService } from '../menu.service'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-header',
@@ -7,6 +8,8 @@ import { MenuService } from '../menu.service'
   styleUrls: ['./header.component.sass']
 })
 export class HeaderComponent implements OnInit {
+
+  hamburger = faBars
 
   constructor (
     public menu: MenuService

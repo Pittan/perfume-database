@@ -1,5 +1,5 @@
-<div class="backdrop" [class.gray]="menu.isMobileView">
-  <nav>
+<div class="backdrop" [class.gray]="menu.isMobileView" (click)="closeIfNeeded()">
+  <nav (click)="preventClick($event)">
     <a routerLink="/songs" routerLinkActive="current" (click)="closeIfNeeded()">Songs</a>
     <a routerLink="/albums" routerLinkActive="current" (click)="closeIfNeeded()">Albums</a>
     <a routerLink="/tours" routerLinkActive="current" (click)="closeIfNeeded()">Tours</a>

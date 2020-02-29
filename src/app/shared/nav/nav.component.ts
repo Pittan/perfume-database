@@ -19,4 +19,9 @@ export class NavComponent implements OnInit {
     this.menu.closeMenuIfNeeded()
   }
 
+  preventClick (ev: MouseEvent) {
+    ev.preventDefault()
+    ev.stopPropagation()
+  }
+
 }
