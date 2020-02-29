@@ -8196,15 +8196,20 @@ export const EVENTS: Event[] = [
         48, // ワンルーム・ディスコ
         MC,
         147, // Next Stage with YOU
-        // (Perfume Medley 2016),
-        132, // Relax In The City
-        62, // ナチュラルに恋して
-        30, // マカロニ
-        134, // 透明人間
-        23, // Twinkle Snow Powdery Snow
-        35, // セラミックガール
-        86, // 心のスポーツ
-        120, // Sweet Refrain
+        {
+          title: 'Perfume Medley 2016', // (Perfume Medley 2016),
+          type: 'MEDLEY',
+          songs: [
+            132, // Relax In The City
+            62, // ナチュラルに恋して
+            30, // マカロニ
+            134, // 透明人間
+            23, // Twinkle Snow Powdery Snow
+            35, // セラミックガール
+            86, // 心のスポーツ
+            120, // Sweet Refrain - end
+          ]
+        },
         151, // Baby Face
         182, // Perfumeの掟
         155, // FLASH
@@ -8238,15 +8243,20 @@ export const EVENTS: Event[] = [
         48, // ワンルーム・ディスコ
         MC,
         147, // Next Stage with YOU
-        // (Perfume Medley 2016),
-        132, // Relax In The City
-        62, // ナチュラルに恋して
-        30, // マカロニ
-        134, // 透明人間
-        23, // Twinkle Snow Powdery Snow
-        35, // セラミックガール
-        86, // 心のスポーツ
-        120, // Sweet Refrain
+        {
+          title: 'Perfume Medley 2016', // (Perfume Medley 2016),
+          type: 'MEDLEY',
+          songs: [
+            132, // Relax In The City
+            62, // ナチュラルに恋して
+            30, // マカロニ
+            134, // 透明人間
+            23, // Twinkle Snow Powdery Snow
+            35, // セラミックガール
+            86, // 心のスポーツ
+            120, // Sweet Refrain
+          ]
+        },
         151, // Baby Face
         182, // Perfumeの掟
         155, // FLASH
@@ -8281,15 +8291,20 @@ export const EVENTS: Event[] = [
         48, // ワンルーム・ディスコ
         MC,
         147, // Next Stage with YOU
-        // (Perfume Medley 2016),
-        132, // Relax In The City
-        62, // ナチュラルに恋して
-        30, // マカロニ
-        134, // 透明人間
-        23, // Twinkle Snow Powdery Snow
-        35, // セラミックガール
-        86, // 心のスポーツ
-        120, // Sweet Refrain
+        {
+          title: 'Perfume Medley 2016', // (Perfume Medley 2016),
+          type: 'MEDLEY',
+          songs: [
+            132, // Relax In The City
+            62, // ナチュラルに恋して
+            30, // マカロニ
+            134, // 透明人間
+            23, // Twinkle Snow Powdery Snow
+            35, // セラミックガール
+            86, // 心のスポーツ
+            120, // Sweet Refrain
+          ]
+        },
         151, // Baby Face
         182, // Perfumeの掟
         155, // FLASH
@@ -8324,15 +8339,20 @@ export const EVENTS: Event[] = [
         48, // ワンルーム・ディスコ
         MC,
         147, // Next Stage with YOU
-        // (Perfume Medley 2016),
-        132, // Relax In The City
-        62, // ナチュラルに恋して
-        30, // マカロニ
-        134, // 透明人間
-        23, // Twinkle Snow Powdery Snow
-        35, // セラミックガール
-        86, // 心のスポーツ
-        120, // Sweet Refrain
+        {
+          title: 'Perfume Medley 2016', // (Perfume Medley 2016),
+          type: 'MEDLEY',
+          songs: [
+            132, // Relax In The City
+            62, // ナチュラルに恋して
+            30, // マカロニ
+            134, // 透明人間
+            23, // Twinkle Snow Powdery Snow
+            35, // セラミックガール
+            86, // 心のスポーツ
+            120, // Sweet Refrain
+          ]
+        },
         151, // Baby Face
         182, // Perfumeの掟
         155, // FLASH
@@ -8367,15 +8387,20 @@ export const EVENTS: Event[] = [
         48, // ワンルーム・ディスコ
         MC,
         147, // Next Stage with YOU
-        // (Perfume Medley 2016),
-        132, // Relax In The City
-        62, // ナチュラルに恋して
-        30, // マカロニ
-        134, // 透明人間
-        23, // Twinkle Snow Powdery Snow
-        35, // セラミックガール
-        86, // 心のスポーツ
-        120, // Sweet Refrain
+        {
+          title: 'Perfume Medley 2016', // (Perfume Medley 2016),
+          type: 'MEDLEY',
+          songs: [
+            132, // Relax In The City
+            62, // ナチュラルに恋して
+            30, // マカロニ
+            134, // 透明人間
+            23, // Twinkle Snow Powdery Snow
+            35, // セラミックガール
+            86, // 心のスポーツ
+            120, // Sweet Refrain
+          ]
+        },
         151, // Baby Face
         182, // Perfumeの掟
         155, // FLASH

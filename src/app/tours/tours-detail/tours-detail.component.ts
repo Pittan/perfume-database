@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core'
-import { Event, Song, Tour } from '../../../data'
+import { Album, Event, Song, Tour } from '../../../data'
 import { SongsService } from '../../songs/songs.service'
 import { ActivatedRoute } from '@angular/router'
 import { ToursService } from '../tours.service'
+
+type EventForList = Event & { live_house_name?: string }
 
 @Component({
   selector: 'app-tours-detail',
@@ -15,7 +17,9 @@ export class ToursDetailComponent implements OnInit {
 
   tour: Tour
 
-  relatedLives: Event[] = []
+  relatedLives: EventForList[] = []
+
+  relatedAlbum: Album
 
   constructor (
     private tours: ToursService,
@@ -29,7 +33,7 @@ export class ToursDetailComponent implements OnInit {
       }
       this.tour = this.tours.getTourById(this.id)
       this.relatedLives = this.tours.getRelatedEvents(this.id)
-      console.log(this.relatedLives)
+      this.relatedAlbum = this.tours.getRelatedAlbum(this.id)
     })
   }
 }

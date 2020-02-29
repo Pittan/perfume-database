@@ -4,6 +4,8 @@ import { Event, EVENTS, SetListItemDefinition, Song, SONGS } from '../../../data
 import { flatten } from 'lodash-es'
 import { SongsService } from '../songs.service'
 
+type EventForList = Event & { live_house_name?: string }
+
 @Component({
   selector: 'app-songs-detail',
   templateUrl: './songs-detail.component.html',
@@ -15,7 +17,7 @@ export class SongsDetailComponent implements OnInit {
 
   song: Song
 
-  relatedLives: Event[] = []
+  relatedLives: EventForList[] = []
 
   constructor (
     private songs: SongsService,
