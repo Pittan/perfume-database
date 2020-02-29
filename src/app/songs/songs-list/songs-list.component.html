@@ -1,5 +1,19 @@
+<h1>Songs</h1>
+
+<label for="search-input" class="search-input" [class.active]="inputFocused">
+  <span class="icon"></span>
+  <input
+    id="search-input"
+    type="text"
+    [(ngModel)]="query"
+    (ngModelChange)="queryChange()"
+    placeholder="曲名を入力してください"
+    (focus)="inputFocused = true"
+    (blur)="inputFocused = false"
+  >
+</label>
+
 <div class="view-header">
-  <input type="text" [(ngModel)]="query" (ngModelChange)="queryChange()" placeholder="曲名を入力してください">
   <label class="inst-switch" for="inst-switch">
     Show Instrumental
     <label class="switch">

@@ -4,6 +4,7 @@ import * as Fuse from 'fuse.js'
 import { SongsService } from '../../songs/songs.service'
 import { animate, style, transition, trigger } from '@angular/animations'
 import { AlbumsService } from '../albums.service'
+import { Title } from '@angular/platform-browser'
 
 const FUSE_OPTIONS = {
   shouldSort: true,
@@ -42,14 +43,19 @@ export class AlbumsListComponent implements OnInit {
   private fuse: Fuse<any, any>
   query = ''
 
+  inputFocused = false
+
   constructor (
-    private albumsService: AlbumsService
+    private albumsService: AlbumsService,
+    private title: Title
   ) { }
 
   ngOnInit (): void {
     // 初期表示
     this.albums = this.getAlbums()
     this.fuse = new Fuse(this.albums, FUSE_OPTIONS) // "list" is the item array
+
+    this.title.setTitle('Albums - PerfumeDB')
   }
 
   getAlbums (): Album[] {

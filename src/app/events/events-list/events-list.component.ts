@@ -3,6 +3,7 @@ import { Album, Event } from '../../../data'
 import * as Fuse from 'fuse.js'
 import { animate, style, transition, trigger } from '@angular/animations'
 import { EventsService } from '../events.service'
+import { Title } from '@angular/platform-browser'
 
 const FUSE_OPTIONS = {
   shouldSort: true,
@@ -40,14 +41,19 @@ export class EventsListComponent implements OnInit {
   private fuse: Fuse<any, any>
   query = ''
 
+  inputFocused = false
+
   constructor (
-    private eventsService: EventsService
+    private eventsService: EventsService,
+    private title: Title
   ) { }
 
   ngOnInit (): void {
     // 初期表示
     this.events = this.getEvents()
     this.fuse = new Fuse(this.events, FUSE_OPTIONS) // "list" is the item array
+
+    this.title.setTitle('Events - PerfumeDB')
   }
 
   getEvents (): Event[] {

@@ -3,6 +3,7 @@ import { Album, Tour } from '../../../data'
 import * as Fuse from 'fuse.js'
 import { ToursService } from '../tours.service'
 import { animate, style, transition, trigger } from '@angular/animations'
+import { Title } from '@angular/platform-browser'
 
 const FUSE_OPTIONS = {
   shouldSort: true,
@@ -41,14 +42,19 @@ export class ToursListComponent implements OnInit {
   private fuse: Fuse<any, any>
   query = ''
 
+  inputFocused = false
+
   constructor (
-    private toursService: ToursService
+    private toursService: ToursService,
+    private title: Title
   ) { }
 
   ngOnInit (): void {
     // 初期表示
     this.tours = this.getTours()
     this.fuse = new Fuse(this.tours, FUSE_OPTIONS) // "list" is the item array
+
+    this.title.setTitle('Tours - PerfumeDB')
   }
 
   getTours (): Tour[] {
