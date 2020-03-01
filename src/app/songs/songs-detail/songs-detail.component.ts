@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router'
 import { Event, EVENTS, SetListItemDefinition, Song, SONGS } from '../../../data'
 import { flatten } from 'lodash-es'
 import { SongsService } from '../songs.service'
+import { Title } from '@angular/platform-browser'
 
 type EventForList = Event & { live_house_name?: string }
 
@@ -21,7 +22,8 @@ export class SongsDetailComponent implements OnInit {
 
   constructor (
     private songs: SongsService,
-    private activeRoute: ActivatedRoute
+    private activeRoute: ActivatedRoute,
+    private title: Title
   ) { }
 
   ngOnInit (): void {
@@ -31,6 +33,7 @@ export class SongsDetailComponent implements OnInit {
       }
       this.song = this.songs.getSongById(this.id)
       this.relatedLives = this.songs.getRelatedLives(this.id)
+      this.title.setTitle(`${this.song.title} - PerfumeDB`)
     })
   }
 }

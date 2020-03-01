@@ -3,6 +3,7 @@ import { Album, Event, Song, Tour } from '../../../data'
 import { SongsService } from '../../songs/songs.service'
 import { ActivatedRoute } from '@angular/router'
 import { ToursService } from '../tours.service'
+import { Title } from '@angular/platform-browser'
 
 type EventForList = Event & { live_house_name?: string }
 
@@ -23,7 +24,8 @@ export class ToursDetailComponent implements OnInit {
 
   constructor (
     private tours: ToursService,
-    private activeRoute: ActivatedRoute
+    private activeRoute: ActivatedRoute,
+    private title: Title
   ) { }
 
   ngOnInit (): void {
@@ -34,6 +36,7 @@ export class ToursDetailComponent implements OnInit {
       this.tour = this.tours.getTourById(this.id)
       this.relatedLives = this.tours.getRelatedEvents(this.id)
       this.relatedAlbum = this.tours.getRelatedAlbum(this.id)
+      this.title.setTitle(`${this.tour.name} - PerfumeDB`)
     })
   }
 }

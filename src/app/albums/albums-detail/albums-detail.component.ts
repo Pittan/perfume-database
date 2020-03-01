@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core'
 import { AlbumsService } from '../albums.service'
 import { ActivatedRoute } from '@angular/router'
 import { Album, Tour } from '../../../data'
+import { Title } from '@angular/platform-browser'
 
 @Component({
   selector: 'app-albums-detail',
@@ -18,7 +19,8 @@ export class AlbumsDetailComponent implements OnInit {
 
   constructor (
     private albums: AlbumsService,
-    private activatedRoute: ActivatedRoute
+    private activatedRoute: ActivatedRoute,
+    private title: Title
   ) { }
 
   ngOnInit (): void {
@@ -28,6 +30,7 @@ export class AlbumsDetailComponent implements OnInit {
       }
       this.album = this.albums.getAlbumById(this.id)
       this.tours = this.albums.getAlbumRelatedTours(this.id)
+      this.title.setTitle(`${this.album.title} - PerfumeDB`)
     })
   }
 

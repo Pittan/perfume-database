@@ -3,6 +3,7 @@ import { Album, Event, LiveHouse, SetListItem, SetListItemDefinition, Tour } fro
 import { AlbumsService } from '../../albums/albums.service'
 import { ActivatedRoute } from '@angular/router'
 import { EventsService } from '../events.service'
+import { Title } from '@angular/platform-browser'
 
 @Component({
   selector: 'app-events-detail',
@@ -21,7 +22,8 @@ export class EventsDetailComponent implements OnInit {
 
   constructor (
     private events: EventsService,
-    private activatedRoute: ActivatedRoute
+    private activatedRoute: ActivatedRoute,
+    private title: Title
   ) { }
 
   ngOnInit (): void {
@@ -37,6 +39,7 @@ export class EventsDetailComponent implements OnInit {
       if (this.event.live_house) {
         this.liveHouse = this.events.getLiveHouse(this.event.live_house)
       }
+      this.title.setTitle(`${this.event.name}${this.event.sub_name ? ' ' + this.event.sub_name : ''} - PerfumeDB`)
     })
   }
 
