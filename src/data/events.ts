@@ -3651,14 +3651,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         24, // ポリリズム
         PTA,
         70, // FAKE IT
@@ -3696,14 +3702,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         24, // ポリリズム
         PTA,
         70, // FAKE IT
@@ -3741,14 +3753,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         24, // ポリリズム
         PTA,
         70, // FAKE IT
@@ -3788,14 +3806,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         24, // ポリリズム
         PTA,
         70, // FAKE IT
@@ -3835,14 +3859,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         24, // ポリリズム
         PTA,
         70, // FAKE IT
@@ -3880,14 +3910,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         24, // ポリリズム
         PTA,
         70, // FAKE IT
@@ -3925,14 +3961,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         24, // ポリリズム
         PTA,
         70, // FAKE IT
@@ -3970,14 +4012,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         24, // ポリリズム
         PTA,
         70, // FAKE IT
@@ -4015,14 +4063,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         24, // ポリリズム
         PTA,
         70, // FAKE IT
@@ -4084,14 +4138,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         24, // ポリリズム
         PTA,
         70, // FAKE IT
@@ -4129,14 +4189,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         24, // ポリリズム
         PTA,
         70, // FAKE IT
@@ -4174,14 +4240,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         24, // ポリリズム
         PTA,
         70, // FAKE IT
@@ -4219,14 +4291,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         24, // ポリリズム
         PTA,
         70, // FAKE IT
@@ -4264,14 +4342,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         24, // ポリリズム
         PTA,
         70, // FAKE IT
@@ -4309,14 +4393,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         24, // ポリリズム
         PTA,
         70, // FAKE IT
@@ -4354,14 +4444,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         24, // ポリリズム
         PTA,
         70, // FAKE IT
@@ -4399,14 +4495,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         24, // ポリリズム
         PTA,
         70, // FAKE IT
@@ -4444,14 +4546,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         MC,
         89, // コミュニケーション
         24, // ポリリズム
@@ -4491,14 +4599,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         MC,
         89, // コミュニケーション
         24, // ポリリズム
@@ -4538,14 +4652,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         MC,
         89, // コミュニケーション
         24, // ポリリズム
@@ -4585,14 +4705,20 @@ export const EVENTS: Event[] = [
         77, // スパイス
         // JPN Special,
         78, // GLITTER
-        // (JPNメドレー)シークレットシークレット,
-        61, // 不自然なガール
-        36, // Take me Take me
-        29, // Baby cruising Love
-        66, // 575
-        57, // I still love U
-        40, // love the world
-        37, // シークレットシークレット
+        {
+          title: 'JPNメドレー',
+          type: 'MEDLEY',
+          songs: [
+            // (JPNメドレー)シークレットシークレット,
+            61, // 不自然なガール
+            36, // Take me Take me
+            29, // Baby cruising Love
+            66, // 575
+            57, // I still love U
+            40, // love the world
+            37, // シークレットシークレット
+          ]
+        },
         MC,
         89, // コミュニケーション
         24, // ポリリズム
