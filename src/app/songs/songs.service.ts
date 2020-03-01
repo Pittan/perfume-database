@@ -6,7 +6,7 @@ export interface GetSongsOptions {
   removeInstrumental?: boolean
 }
 
-type EventForList = Event & { live_house_name?: string }
+type EventForList = Event & { live_house_name?: string, isRelatedHit?: boolean }
 
 @Injectable({
   providedIn: 'root'
@@ -56,6 +56,18 @@ export class SongsService {
         ...ev,
         live_house_name: PLACES.find(p => p.id === ev.live_house)?.name
       }
+    }).map((ev: EventForList) => {
+      const flattened = flatten(ev.songs)
+      ev.isRelatedHit = !flattened.some(item => {
+        if (this.isSetListItemDefinition(item)) {
+          if (!item.songs) return false
+          return item.songs.some(so => {
+            return so === songId
+          })
+        }
+        return item === songId
+      })
+      return ev
     })
   }
 

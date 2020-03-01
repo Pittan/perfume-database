@@ -4,7 +4,7 @@ import { Event, Song } from '../../../data'
 import { SongsService } from '../songs.service'
 import { Title } from '@angular/platform-browser'
 
-type EventForList = Event & { live_house_name?: string }
+type EventForList = Event & { live_house_name?: string, isRelatedHit?: boolean }
 
 @Component({
   selector: 'app-songs-detail',
@@ -13,7 +13,7 @@ type EventForList = Event & { live_house_name?: string }
 })
 export class SongsDetailComponent implements OnInit {
 
-  private id: number
+  id: number
 
   song: Song
 
