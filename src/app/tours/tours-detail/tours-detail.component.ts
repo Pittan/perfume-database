@@ -35,7 +35,7 @@ export class ToursDetailComponent implements OnInit {
       }
       this.tour = this.tours.getTourById(this.id)
       this.relatedLives = this.tours.getRelatedEvents(this.id)
-      this.relatedAlbum = this.tours.getRelatedAlbum(this.id)
+      this.relatedAlbum = this.tours.getRelatedAlbum(this.tour.related_album)
       this.title.setTitle(`${this.tour.name} - PerfumeDB`)
     })
   }
