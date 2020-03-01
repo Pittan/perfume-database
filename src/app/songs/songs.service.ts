@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core'
-import { Event, EVENTS, PLACES, SetListItemDefinition, Song, SONGS } from '../../data'
+import { Event, EVENTS, PLACES, SetListItemDefinition, Song, SongId, SONGS } from '../../data'
 import { flatten } from 'lodash-es'
 
 export interface GetSongsOptions {
@@ -28,17 +28,28 @@ export class SongsService {
     })
   }
 
+  getRelatedSongs (songId: number): SongId[] {
+    const result: SongId[] = SONGS.filter(s => {
+      return s.parent === songId
+    }).map(s => s.id)
+    const parent = SONGS.find(s => s.id === songId)?.parent
+    if (parent !== undefined) result.push(parent)
+    return result
+  }
+
   getRelatedLives (songId: number): EventForList[] {
+    const relatedSongs = [songId, ...this.getRelatedSongs(songId)]
+    console.log(relatedSongs)
     return EVENTS.filter(event => {
       const flattened = flatten(event.songs)
       return flattened.some(item => {
         if (this.isSetListItemDefinition(item)) {
           if (!item.songs) return false
           return item.songs.some(so => {
-            return so === songId
+            return relatedSongs.includes(so)
           })
         }
-        return item === songId
+        return relatedSongs.includes(item)
       })
     }).map((ev: EventForList) => {
       return {

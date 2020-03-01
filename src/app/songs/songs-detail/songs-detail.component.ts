@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core'
 import { ActivatedRoute } from '@angular/router'
-import { Event, EVENTS, SetListItemDefinition, Song, SONGS } from '../../../data'
-import { flatten } from 'lodash-es'
+import { Event, Song } from '../../../data'
 import { SongsService } from '../songs.service'
 import { Title } from '@angular/platform-browser'
 
