@@ -3655,7 +3655,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -3706,7 +3706,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -3757,7 +3757,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -3810,7 +3810,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -3863,7 +3863,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -3914,7 +3914,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -3965,7 +3965,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -4016,7 +4016,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -4067,7 +4067,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -4142,7 +4142,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -4193,7 +4193,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -4244,7 +4244,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -4295,7 +4295,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -4346,7 +4346,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -4397,7 +4397,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -4448,7 +4448,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -4499,7 +4499,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -4550,7 +4550,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -4603,7 +4603,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -4656,7 +4656,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
@@ -4709,7 +4709,7 @@ export const EVENTS: Event[] = [
           title: 'JPNメドレー',
           type: 'MEDLEY',
           songs: [
-            // (JPNメドレー)シークレットシークレット,
+            37, // (JPNメドレー)シークレットシークレット,
             61, // 不自然なガール
             36, // Take me Take me
             29, // Baby cruising Love
