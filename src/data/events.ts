@@ -11516,7 +11516,7 @@ export const EVENTS: Event[] = [
             22, // choco
             29, // bcl
             69, // nee
-            16, // city
+            40, // ltw
             88, // sol
             120, // sr
             54, // nf
@@ -11566,7 +11566,7 @@ export const EVENTS: Event[] = [
             22, // choco
             29, // bcl
             69, // nee
-            , // ltw
+            40, // ltw
             88, // sol
             120, // sr
             54, // nf
@@ -11616,56 +11616,6 @@ export const EVENTS: Event[] = [
             22, // choco
             29, // bcl
             69, // nee
-            , // ltw
-            88, // sol
-            120, // sr
-            54, // nf
-            100, // museum
-            138 // strain
-          ]
-        },
-        198, // chrome
-        41, // edge
-        200, // vizu
-        177, // saisei
-        PTA, // pta
-        113, // pm
-        20, // psps
-        158, // tokyo
-        24, // poly
-        175, // challenger
-        MC,
-        84 // my color
-      ],
-    ],
-    live_house: 71
-  },
-  {
-    id: 356,
-    date: '2020/02/26',
-    name: 'Perfume 8th Tour 2020 “P Cubed” in Dome',
-    event_type: 'LIVE',
-    tour_id: 23,
-    sub_name: '東京公演',
-    songs: [
-      [
-        199, // opera
-        34, // game
-        92, // samt
-        44, // df
-        73, // れざび
-        MC, // MC
-        94, // hb
-        101, // だいじょば
-        25, // 7th
-        176, // nanana
-        {
-          title: 'P Cubed Medley',
-          type: 'MEDLEY',
-          songs: [
-            22, // choco
-            29, // bcl
-            69, // nee
             16, // city
             88, // sol
             120, // sr
@@ -11689,5 +11639,5 @@ export const EVENTS: Event[] = [
       ],
     ],
     live_house: 71
-  },
+  }
 ]
