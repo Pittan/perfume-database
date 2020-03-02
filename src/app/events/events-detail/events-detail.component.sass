@@ -51,6 +51,11 @@ h2
       background-color: lighten(#EAECF0, 1deg)
       transition: .2s ease-out background-color
 
+    &.no-hover
+      cursor: auto
+      &:hover, &:focus
+        background-color: darken(#EAECF0, 3deg)
+
   .title
     margin-bottom: 2px
     text-overflow: ellipsis

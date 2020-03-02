@@ -74,7 +74,7 @@ export interface SetListItemDefinition {
   /** メドレー or MC or PTAのコーナー */
   type: 'MEDLEY' | 'MC' | 'PTA'
   /** メドレーの場合は披露した曲をまとめて配列に */
-  songs?: SongId[]
+  songs?: (SongId | SetListItemDefinition)[]
 }
 
 /**

@@ -39,13 +39,13 @@ export class SongsService {
 
   getRelatedLives (songId: number): EventForList[] {
     const relatedSongs = [songId, ...this.getRelatedSongs(songId)]
-    console.log(relatedSongs)
     return EVENTS.filter(event => {
       const flattened = flatten(event.songs)
       return flattened.some(item => {
         if (this.isSetListItemDefinition(item)) {
           if (!item.songs) return false
           return item.songs.some(so => {
+            if (this.isSetListItemDefinition(so)) return false
             return relatedSongs.includes(so)
           })
         }

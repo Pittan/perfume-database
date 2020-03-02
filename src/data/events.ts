@@ -7100,7 +7100,7 @@ export const EVENTS: Event[] = [
   {
     id: 233,
     date: '2015/09/21',
-    name: 'Perfume Anniversary 10days 2015 PPPPPPPPPPday1『P.T.A.サミット』',
+    name: 'Perfume Anniversary 10days 2015 PPPPPPPPPP day1『P.T.A.サミット』',
     event_type: 'LIVE',
     tour_id: 14,
     sub_name: '東京公演',
@@ -7126,7 +7126,7 @@ export const EVENTS: Event[] = [
   {
     id: 234,
     date: '2015/09/22',
-    name: 'Perfume Anniversary 10days 2015 PPPPPPPPPPday2『Perfume FES!! 2015 〜三人祭〜』',
+    name: 'Perfume Anniversary 10days 2015 PPPPPPPPPP day2『Perfume FES!! 2015 〜三人祭〜』',
     event_type: 'LIVE',
     tour_id: 14,
     sub_name: '東京公演',
@@ -7155,7 +7155,7 @@ export const EVENTS: Event[] = [
   {
     id: 235,
     date: '2015/09/23',
-    name: 'Perfume Anniversary 10days 2015 PPPPPPPPPPday3『第3回 Perfumeダンスコンテスト～魅せよ、武道館！～』',
+    name: 'Perfume Anniversary 10days 2015 PPPPPPPPPP day3『第3回 Perfumeダンスコンテスト～魅せよ、武道館！～』',
     event_type: 'LIVE',
     tour_id: 14,
     sub_name: '東京公演',
@@ -7173,7 +7173,7 @@ export const EVENTS: Event[] = [
   {
     id: 236,
     date: '2015/09/26',
-    name: 'Perfume Anniversary 10days 2015 PPPPPPPPPPday5『LIVE 3:5:6:9』',
+    name: 'Perfume Anniversary 10days 2015 PPPPPPPPPP day5『LIVE 3:5:6:9』',
     event_type: 'LIVE',
     tour_id: 14,
     sub_name: '東京公演',
@@ -7184,12 +7184,19 @@ export const EVENTS: Event[] = [
         16, // コンピューターシティ
         133, // Pick Me Up
         MC,
-        // (3:5:6:9),
-        100, // 未来のミュージアム
-        112, // 1mm
-        37, // シークレットシークレット
-        18, // エレクトロ・ワールド
-        23, // Twinkle Snow Powdery Snow
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            // (3:5:6:9),
+            100, // 未来のミュージアム
+            112, // 1mm
+            37, // シークレットシークレット
+            18, // エレクトロ・ワールド
+            23, // Twinkle Snow Powdery Snow
+            // END
+          ]
+        },
         34, // GAME
         148, // STORY
         113, // Party Maker
@@ -7209,7 +7216,7 @@ export const EVENTS: Event[] = [
   {
     id: 237,
     date: '2015/09/27',
-    name: 'Perfume Anniversary 10days 2015 PPPPPPPPPPday6『LIVE 3:5:6:9』',
+    name: 'Perfume Anniversary 10days 2015 PPPPPPPPPP day6『LIVE 3:5:6:9』',
     event_type: 'LIVE',
     tour_id: 14,
     sub_name: '東京公演',
@@ -7220,12 +7227,19 @@ export const EVENTS: Event[] = [
         16, // コンピューターシティ
         133, // Pick Me Up
         MC,
-        // (3:5:6:9),
-        73, // レーザービーム
-        100, // 未来のミュージアム
-        23, // Twinkle Snow Powdery Snow
-        112, // 1mm
-        3, // 彼氏募集中
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            // (3:5:6:9),
+            73, // レーザービーム
+            100, // 未来のミュージアム
+            23, // Twinkle Snow Powdery Snow
+            112, // 1mm
+            3, // 彼氏募集中
+            // END
+          ]
+        },
         34, // GAME
         148, // STORY
         113, // Party Maker
@@ -7245,7 +7259,7 @@ export const EVENTS: Event[] = [
   {
     id: 238,
     date: '2015/09/29',
-    name: 'Perfume Anniversary 10days 2015 PPPPPPPPPPday7『LIVE 3:5:6:9』',
+    name: 'Perfume Anniversary 10days 2015 PPPPPPPPPP day7『LIVE 3:5:6:9』',
     event_type: 'LIVE',
     tour_id: 14,
     sub_name: '東京公演',
@@ -7256,12 +7270,19 @@ export const EVENTS: Event[] = [
         16, // コンピューターシティ
         133, // Pick Me Up
         MC,
-        // (3:5:6:9),
-        37, // シークレットシークレット
-        5, // スウィートドーナッツ
-        74, // 微かなカオリ
-        23, // Twinkle Snow Powdery Snow
-        3, // 彼氏募集中
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            // (3:5:6:9),
+            37, // シークレットシークレット
+            5, // スウィートドーナッツ
+            74, // 微かなカオリ
+            23, // Twinkle Snow Powdery Snow
+            3, // 彼氏募集中
+            // END
+          ]
+        },
         34, // GAME
         148, // STORY
         113, // Party Maker
@@ -7281,7 +7302,7 @@ export const EVENTS: Event[] = [
   {
     id: 239,
     date: '2015/09/30',
-    name: 'Perfume Anniversary 10days 2015 PPPPPPPPPPday8『LIVE 3:5:6:9』',
+    name: 'Perfume Anniversary 10days 2015 PPPPPPPPPP day8『LIVE 3:5:6:9』',
     event_type: 'LIVE',
     tour_id: 14,
     sub_name: '東京公演',
@@ -7292,12 +7313,19 @@ export const EVENTS: Event[] = [
         16, // コンピューターシティ
         133, // Pick Me Up
         MC,
-        // (3:5:6:9),
-        69, // ねぇ
-        74, // 微かなカオリ
-        5, // スウィートドーナッツ
-        100, // 未来のミュージアム
-        3, // 彼氏募集中
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            // (3:5:6:9),
+            69, // ねぇ
+            74, // 微かなカオリ
+            5, // スウィートドーナッツ
+            100, // 未来のミュージアム
+            3, // 彼氏募集中
+            // END
+          ]
+        },
         34, // GAME
         148, // STORY
         113, // Party Maker
@@ -7317,7 +7345,7 @@ export const EVENTS: Event[] = [
   {
     id: 240,
     date: '2015/10/06',
-    name: 'Perfume Anniversary 10days 2015 PPPPPPPPPPday9『LIVE 3:5:6:9』',
+    name: 'Perfume Anniversary 10days 2015 PPPPPPPPPP day9『LIVE 3:5:6:9』',
     event_type: 'LIVE',
     tour_id: 14,
     sub_name: '広島公演',
@@ -7328,12 +7356,18 @@ export const EVENTS: Event[] = [
         16, // コンピューターシティ
         133, // Pick Me Up
         MC,
-        // (3:5:6:9),
-        74, // 微かなカオリ
-        18, // エレクトロ・ワールド
-        3, // 彼氏募集中
-        100, // 未来のミュージアム
-        3, // 彼氏募集中
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            // (3:5:6:9),
+            74, // 微かなカオリ
+            18, // エレクトロ・ワールド
+            3, // 彼氏募集中
+            100, // 未来のミュージアム
+            3, // 彼氏募集中
+          ]
+        },
         34, // GAME
         148, // STORY
         113, // Party Maker
@@ -7353,7 +7387,7 @@ export const EVENTS: Event[] = [
   {
     id: 241,
     date: '2015/10/07',
-    name: 'Perfume Anniversary 10days 2015 PPPPPPPPPPday10『LIVE 3:5:6:9』',
+    name: 'Perfume Anniversary 10days 2015 PPPPPPPPPP day10『LIVE 3:5:6:9』',
     event_type: 'LIVE',
     tour_id: 14,
     sub_name: '広島公演',
@@ -7364,12 +7398,20 @@ export const EVENTS: Event[] = [
         16, // コンピューターシティ
         133, // Pick Me Up
         MC,
-        // (3:5:6:9),
-        3, // 彼氏募集中
-        5, // スウィートドーナッツ
-        18, // エレクトロ・ワールド
-        25, // SEVENTH HEAVEN
-        101, // だいじょばない
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            // (3:5:6:9),
+            3, // 彼氏募集中
+            5, // スウィートドーナッツ
+            18, // エレクトロ・ワールド
+            25, // SEVENTH HEAVEN
+            101, // だいじょばない
+            // END
+          ]
+        },
+
         34, // GAME
         148, // STORY
         113, // Party Maker
@@ -7440,15 +7482,21 @@ export const EVENTS: Event[] = [
         44, // Dream Fighter
         147, // Next Stage with YOU
         MC,
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         151, // Baby Face
         139, // TOKIMEKI LIGHTS
         144, // Navigate
@@ -7457,10 +7505,16 @@ export const EVENTS: Event[] = [
         124, // Cling Cling
         146, // Miracle Worker
         // (3:5:6:9),
-        18, // エレクトロ・ワールド
-        25, // SEVENTH HEAVEN
-        PTA,
-        105, // Handy Man
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            18, // エレクトロ・ワールド
+            25, // SEVENTH HEAVEN
+            PTA,
+            105, // Handy Man
+          ]
+        },
         125, // Hold Your Hand
         MC,
         138, // STAR TRAIN
@@ -7484,15 +7538,21 @@ export const EVENTS: Event[] = [
         44, // Dream Fighter
         147, // Next Stage with YOU
         MC,
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         151, // Baby Face
         139, // TOKIMEKI LIGHTS
         144, // Navigate
@@ -7501,10 +7561,16 @@ export const EVENTS: Event[] = [
         124, // Cling Cling
         146, // Miracle Worker
         // (3:5:6:9),
-        PTA,
-        39, // Puppy love
-        7, // ジェニーはご機嫌ななめ
-        84, // MY COLOR
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            PTA,
+            39, // Puppy love
+            7, // ジェニーはご機嫌ななめ
+            84, // MY COLOR
+          ]
+        },
         125, // Hold Your Hand
         MC,
         138, // STAR TRAIN
@@ -7528,15 +7594,21 @@ export const EVENTS: Event[] = [
         44, // Dream Fighter
         147, // Next Stage with YOU
         MC,
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         151, // Baby Face
         139, // TOKIMEKI LIGHTS
         144, // Navigate
@@ -7545,10 +7617,16 @@ export const EVENTS: Event[] = [
         124, // Cling Cling
         146, // Miracle Worker
         // (3:5:6:9),
-        PTA,
-        88, // Spring of Life
-        18, // エレクトロ・ワールド
-        24, // ポリリズム
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            PTA,
+            88, // Spring of Life
+            18, // エレクトロ・ワールド
+            24, // ポリリズム
+          ]
+        },
         125, // Hold Your Hand
         MC,
         138, // STAR TRAIN
@@ -7572,15 +7650,21 @@ export const EVENTS: Event[] = [
         44, // Dream Fighter
         147, // Next Stage with YOU
         MC,
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         151, // Baby Face
         139, // TOKIMEKI LIGHTS
         144, // Navigate
@@ -7589,10 +7673,16 @@ export const EVENTS: Event[] = [
         124, // Cling Cling
         146, // Miracle Worker
         // (3:5:6:9),
-        PTA,
-        105, // Handy Man
-        70, // FAKE IT
-        22, // チョコレイト・ディスコ
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            PTA,
+            105, // Handy Man
+            70, // FAKE IT
+            22, // チョコレイト・ディスコ
+          ]
+        },
         125, // Hold Your Hand
         MC,
         138, // STAR TRAIN
@@ -7616,15 +7706,21 @@ export const EVENTS: Event[] = [
         44, // Dream Fighter
         147, // Next Stage with YOU
         MC,
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         139, // TOKIMEKI LIGHTS
         151, // Baby Face
         54, // NIGHT FLIGHT
@@ -7634,10 +7730,16 @@ export const EVENTS: Event[] = [
         124, // Cling Cling
         146, // Miracle Worker
         // (3:5:6:9),
-        7, // ジェニーはご機嫌ななめ
-        PTA,
-        22, // チョコレイト・ディスコ
-        3, // 彼氏募集中
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            7, // ジェニーはご機嫌ななめ
+            PTA,
+            22, // チョコレイト・ディスコ
+            3, // 彼氏募集中
+          ]
+        },
         125, // Hold Your Hand
         MC,
         138, // STAR TRAIN
@@ -7661,15 +7763,21 @@ export const EVENTS: Event[] = [
         44, // Dream Fighter
         147, // Next Stage with YOU
         MC,
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         139, // TOKIMEKI LIGHTS
         151, // Baby Face
         54, // NIGHT FLIGHT
@@ -7679,10 +7787,16 @@ export const EVENTS: Event[] = [
         124, // Cling Cling
         146, // Miracle Worker
         // (3:5:6:9),
-        24, // ポリリズム
-        PTA,
-        105, // Handy Man
-        84, // MY COLOR
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            24, // ポリリズム
+            PTA,
+            105, // Handy Man
+            84, // MY COLOR
+          ]
+        },
         125, // Hold Your Hand
         MC,
         138, // STAR TRAIN
@@ -7706,15 +7820,21 @@ export const EVENTS: Event[] = [
         44, // Dream Fighter
         147, // Next Stage with YOU
         MC,
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         139, // TOKIMEKI LIGHTS
         151, // Baby Face
         54, // NIGHT FLIGHT
@@ -7724,10 +7844,16 @@ export const EVENTS: Event[] = [
         124, // Cling Cling
         146, // Miracle Worker
         // (3:5:6:9),
-        PTA,
-        88, // Spring of Life
-        7, // ジェニーはご機嫌ななめ
-        3, // 彼氏募集中
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            PTA,
+            88, // Spring of Life
+            7, // ジェニーはご機嫌ななめ
+            3, // 彼氏募集中
+          ]
+        },
         125, // Hold Your Hand
         MC,
         138, // STAR TRAIN
@@ -7751,15 +7877,21 @@ export const EVENTS: Event[] = [
         44, // Dream Fighter
         147, // Next Stage with YOU
         MC,
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         139, // TOKIMEKI LIGHTS
         151, // Baby Face
         54, // NIGHT FLIGHT
@@ -7769,10 +7901,16 @@ export const EVENTS: Event[] = [
         124, // Cling Cling
         146, // Miracle Worker
         // (3:5:6:9),
-        PTA,
-        70, // FAKE IT
-        18, // エレクトロ・ワールド
-        22, // チョコレイト・ディスコ
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            PTA,
+            70, // FAKE IT
+            18, // エレクトロ・ワールド
+            22, // チョコレイト・ディスコ
+          ]
+        },
         125, // Hold Your Hand
         MC,
         138, // STAR TRAIN
@@ -7796,15 +7934,21 @@ export const EVENTS: Event[] = [
         44, // Dream Fighter
         147, // Next Stage with YOU
         MC,
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         139, // TOKIMEKI LIGHTS
         151, // Baby Face
         54, // NIGHT FLIGHT
@@ -7814,10 +7958,16 @@ export const EVENTS: Event[] = [
         124, // Cling Cling
         146, // Miracle Worker
         // (3:5:6:9),
-        PTA,
-        7, // ジェニーはご機嫌ななめ
-        24, // ポリリズム
-        22, // チョコレイト・ディスコ
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            PTA,
+            7, // ジェニーはご機嫌ななめ
+            24, // ポリリズム
+            22, // チョコレイト・ディスコ
+          ]
+        },
         39, // Puppy love
         MC,
         138, // STAR TRAIN
@@ -7841,15 +7991,21 @@ export const EVENTS: Event[] = [
         44, // Dream Fighter
         147, // Next Stage with YOU
         MC,
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         139, // TOKIMEKI LIGHTS
         151, // Baby Face
         54, // NIGHT FLIGHT
@@ -7859,10 +8015,16 @@ export const EVENTS: Event[] = [
         124, // Cling Cling
         146, // Miracle Worker
         // (3:5:6:9),
-        PTA,
-        113, // Party Maker
-        22, // チョコレイト・ディスコ
-        18, // エレクトロ・ワールド
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            PTA,
+            113, // Party Maker
+            22, // チョコレイト・ディスコ
+            18, // エレクトロ・ワールド
+          ]
+        },
         39, // Puppy love
         MC,
         138, // STAR TRAIN
@@ -7886,15 +8048,21 @@ export const EVENTS: Event[] = [
         44, // Dream Fighter
         147, // Next Stage with YOU
         MC,
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         139, // TOKIMEKI LIGHTS
         151, // Baby Face
         54, // NIGHT FLIGHT
@@ -7904,10 +8072,16 @@ export const EVENTS: Event[] = [
         124, // Cling Cling
         146, // Miracle Worker
         // (3:5:6:9),
-        PTA,
-        88, // Spring of Life
-        48, // ワンルーム・ディスコ
-        78, // GLITTER
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            PTA,
+            88, // Spring of Life
+            48, // ワンルーム・ディスコ
+            78, // GLITTER
+          ]
+        },
         39, // Puppy love
         MC,
         138, // STAR TRAIN
@@ -7931,15 +8105,21 @@ export const EVENTS: Event[] = [
         44, // Dream Fighter
         147, // Next Stage with YOU
         MC,
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         139, // TOKIMEKI LIGHTS
         151, // Baby Face
         54, // NIGHT FLIGHT
@@ -7949,10 +8129,16 @@ export const EVENTS: Event[] = [
         124, // Cling Cling
         146, // Miracle Worker
         // (3:5:6:9),
-        PTA,
-        48, // ワンルーム・ディスコ
-        24, // ポリリズム
-        70, // FAKE IT
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            PTA,
+            48, // ワンルーム・ディスコ
+            24, // ポリリズム
+            70, // FAKE IT
+          ]
+        },
         39, // Puppy love
         MC,
         138, // STAR TRAIN
@@ -7976,15 +8162,21 @@ export const EVENTS: Event[] = [
         44, // Dream Fighter
         147, // Next Stage with YOU
         MC,
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         139, // TOKIMEKI LIGHTS
         151, // Baby Face
         54, // NIGHT FLIGHT
@@ -7994,10 +8186,16 @@ export const EVENTS: Event[] = [
         124, // Cling Cling
         146, // Miracle Worker
         // (3:5:6:9),
-        PTA,
-        48, // ワンルーム・ディスコ
-        18, // エレクトロ・ワールド
-        113, // Party Maker
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            PTA,
+            48, // ワンルーム・ディスコ
+            18, // エレクトロ・ワールド
+            113, // Party Maker
+          ]
+        },
         39, // Puppy love
         MC,
         138, // STAR TRAIN
@@ -8021,15 +8219,21 @@ export const EVENTS: Event[] = [
         44, // Dream Fighter
         147, // Next Stage with YOU
         MC,
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         139, // TOKIMEKI LIGHTS
         151, // Baby Face
         54, // NIGHT FLIGHT
@@ -8039,10 +8243,16 @@ export const EVENTS: Event[] = [
         124, // Cling Cling
         146, // Miracle Worker
         // (3:5:6:9),
-        PTA,
-        88, // Spring of Life
-        70, // FAKE IT
-        7, // ジェニーはご機嫌ななめ
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            PTA,
+            88, // Spring of Life
+            70, // FAKE IT
+            7, // ジェニーはご機嫌ななめ
+          ]
+        },
         39, // Puppy love
         MC,
         138, // STAR TRAIN
@@ -8066,15 +8276,21 @@ export const EVENTS: Event[] = [
         44, // Dream Fighter
         147, // Next Stage with YOU
         MC,
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         139, // TOKIMEKI LIGHTS
         151, // Baby Face
         54, // NIGHT FLIGHT
@@ -8084,10 +8300,16 @@ export const EVENTS: Event[] = [
         124, // Cling Cling
         146, // Miracle Worker
         // (3:5:6:9),
-        3, // 彼氏募集中
-        PTA,
-        70, // FAKE IT
-        22, // チョコレイト・ディスコ
+        {
+          type: 'MEDLEY',
+          title: '(3:5:6:9)',
+          songs: [
+            3, // 彼氏募集中
+            PTA,
+            70, // FAKE IT
+            22, // チョコレイト・ディスコ
+          ]
+        },
         39, // Puppy love
         MC,
         138, // STAR TRAIN
@@ -8112,15 +8334,21 @@ export const EVENTS: Event[] = [
         146, // Miracle Worker
         MC,
         147, // Next Stage with YOU
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         185, // Baby Face(English ver.)
         148, // STORY
         155, // FLASH
@@ -8154,15 +8382,21 @@ export const EVENTS: Event[] = [
         146, // Miracle Worker
         MC,
         147, // Next Stage with YOU
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         185, // Baby Face(English ver.)
         148, // STORY
         155, // FLASH
@@ -8196,15 +8430,21 @@ export const EVENTS: Event[] = [
         146, // Miracle Worker
         MC,
         147, // Next Stage with YOU
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         185, // Baby Face(English ver.)
         148, // STORY
         155, // FLASH
@@ -8238,15 +8478,21 @@ export const EVENTS: Event[] = [
         146, // Miracle Worker
         MC,
         147, // Next Stage with YOU
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         185, // Baby Face(English ver.)
         148, // STORY
         155, // FLASH
@@ -8280,15 +8526,21 @@ export const EVENTS: Event[] = [
         146, // Miracle Worker
         MC,
         147, // Next Stage with YOU
-        // (よせあつめどれー),
-        132, // Relax In The City
-        134, // 透明人間
-        92, // Spending all my time
-        61, // 不自然なガール
-        23, // Twinkle Snow Powdery Snow
-        16, // コンピューターシティ
-        140, // イミテーションワールド
-        120, // Sweet Refrain
+        {
+          type: 'MEDLEY',
+          title: 'よせあつメドレー',
+          songs: [
+            // (よせあつめどれー),
+            132, // Relax In The City
+            134, // 透明人間
+            92, // Spending all my time
+            61, // 不自然なガール
+            23, // Twinkle Snow Powdery Snow
+            16, // コンピューターシティ
+            140, // イミテーションワールド
+            120, // Sweet Refrain
+          ]
+        },
         185, // Baby Face(English ver.)
         148, // STORY
         155, // FLASH

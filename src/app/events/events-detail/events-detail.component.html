@@ -32,7 +32,12 @@
       <div class="list-item no-hover" *ngIf="song.title">
         <span class="title">{{getSongTitle(song)}}</span>
         <ng-container *ngIf="song.songs">
-          <a class="list-item child" *ngFor="let s of song.songs" routerLink="/songs/{{s}}" >{{getSongTitle(s)}}</a>
+          <ng-container *ngFor="let s of song.songs">
+            <a class="list-item child" *ngIf="!s.title else nonClickable" routerLink="/songs/{{s}}" >{{getSongTitle(s)}}</a>
+            <ng-template #nonClickable>
+              <div class="list-item no-hover child">{{getSongTitle(s)}}</div>
+            </ng-template>
+          </ng-container>
         </ng-container>
       </div>
 
