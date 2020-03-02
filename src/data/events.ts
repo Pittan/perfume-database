@@ -10548,7 +10548,7 @@ export const EVENTS: Event[] = [
         70, // FAKE IT
         155, // FLASH
         MC,
-        24, // ポリリズム
+        22, // チョコレイト・ディスコ
       ],
       [
         110, // Magic of Love(Album-mix)
