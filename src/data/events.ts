@@ -11348,8 +11348,44 @@ export const EVENTS: Event[] = [
     sub_name: '大阪公演',
     songs: [
       [
-      ],
-
+        199, // opera
+        34, // game
+        92, // samt
+        44, // df
+        73, // れざび
+        MC, // MC
+        94, // hb
+        101, // だいじょば
+        25, // 7th
+        176, // nanana
+        {
+          title: 'P Cubed Medley',
+          type: 'MEDLEY',
+          songs: [
+            22, // choco
+            29, // bcl
+            69, // nee
+            16, // city
+            88, // sol
+            120, // sr
+            54, // nf
+            100, // museum
+            138 // strain
+          ]
+        },
+        198, // chrome
+        41, // edge
+        200, // vizu
+        177, // saisei
+        PTA, // pta
+        113, // pm
+        20, // psps
+        158, // tokyo
+        24, // poly
+        175, // challenger
+        MC,
+        84 // my color
+      ]
     ],
     live_house: 112
   },
@@ -11362,8 +11398,44 @@ export const EVENTS: Event[] = [
     sub_name: '大阪公演',
     songs: [
       [
+        199, // opera
+        34, // game
+        92, // samt
+        44, // df
+        73, // れざび
+        MC, // MC
+        94, // hb
+        101, // だいじょば
+        25, // 7th
+        176, // nanana
+        {
+          title: 'P Cubed Medley',
+          type: 'MEDLEY',
+          songs: [
+            22, // choco
+            29, // bcl
+            69, // nee
+            16, // city
+            88, // sol
+            120, // sr
+            54, // nf
+            100, // museum
+            138 // strain
+          ]
+        },
+        198, // chrome
+        41, // edge
+        200, // vizu
+        177, // saisei
+        PTA, // pta
+        113, // pm
+        20, // psps
+        158, // tokyo
+        24, // poly
+        175, // challenger
+        MC,
+        84 // my color
       ],
-
     ],
     live_house: 112
   },
@@ -11376,6 +11448,43 @@ export const EVENTS: Event[] = [
     sub_name: '福岡公演',
     songs: [
       [
+        199, // opera
+        34, // game
+        92, // samt
+        44, // df
+        73, // れざび
+        MC, // MC
+        94, // hb
+        101, // だいじょば
+        25, // 7th
+        176, // nanana
+        {
+          title: 'P Cubed Medley',
+          type: 'MEDLEY',
+          songs: [
+            22, // choco
+            29, // bcl
+            69, // nee
+            16, // city
+            88, // sol
+            120, // sr
+            54, // nf
+            100, // museum
+            138 // strain
+          ]
+        },
+        198, // chrome
+        41, // edge
+        200, // vizu
+        177, // saisei
+        PTA, // pta
+        113, // pm
+        20, // psps
+        158, // tokyo
+        24, // poly
+        175, // challenger
+        MC,
+        84 // my color
       ],
 
     ],
@@ -11390,8 +11499,44 @@ export const EVENTS: Event[] = [
     sub_name: '愛知公演',
     songs: [
       [
+        199, // opera
+        34, // game
+        92, // samt
+        44, // df
+        73, // れざび
+        MC, // MC
+        94, // hb
+        101, // だいじょば
+        25, // 7th
+        176, // nanana
+        {
+          title: 'P Cubed Medley',
+          type: 'MEDLEY',
+          songs: [
+            22, // choco
+            29, // bcl
+            69, // nee
+            16, // city
+            88, // sol
+            120, // sr
+            54, // nf
+            100, // museum
+            138 // strain
+          ]
+        },
+        198, // chrome
+        41, // edge
+        200, // vizu
+        177, // saisei
+        PTA, // pta
+        113, // pm
+        20, // psps
+        158, // tokyo
+        24, // poly
+        175, // challenger
+        MC,
+        84 // my color
       ],
-
     ],
     live_house: 138
   },
@@ -11404,8 +11549,44 @@ export const EVENTS: Event[] = [
     sub_name: '愛知公演',
     songs: [
       [
+        199, // opera
+        34, // game
+        92, // samt
+        44, // df
+        73, // れざび
+        MC, // MC
+        94, // hb
+        101, // だいじょば
+        25, // 7th
+        176, // nanana
+        {
+          title: 'P Cubed Medley',
+          type: 'MEDLEY',
+          songs: [
+            22, // choco
+            29, // bcl
+            69, // nee
+            , // ltw
+            88, // sol
+            120, // sr
+            54, // nf
+            100, // museum
+            138 // strain
+          ]
+        },
+        198, // chrome
+        41, // edge
+        200, // vizu
+        177, // saisei
+        PTA, // pta
+        113, // pm
+        20, // psps
+        158, // tokyo
+        24, // poly
+        175, // challenger
+        MC,
+        84 // my color
       ],
-
     ],
     live_house: 138
   },
@@ -11418,8 +11599,44 @@ export const EVENTS: Event[] = [
     sub_name: '東京公演',
     songs: [
       [
+        199, // opera
+        34, // game
+        92, // samt
+        44, // df
+        73, // れざび
+        MC, // MC
+        94, // hb
+        101, // だいじょば
+        25, // 7th
+        176, // nanana
+        {
+          title: 'P Cubed Medley',
+          type: 'MEDLEY',
+          songs: [
+            22, // choco
+            29, // bcl
+            69, // nee
+            , // ltw
+            88, // sol
+            120, // sr
+            54, // nf
+            100, // museum
+            138 // strain
+          ]
+        },
+        198, // chrome
+        41, // edge
+        200, // vizu
+        177, // saisei
+        PTA, // pta
+        113, // pm
+        20, // psps
+        158, // tokyo
+        24, // poly
+        175, // challenger
+        MC,
+        84 // my color
       ],
-
     ],
     live_house: 71
   },
@@ -11432,8 +11649,44 @@ export const EVENTS: Event[] = [
     sub_name: '東京公演',
     songs: [
       [
+        199, // opera
+        34, // game
+        92, // samt
+        44, // df
+        73, // れざび
+        MC, // MC
+        94, // hb
+        101, // だいじょば
+        25, // 7th
+        176, // nanana
+        {
+          title: 'P Cubed Medley',
+          type: 'MEDLEY',
+          songs: [
+            22, // choco
+            29, // bcl
+            69, // nee
+            16, // city
+            88, // sol
+            120, // sr
+            54, // nf
+            100, // museum
+            138 // strain
+          ]
+        },
+        198, // chrome
+        41, // edge
+        200, // vizu
+        177, // saisei
+        PTA, // pta
+        113, // pm
+        20, // psps
+        158, // tokyo
+        24, // poly
+        175, // challenger
+        MC,
+        84 // my color
       ],
-
     ],
     live_house: 71
   },

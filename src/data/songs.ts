@@ -1111,6 +1111,22 @@ export const SONGS: Song[] = [
     id: 197,
     title: 'EPISODE 0',
     kana: 'えぴそーどぜろ',
+  },
+  {
+    id: 198,
+    title: 'Chrome',
+    kana: 'くろーむ'
+  },
+  {
+    id: 199,
+    title: 'Opera',
+    kana: 'おぺら'
+  },
+  {
+    id: 200,
+    title: 'Visualization',
+    parent: 194,
+    kana: 'びじゅあらいぜーしょん'
   }
 ]
 
