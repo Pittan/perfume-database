@@ -3,6 +3,7 @@ import { MenuService } from './shared/menu.service'
 import { GoogleAnalyticsService } from './shared/google-analytics.service'
 import { NavigationEnd, Router, RouterEvent } from '@angular/router'
 import { filter } from 'rxjs/operators'
+import * as SpotifyWebApi from 'spotify-web-api-js'
 
 @Component({
   selector: 'app-root',
@@ -15,7 +16,7 @@ export class AppComponent implements OnInit {
   constructor (
     public menu: MenuService,
     private router: Router,
-    private ga: GoogleAnalyticsService
+    private ga: GoogleAnalyticsService,
   ) {
   }
 

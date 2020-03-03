@@ -31,6 +31,10 @@ const routes: Routes = [
     loadChildren: () => import('./events/events.module').then(m => m.EventsModule)
   },
   {
+    path: 'auth',
+    loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule)
+  },
+  {
     path: '**',
     component: HomeComponent
   }

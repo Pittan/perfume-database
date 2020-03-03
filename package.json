@@ -32,7 +32,9 @@
     "lodash-es": "^4.17.15",
     "modern-css-reset": "^1.1.0",
     "rxjs": "~6.5.4",
+    "spotify-web-api-js": "^1.2.0",
     "tslib": "^1.10.0",
+    "uuid": "^7.0.1",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
