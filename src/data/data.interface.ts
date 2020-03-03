@@ -27,7 +27,10 @@ export interface Song {
    */
   is_instrumental?: boolean
   /** フリーメモ */
-  memo?: string
+  memo?: string,
+  subscriptions?: {
+    spotify?: string
+  }
 }
 
 export type Disc = SongId[]
