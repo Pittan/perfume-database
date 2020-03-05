@@ -2,6 +2,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core'
 import { ActivatedRoute, Router } from '@angular/router'
 import { Subscription } from 'rxjs'
 import { SPOTIFY_AUTH_CALLBACK_STATE, SPOTIFY_UUID_LS_KEY, SpotifyService } from '../../shared/spotify.service'
+import { MatSnackBar } from '@angular/material/snack-bar'
 
 @Component({
   selector: 'app-callback',
@@ -15,7 +16,8 @@ export class CallbackComponent implements OnInit, OnDestroy {
   constructor (
     private ar: ActivatedRoute,
     private router: Router,
-    private spotify: SpotifyService
+    private spotify: SpotifyService,
+    private snackbar: MatSnackBar
   ) { }
 
   ngOnInit (): void {
@@ -39,6 +41,9 @@ export class CallbackComponent implements OnInit, OnDestroy {
       }
       this.spotify.setAccessToken(accessToken)
       this.router.navigate([restoreRoute])
+      this.snackbar.open('Logged in to Spotify.', undefined, {
+        duration: 5000
+      })
     })
   }
 

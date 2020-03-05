@@ -27,6 +27,10 @@ export class SpotifyService {
 
   constructor () { }
 
+  isLoggedIn () {
+    return !!this.spotifyUserProfile.value?.id
+  }
+
   getAuthUrl () {
     const clientId = 'b78be222039847c2ae6f659e82ab87e6'
     const redirectUri = encodeURIComponent(`${location.protocol}//${location.host}/auth/callback/spotify`)
