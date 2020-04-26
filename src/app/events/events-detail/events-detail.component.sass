@@ -11,6 +11,39 @@
   @include media-query(md)
     padding: 24px 36px 16px
 
+.playlist
+  padding: 0 0 8px
+  display: flex
+  flex-wrap: wrap
+  width: 100%
+
+  button
+    display: inline-block
+    width: 100%
+    max-width: 320px
+    margin: 8px auto 0
+    border-radius: 20px
+    height: 44px
+    cursor: pointer
+    font-weight: bold
+
+    &.spotify
+      border: 1px solid #1DB954
+      background-color: #1DB954
+      color: #ffffff
+
+    &.apple
+      border: 1px solid #ff2f56
+      background-color: #ff2f56
+      color: #ffffff
+
+    &:disabled
+      border: 1px solid #e0e0e0
+      background-color: #e0e0e0
+      pointer-events: none
+
+    &:hover
+      opacity: 0.8
 
 h2
   margin-top: 16px

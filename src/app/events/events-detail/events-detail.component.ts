@@ -1,9 +1,14 @@
 import { Component, OnInit } from '@angular/core'
-import { Album, Event, LiveHouse, SetListItem, SetListItemDefinition, Tour } from '../../../data'
-import { AlbumsService } from '../../albums/albums.service'
+import { Album, Event, LiveHouse, SetListItem, SetListItemDefinition, SongId, SONGS, Tour } from '../../../data'
 import { ActivatedRoute } from '@angular/router'
 import { EventsService } from '../events.service'
 import { Title } from '@angular/platform-browser'
+import { flatten } from 'lodash-es'
+import { SpotifyService } from '../../shared/spotify.service'
+import { MatSnackBar } from '@angular/material/snack-bar'
+import { AuthService } from '../../shared/auth.service'
+import { MusicKitClientService } from '../../ngx-music-kit/music-kit-client.service'
+import { environment } from '../../../environments/environment'
 
 @Component({
   selector: 'app-events-detail',
@@ -20,10 +25,16 @@ export class EventsDetailComponent implements OnInit {
 
   liveHouse: LiveHouse
 
+  busy = ''
+
   constructor (
     private events: EventsService,
     private activatedRoute: ActivatedRoute,
-    private title: Title
+    private title: Title,
+    private spotify: SpotifyService,
+    private snackBar: MatSnackBar,
+    private auth: AuthService,
+    private appleMusic: MusicKitClientService
   ) { }
 
   ngOnInit (): void {
@@ -41,6 +52,75 @@ export class EventsDetailComponent implements OnInit {
       }
       this.title.setTitle(`${this.event.name}${this.event.sub_name ? ' ' + this.event.sub_name : ''} - PerfumeDB`)
     })
+  }
+
+  async generatePlaylist (service: 'spotify' | 'appleMusic') {
+    const name = `Perfume - ` + this.event.name + (this.event.sub_name ? ' ' + this.event.sub_name : '')
+    const description = this.event.date
+
+    let songs: any[] = []
+    flatten(this.event.songs).forEach(setlistItem => {
+      if (this.isSetListItemDefinition(setlistItem)) {
+        if (!setlistItem.songs) return
+        const ss = setlistItem.songs.filter(s => !this.isSetListItemDefinition(s))
+        songs = [...songs, ...ss ]
+        return
+      }
+      songs = [...songs, setlistItem]
+    })
+
+    if (service === 'spotify') {
+      if (!this.spotify.isLoggedIn()) {
+        this.auth.open()
+        return
+      }
+      this.busy = 'spotify'
+
+      let ids = songs.map(s => {
+        return SONGS.find(so => so.id === s)?.subscriptions?.spotify
+      }).filter(s => s)
+
+      const playlist = await this.spotify.createPlaylist(this.spotify.spotifyUserProfile.value.id, {
+        name,
+        description,
+        public: false
+      })
+      this.spotify.addTracksToPlaylist(playlist.id, ids).then(res => {
+        this.busy = ''
+        let snackBarRef = this.snackBar.open('Created !!', 'Check on Spotify', {
+          duration: 8000
+        })
+        snackBarRef.onAction().subscribe(() => {
+          window.open(playlist.external_urls.spotify)
+        })
+      })
+    } else if (service === 'appleMusic') {
+      this.appleMusic.initClient({
+        developerToken: environment.appleMusic.developerToken,
+        app: {
+          name: environment.appleMusic.name,
+          build: environment.appleMusic.build
+        }
+      }).then(() => {
+        // If user is not authorized...
+        if (!this.appleMusic.musicKitInstance.isAuthorized) {
+          // show login dialog
+          this.appleMusic.authorize()
+          return
+        }
+        this.busy = 'appleMusic'
+
+        let ids = songs.map(s => {
+          return SONGS.find(so => so.id === s)?.subscriptions?.apple_music
+        }).filter(s => s)
+        this.appleMusic.createPlaylist(name, description, ids).subscribe(res => {
+          this.busy = ''
+          let snackBarRef = this.snackBar.open('Created!!', undefined, {
+            duration: 8000
+          })
+        })
+      })
+    }
   }
 
   getSongTitle (item: SetListItem) {

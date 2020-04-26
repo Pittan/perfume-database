@@ -34,7 +34,8 @@ export const SONGS: Song[] = [
     title: 'スウィートドーナッツ',
     kana: 'すうぃーとどーなっつ',
     subscriptions: {
-      spotify: 'spotify:track:6A9GnlszZQspOFZD3cM1gV'
+      spotify: 'spotify:track:6A9GnlszZQspOFZD3cM1gV',
+      apple_music: '657660772'
     }
   },
   {
@@ -52,7 +53,8 @@ export const SONGS: Song[] = [
     title: 'モノクロームエフェクト',
     kana: 'ものくろーむえふぇくと',
     subscriptions: {
-      spotify: 'spotify:track:5xFgUd6YIxe1vCHzfInx1w'
+      spotify: 'spotify:track:5xFgUd6YIxe1vCHzfInx1w',
+      apple_music: '657660770'
     }
   },
   {
@@ -70,7 +72,8 @@ export const SONGS: Song[] = [
     title: 'ビタミンドロップ',
     kana: 'びたみんどろっぷ',
     subscriptions: {
-      spotify: 'spotify:track:1y4v4pMkgvoekio24AZcTk'
+      spotify: 'spotify:track:1y4v4pMkgvoekio24AZcTk',
+      apple_music: '657660771'
     }
   },
   {
@@ -78,7 +81,8 @@ export const SONGS: Song[] = [
     title: '引力',
     kana: 'いんりょく',
     subscriptions: {
-      spotify: 'spotify:track:1d4NDOse98WaRrtxIKQ2Jq'
+      spotify: 'spotify:track:1d4NDOse98WaRrtxIKQ2Jq',
+      apple_music: '657660769'
     }
   },
   {
@@ -86,7 +90,8 @@ export const SONGS: Song[] = [
     title: 'リニアモーターガール',
     kana: 'りにあもーたーがーる',
     subscriptions: {
-      spotify: 'spotify:track:6XuF8T2yE2K20VewJOIVMU'
+      spotify: 'spotify:track:6XuF8T2yE2K20VewJOIVMU',
+      apple_music: '657660766'
     }
   },
   {
@@ -94,7 +99,8 @@ export const SONGS: Song[] = [
     title: 'ファンデーション',
     kana: 'ふぁんでーしょん',
     subscriptions: {
-      spotify: 'spotify:track:0YM9SxoQlIziQdlh7WB1qd'
+      spotify: 'spotify:track:0YM9SxoQlIziQdlh7WB1qd',
+      apple_music: '657660773'
     }
   },
   {
@@ -102,7 +108,8 @@ export const SONGS: Song[] = [
     title: 'コンピュータードライビング',
     kana: 'こんぴゅーたーどらいびんぐ',
     subscriptions: {
-      spotify: 'spotify:track:3tTJD3HGIui9cvs7gs4vzL'
+      spotify: 'spotify:track:3tTJD3HGIui9cvs7gs4vzL',
+      apple_music: '657660774'
     }
   },
   {
@@ -110,7 +117,8 @@ export const SONGS: Song[] = [
     title: 'コンピューターシティ',
     kana: 'こんぴゅーたーしてぃ',
     subscriptions: {
-      spotify: 'spotify:track:3xNL3fS7kB4iAoGyGcMxQD'
+      spotify: 'spotify:track:3xNL3fS7kB4iAoGyGcMxQD',
+      apple_music: '657660767'
     }
   },
   {
@@ -118,7 +126,8 @@ export const SONGS: Song[] = [
     title: 'Perfume',
     kana: 'ぱふゅーむ',
     subscriptions: {
-      spotify: 'spotify:track:4GMtI8J1wKSEVyXydiIkp3'
+      spotify: 'spotify:track:4GMtI8J1wKSEVyXydiIkp3',
+      apple_music: '657660775'
     }
   },
   {
@@ -126,7 +135,8 @@ export const SONGS: Song[] = [
     title: 'エレクトロ・ワールド',
     kana: 'えれくとろわーるど',
     subscriptions: {
-      spotify: 'spotify:track:5PuT4rqGwGeahbVXCvr9TX'
+      spotify: 'spotify:track:5PuT4rqGwGeahbVXCvr9TX',
+      apple_music: '657660768'
     }
   },
   {
@@ -134,7 +144,8 @@ export const SONGS: Song[] = [
     title: 'wonder2',
     kana: 'わんだーつー',
     subscriptions: {
-      spotify: 'spotify:track:3qML9kIzJpLgb2fuLGD51v'
+      spotify: 'spotify:track:3qML9kIzJpLgb2fuLGD51v',
+      apple_music: '657660776'
     }
   },
   {
@@ -142,7 +153,8 @@ export const SONGS: Song[] = [
     title: 'パーフェクトスター・パーフェクトスタイル',
     kana: 'ぱーふぇくとすたーぱーふぇくとすたいる',
     subscriptions: {
-      spotify: 'spotify:track:5d81CUf7YrSoptiXGupHem'
+      spotify: 'spotify:track:5d81CUf7YrSoptiXGupHem',
+      apple_music: '657660765'
     }
   },
   {
@@ -151,7 +163,8 @@ export const SONGS: Song[] = [
     kana: 'えれくとろわーるど(あるばむばーじょん)',
     parent: 18,
     subscriptions: {
-      spotify: 'spotify:track:5aF3dD11V6lWUqfEKtGmwY'
+      spotify: 'spotify:track:5aF3dD11V6lWUqfEKtGmwY',
+      apple_music: '657660768'
     }
   },
   {
@@ -159,7 +172,8 @@ export const SONGS: Song[] = [
     title: 'チョコレイト・ディスコ',
     kana: 'ちょこれいとでぃすこ',
     subscriptions: {
-      spotify: 'spotify:track:4b0ChlhgjOqFI02cSo0TH6'
+      spotify: 'spotify:track:4b0ChlhgjOqFI02cSo0TH6',
+      apple_music: '1479641007'
     }
   },
   {
@@ -167,7 +181,8 @@ export const SONGS: Song[] = [
     title: 'Twinkle Snow Powdery Snow',
     kana: 'とうぃんくるすのー ぱうだりーすのー',
     subscriptions: {
-      spotify: 'spotify:track:7DTtdEyto3XJHFOTTh0H2p'
+      spotify: 'spotify:track:7DTtdEyto3XJHFOTTh0H2p',
+      apple_music: '657666323'
     }
   },
   {
@@ -175,7 +190,8 @@ export const SONGS: Song[] = [
     title: 'ポリリズム',
     kana: 'ぽりりずむ',
     subscriptions: {
-      spotify: 'spotify:track:7nlsmbpeIIaBD4AKa43fKX'
+      spotify: 'spotify:track:7nlsmbpeIIaBD4AKa43fKX',
+      apple_music: ''
     }
   },
   {
@@ -183,7 +199,8 @@ export const SONGS: Song[] = [
     title: 'SEVENTH HEAVEN',
     kana: 'せぶんすへぶん',
     subscriptions: {
-      spotify: 'spotify:track:5GqqcNwPJk2uusZ0UKozRo'
+      spotify: 'spotify:track:5GqqcNwPJk2uusZ0UKozRo',
+      apple_music: '657666313'
     }
   },
   {
@@ -193,7 +210,8 @@ export const SONGS: Song[] = [
     parent: 24,
     is_instrumental: true,
     subscriptions: {
-      spotify: 'spotify:track:0balk36HeiLwZAnMv7TsVc'
+      spotify: 'spotify:track:0balk36HeiLwZAnMv7TsVc',
+      apple_music: '657685990'
     }
   },
   {
@@ -215,7 +233,8 @@ export const SONGS: Song[] = [
     title: 'Baby cruising Love',
     kana: 'べいびーくるーじんぐらぶ',
     subscriptions: {
-      spotify: 'spotify:track:3koRFu0Tq6D8WclYPhh6En'
+      spotify: 'spotify:track:3koRFu0Tq6D8WclYPhh6En',
+      apple_music: '657688078'
     }
   },
   {
@@ -223,7 +242,8 @@ export const SONGS: Song[] = [
     title: 'マカロニ',
     kana: 'まかろに',
     subscriptions: {
-      spotify: 'spotify:track:6QlTQTjflj911pVT1J10gj'
+      spotify: 'spotify:track:6QlTQTjflj911pVT1J10gj',
+      apple_music: '657688079'
     }
   },
   {
@@ -245,7 +265,8 @@ export const SONGS: Song[] = [
     title: 'plastic smile',
     kana: 'ぷらすちっくすまいる',
     subscriptions: {
-      spotify: 'spotify:track:0QiqpgZ8Dc9d5orM5UlZ3L'
+      spotify: 'spotify:track:0QiqpgZ8Dc9d5orM5UlZ3L',
+      apple_music: '657666314'
     }
   },
   {
@@ -253,7 +274,8 @@ export const SONGS: Song[] = [
     title: 'GAME',
     kana: 'げーむ',
     subscriptions: {
-      spotify: 'spotify:track:3cMmH8AsVUvQhVz6W8ONya'
+      spotify: 'spotify:track:3cMmH8AsVUvQhVz6W8ONya',
+      apple_music: '657666315'
     }
   },
   {
@@ -261,7 +283,8 @@ export const SONGS: Song[] = [
     title: 'セラミックガール',
     kana: 'せらみっくがーる',
     subscriptions: {
-      spotify: 'spotify:track:4hDosBDxWfAl92mwTsd7uh'
+      spotify: 'spotify:track:4hDosBDxWfAl92mwTsd7uh',
+      apple_music: '657666319'
     }
   },
   {
@@ -269,7 +292,8 @@ export const SONGS: Song[] = [
     title: 'Take me Take me',
     kana: 'ていくみーていくみー',
     subscriptions: {
-      spotify: 'spotify:track:2gLD8RfrplMDJPwC350kX5'
+      spotify: 'spotify:track:2gLD8RfrplMDJPwC350kX5',
+      apple_music: '657666320'
     }
   },
   {
@@ -277,7 +301,8 @@ export const SONGS: Song[] = [
     title: 'シークレットシークレット',
     kana: 'しーくれっとしーくれっと',
     subscriptions: {
-      spotify: 'spotify:track:6JbpbQF6NxJgzKE0vmlmdY'
+      spotify: 'spotify:track:6JbpbQF6NxJgzKE0vmlmdY',
+      apple_music: '657666321'
     }
   },
   {
@@ -285,7 +310,8 @@ export const SONGS: Song[] = [
     title: 'Butterfly',
     kana: 'ばたふらい',
     subscriptions: {
-      spotify: 'spotify:track:1tvMse1gdBiL64h1NtBs8j'
+      spotify: 'spotify:track:1tvMse1gdBiL64h1NtBs8j',
+      apple_music: '657666322'
     }
   },
   {
@@ -293,7 +319,8 @@ export const SONGS: Song[] = [
     title: 'Puppy love',
     kana: 'ぱぴーらぶ',
     subscriptions: {
-      spotify: 'spotify:track:5dSOq9HYxg1K9OEABC1tGX'
+      spotify: 'spotify:track:5dSOq9HYxg1K9OEABC1tGX',
+      apple_music: '657666324'
     }
   },
   {
@@ -301,7 +328,8 @@ export const SONGS: Song[] = [
     title: 'love the world',
     kana: 'らぶざわーるど',
     subscriptions: {
-      spotify: 'spotify:track:53v2IC4TD4wt0SrOZg9DJN'
+      spotify: 'spotify:track:53v2IC4TD4wt0SrOZg9DJN',
+      apple_music: '657671891'
     }
   },
   {
@@ -309,7 +337,8 @@ export const SONGS: Song[] = [
     title: 'edge',
     kana: 'えっじ',
     subscriptions: {
-      spotify: 'spotify:track:3lsum3DBD3ydUkfOMflVoL'
+      spotify: 'spotify:track:3lsum3DBD3ydUkfOMflVoL',
+      apple_music: '657689624'
     }
   },
   {
@@ -325,7 +354,8 @@ export const SONGS: Song[] = [
     kana: 'えっじ えくすてんでっどみっくす',
     parent: 41,
     subscriptions: {
-      spotify: 'spotify:track:1KcGrjiscWbjXBlLwrlm7o'
+      spotify: 'spotify:track:1KcGrjiscWbjXBlLwrlm7o',
+      apple_music: '657689626'
     }
   },
   {
@@ -333,7 +363,8 @@ export const SONGS: Song[] = [
     title: 'Dream Fighter',
     kana: 'どりーむふぁいたー',
     subscriptions: {
-      spotify: 'spotify:track:2PMhWcwvDM5rx4jsIlSTVQ'
+      spotify: 'spotify:track:2PMhWcwvDM5rx4jsIlSTVQ',
+      apple_music: '658115976'
     }
   },
   {
@@ -341,7 +372,8 @@ export const SONGS: Song[] = [
     title: '願い',
     kana: 'ねがい',
     subscriptions: {
-      spotify: 'spotify:track:0CsGQawC8aJAPnehn6JqJV'
+      spotify: 'spotify:track:0CsGQawC8aJAPnehn6JqJV',
+      apple_music: '658115977'
     }
   },
   {
@@ -363,7 +395,8 @@ export const SONGS: Song[] = [
     title: 'ワンルーム・ディスコ',
     kana: 'わんるーむでぃすこ',
     subscriptions: {
-      spotify: 'spotify:track:13dvtP5TlA7lSgrPv7XPBy'
+      spotify: 'spotify:track:13dvtP5TlA7lSgrPv7XPBy',
+      apple_music: '663649112'
     }
   },
   {
@@ -371,7 +404,8 @@ export const SONGS: Song[] = [
     title: '23:30',
     kana: 'にじゅうさんじはん',
     subscriptions: {
-      spotify: 'spotify:track:3zqEO06VmBlWlVWdbeJNUn'
+      spotify: 'spotify:track:3zqEO06VmBlWlVWdbeJNUn',
+      apple_music: '663649113'
     }
   },
   {
@@ -393,7 +427,8 @@ export const SONGS: Song[] = [
     title: 'Take off',
     kana: 'ていくおふ',
     subscriptions: {
-      spotify: 'spotify:track:27eRD5YQBnBSzlNqR5g8Vl'
+      spotify: 'spotify:track:27eRD5YQBnBSzlNqR5g8Vl',
+      apple_music: '657671890'
     }
   },
   {
@@ -402,7 +437,8 @@ export const SONGS: Song[] = [
     kana: 'えっじ とらいあんぐるみっくす',
     parent: 41,
     subscriptions: {
-      spotify: 'spotify:track:4Bx502wf9hb5TP6oql4bL2'
+      spotify: 'spotify:track:4Bx502wf9hb5TP6oql4bL2',
+      apple_music: '657671893'
     }
   },
   {
@@ -410,7 +446,8 @@ export const SONGS: Song[] = [
     title: 'NIGHT FLIGHT',
     kana: 'ないとふらいと',
     subscriptions: {
-      spotify: 'spotify:track:5HSbDcKnaZD6YoYod3kfJX'
+      spotify: 'spotify:track:5HSbDcKnaZD6YoYod3kfJX',
+      apple_music: '657671894'
     }
   },
   {
@@ -418,7 +455,8 @@ export const SONGS: Song[] = [
     title: 'Kiss and Music',
     kana: 'きすあんどみゅーじっく',
     subscriptions: {
-      spotify: 'spotify:track:4cu4McbbrjhAycompacW0I'
+      spotify: 'spotify:track:4cu4McbbrjhAycompacW0I',
+      apple_music: '657671895'
     }
   },
   {
@@ -426,7 +464,8 @@ export const SONGS: Song[] = [
     title: 'Zero Gravity',
     kana: 'ぜろぐらびてぃー',
     subscriptions: {
-      spotify: 'spotify:track:6JdsNX1SHEvHuSuUh0vtAJ'
+      spotify: 'spotify:track:6JdsNX1SHEvHuSuUh0vtAJ',
+      apple_music: '657671896'
     }
   },
   {
@@ -434,7 +473,8 @@ export const SONGS: Song[] = [
     title: 'I still love U',
     kana: 'あいすてぃるらぶゆー',
     subscriptions: {
-      spotify: 'spotify:track:3dJtEKFsdh4jvSWlZrDBfu'
+      spotify: 'spotify:track:3dJtEKFsdh4jvSWlZrDBfu',
+      apple_music: '657671897'
     }
   },
   {
@@ -442,7 +482,8 @@ export const SONGS: Song[] = [
     title: 'The best thing',
     kana: 'ざべすとしんぐ',
     subscriptions: {
-      spotify: 'spotify:track:6sMsPoqVaDzQ7KESU1GJrh'
+      spotify: 'spotify:track:6sMsPoqVaDzQ7KESU1GJrh',
+      apple_music: '657671898'
     }
   },
   {
@@ -450,7 +491,8 @@ export const SONGS: Song[] = [
     title: 'Speed of Sound',
     kana: 'すぴーどおぶさうんど',
     subscriptions: {
-      spotify: 'spotify:track:6dtAgTEw0s6bAKetg1orVm'
+      spotify: 'spotify:track:6dtAgTEw0s6bAKetg1orVm',
+      apple_music: '657671899'
     }
   },
   {
@@ -459,7 +501,8 @@ export const SONGS: Song[] = [
     kana: 'ねがい あるばむみっくす',
     parent: 45,
     subscriptions: {
-      spotify: 'spotify:track:5kbqA1YpTD9sIxTyBk2err'
+      spotify: 'spotify:track:5kbqA1YpTD9sIxTyBk2err',
+      apple_music: '657671901'
     }
   },
   {
@@ -467,7 +510,8 @@ export const SONGS: Song[] = [
     title: '不自然なガール',
     kana: 'ふしぜんながーる',
     subscriptions: {
-      spotify: 'spotify:track:6IQauxT9txAnK87lVZB3M9'
+      spotify: 'spotify:track:6IQauxT9txAnK87lVZB3M9',
+      apple_music: '663529349'
     }
   },
   {
@@ -475,7 +519,8 @@ export const SONGS: Song[] = [
     title: 'ナチュラルに恋して',
     kana: 'なちゅらるにこいして',
     subscriptions: {
-      spotify: 'spotify:track:0eFNzhH89lQcgg9pwIYJTi'
+      spotify: 'spotify:track:0eFNzhH89lQcgg9pwIYJTi',
+      apple_music: '663529350'
     }
   },
   {
@@ -497,7 +542,8 @@ export const SONGS: Song[] = [
     title: 'VOICE',
     kana: 'ゔぉいす',
     subscriptions: {
-      spotify: 'spotify:track:2ouQFqJ4YpChbR4u5BzqMe'
+      spotify: 'spotify:track:2ouQFqJ4YpChbR4u5BzqMe',
+      apple_music: '1465083593'
     }
   },
   {
@@ -505,7 +551,8 @@ export const SONGS: Song[] = [
     title: '575',
     kana: 'ごしちご',
     subscriptions: {
-      spotify: 'spotify:track:1vM17fFrFcmJ922AAvzvY5'
+      spotify: 'spotify:track:1vM17fFrFcmJ922AAvzvY5',
+      apple_music: '1465083592'
     }
   },
   {
@@ -527,7 +574,8 @@ export const SONGS: Song[] = [
     title: 'ねぇ',
     kana: 'ねぇ',
     subscriptions: {
-      spotify: 'spotify:track:7r3hZlo7LaRdZMC5rZlFfG'
+      spotify: 'spotify:track:7r3hZlo7LaRdZMC5rZlFfG',
+      apple_music: '1465083590'
     }
   },
   {
@@ -535,7 +583,8 @@ export const SONGS: Song[] = [
     title: 'FAKE IT',
     kana: 'ふぇいくいっと',
     subscriptions: {
-      spotify: 'spotify:track:0TSK4t1XBX3F2YApI3F5lI'
+      spotify: 'spotify:track:0TSK4t1XBX3F2YApI3F5lI',
+      apple_music: '1465086759'
     }
   },
   {
@@ -557,7 +606,8 @@ export const SONGS: Song[] = [
     title: 'レーザービーム',
     kana: 'れーざーびーむ',
     subscriptions: {
-      spotify: 'spotify:track:2C3Gb3aVFywnfWqxqi0gRX'
+      spotify: 'spotify:track:2C3Gb3aVFywnfWqxqi0gRX',
+      apple_music: '1479641225'
     }
   },
   {
@@ -565,7 +615,8 @@ export const SONGS: Song[] = [
     title: '微かなカオリ',
     kana: 'かすかなかおり',
     subscriptions: {
-      spotify: 'spotify:track:0oofUrAQXjeNLoEqG1gglP'
+      spotify: 'spotify:track:0oofUrAQXjeNLoEqG1gglP',
+      apple_music: '1479641226'
     }
   },
   {
@@ -587,7 +638,8 @@ export const SONGS: Song[] = [
     title: 'スパイス',
     kana: 'すぱいす',
     subscriptions: {
-      spotify: 'spotify:track:65vLoZIcmTZTzkWlLNLAsk'
+      spotify: 'spotify:track:65vLoZIcmTZTzkWlLNLAsk',
+      apple_music: '1479641228'
     }
   },
   {
@@ -595,7 +647,8 @@ export const SONGS: Song[] = [
     title: 'GLITTER',
     kana: 'ぐりったー',
     subscriptions: {
-      spotify: 'spotify:track:31stQAndQDeSv0aPuaDh3g'
+      spotify: 'spotify:track:31stQAndQDeSv0aPuaDh3g',
+      apple_music: '1465086761'
     }
   },
   {
@@ -617,7 +670,8 @@ export const SONGS: Song[] = [
     title: 'The Opening',
     kana: 'じおーぷにんぐ',
     subscriptions: {
-      spotify: 'spotify:track:6MIDVjRhefpsJLezsTBg4o'
+      spotify: 'spotify:track:6MIDVjRhefpsJLezsTBg4o',
+      apple_music: '1465083584'
     }
   },
   {
@@ -626,7 +680,8 @@ export const SONGS: Song[] = [
     kana: 'れーざーびーむ あるばむみっくす',
     parent: 73,
     subscriptions: {
-      spotify: 'spotify:track:78MpfCfCDNYLtMzuKJMZEg'
+      spotify: 'spotify:track:78MpfCfCDNYLtMzuKJMZEg',
+      apple_music: '1465083585'
     }
   },
   {
@@ -635,7 +690,8 @@ export const SONGS: Song[] = [
     kana: 'ぐりったー あるばむみっくす',
     parent: 78,
     subscriptions: {
-      spotify: 'spotify:track:3sCJAWJA2MF44QIn4fpzmV'
+      spotify: 'spotify:track:3sCJAWJA2MF44QIn4fpzmV',
+      apple_music: '1465083586'
     }
   },
   {
@@ -643,7 +699,8 @@ export const SONGS: Song[] = [
     title: 'MY COLOR',
     kana: 'まいからー',
     subscriptions: {
-      spotify: 'spotify:track:6IgyoKYOOu6sxQ5eQyXX53'
+      spotify: 'spotify:track:6IgyoKYOOu6sxQ5eQyXX53',
+      apple_music: '1465083588'
     }
   },
   {
@@ -651,7 +708,8 @@ export const SONGS: Song[] = [
     title: '時の針',
     kana: 'ときのはり',
     subscriptions: {
-      spotify: 'spotify:track:1Il7fR3ioUE1EBUtf0NIr4'
+      spotify: 'spotify:track:1Il7fR3ioUE1EBUtf0NIr4',
+      apple_music: '1465083589'
     }
   },
   {
@@ -659,7 +717,8 @@ export const SONGS: Song[] = [
     title: '心のスポーツ',
     kana: 'こころのすぽーつ',
     subscriptions: {
-      spotify: 'spotify:track:1HZAp5zg0KKqoGsx910aE8'
+      spotify: 'spotify:track:1HZAp5zg0KKqoGsx910aE8',
+      apple_music: '1465083594'
     }
   },
   {
@@ -667,7 +726,8 @@ export const SONGS: Song[] = [
     title: 'Have a Stroll',
     kana: 'はぶあすとろーる',
     subscriptions: {
-      spotify: 'spotify:track:5pVjqE5qzZPf74fVJ7Rg43'
+      spotify: 'spotify:track:5pVjqE5qzZPf74fVJ7Rg43',
+      apple_music: '1465083595'
     }
   },
   {
@@ -675,7 +735,8 @@ export const SONGS: Song[] = [
     title: 'Spring of Life',
     kana: 'すぷりんぐおぶらいふ',
     subscriptions: {
-      spotify: 'spotify:track:0zWuIu9wDk1lpSbK8yFZmv'
+      spotify: 'spotify:track:0zWuIu9wDk1lpSbK8yFZmv',
+      apple_music: '1444618416'
     }
   },
   {
@@ -683,7 +744,8 @@ export const SONGS: Song[] = [
     title: 'コミュニケーション',
     kana: 'こみゅにけーしょん',
     subscriptions: {
-      spotify: 'spotify:track:3QwkPWlV0Y75z2LHcTBOH2'
+      spotify: 'spotify:track:3QwkPWlV0Y75z2LHcTBOH2',
+      apple_music: '1444618418'
     }
   },
   {
@@ -705,7 +767,8 @@ export const SONGS: Song[] = [
     title: 'Spending all my time',
     kana: 'すぺんでぃんぐおーるまいたいむ',
     subscriptions: {
-      spotify: 'spotify:track:6tEUPYdS5m5LmZnmARmOCT'
+      spotify: 'spotify:track:6tEUPYdS5m5LmZnmARmOCT',
+      apple_music: '1444892949'
     }
   },
   {
@@ -713,7 +776,8 @@ export const SONGS: Song[] = [
     title: 'ポイント',
     kana: 'ぽいんと',
     subscriptions: {
-      spotify: 'spotify:track:3xIEQ3A91sjrPIBbFf4dX6'
+      spotify: 'spotify:track:3xIEQ3A91sjrPIBbFf4dX6',
+      apple_music: '1444893071'
     }
   },
   {
@@ -721,7 +785,8 @@ export const SONGS: Song[] = [
     title: 'Hurly Burly',
     kana: 'はーりーばーりー',
     subscriptions: {
-      spotify: 'spotify:track:0dkc9RvSdJe0NcdAD2ubHR'
+      spotify: 'spotify:track:0dkc9RvSdJe0NcdAD2ubHR',
+      apple_music: '1444893072'
     }
   },
   {
@@ -751,7 +816,8 @@ export const SONGS: Song[] = [
     kana: 'ちょこれいとでぃすこ にせんじゅうにみっくす',
     parent: 22,
     subscriptions: {
-      spotify: 'spotify:track:7bPZTBPggLqga9Z1bEkEVq'
+      spotify: 'spotify:track:7bPZTBPggLqga9Z1bEkEVq',
+      apple_music: '1465086752'
     }
   },
   {
@@ -760,7 +826,8 @@ export const SONGS: Song[] = [
     kana: 'まいからー えるてぃーだぶりゅーみっくす',
     parent: 84,
     subscriptions: {
-      spotify: 'spotify:track:4w7ncJ5VuSMA4QHvHktBS1'
+      spotify: 'spotify:track:4w7ncJ5VuSMA4QHvHktBS1',
+      apple_music: '1465086762'
     }
   },
   {
@@ -768,7 +835,8 @@ export const SONGS: Song[] = [
     title: '未来のミュージアム',
     kana: 'みらいのみゅーじあむ',
     subscriptions: {
-      spotify: 'spotify:track:3IIWswUsUI4BnTWYZU2UsN'
+      spotify: 'spotify:track:3IIWswUsUI4BnTWYZU2UsN',
+      apple_music: '1445029658'
     }
   },
   {
@@ -776,7 +844,8 @@ export const SONGS: Song[] = [
     title: 'だいじょばない',
     kana: 'だいじょばない',
     subscriptions: {
-      spotify: 'spotify:track:4cRVNPqz6NrOhnoubcloWM'
+      spotify: 'spotify:track:4cRVNPqz6NrOhnoubcloWM',
+      apple_music: '1445030000'
     }
   },
   {
@@ -798,7 +867,8 @@ export const SONGS: Song[] = [
     title: 'Magic of Love',
     kana: 'まじっくおぶらぶ',
     subscriptions: {
-      spotify: 'spotify:track:1cYA3YfOwvpaw7Tj87GpHT'
+      spotify: 'spotify:track:1cYA3YfOwvpaw7Tj87GpHT',
+      apple_music: '1444633634'
     }
   },
   {
@@ -806,7 +876,8 @@ export const SONGS: Song[] = [
     title: 'Handy Man',
     kana: 'はんでぃーまん',
     subscriptions: {
-      spotify: 'spotify:track:59zCBsQw52G6nY152EVFeB'
+      spotify: 'spotify:track:59zCBsQw52G6nY152EVFeB',
+      apple_music: '1444633635'
     }
   },
   {
@@ -828,7 +899,8 @@ export const SONGS: Song[] = [
     title: 'Enter the Sphere',
     kana: 'えんたーざすふぃあ',
     subscriptions: {
-      spotify: 'spotify:track:5UwZmCJFJcp5l0JcykZthW'
+      spotify: 'spotify:track:5UwZmCJFJcp5l0JcykZthW',
+      apple_music: '1440777782'
     }
   },
   {
@@ -837,7 +909,8 @@ export const SONGS: Song[] = [
     kana: 'すぷりんぐおぶらいふ あるばむみっくす',
     parent: 88,
     subscriptions: {
-      spotify: 'spotify:track:4FTkXZgK0Bn4L5Z5UrrJ3v'
+      spotify: 'spotify:track:4FTkXZgK0Bn4L5Z5UrrJ3v',
+      apple_music: '1440777860'
     }
   },
   {
@@ -846,7 +919,8 @@ export const SONGS: Song[] = [
     kana: 'まじっくおぶらぶ あるばむみっくす',
     parent: 104,
     subscriptions: {
-      spotify: 'spotify:track:2aBylIsNRQW10D8x5zLuRu'
+      spotify: 'spotify:track:2aBylIsNRQW10D8x5zLuRu',
+      apple_music: '1440777863'
     }
   },
   {
@@ -854,7 +928,8 @@ export const SONGS: Song[] = [
     title: 'Clockwork',
     kana: 'くろっくわーく',
     subscriptions: {
-      spotify: 'spotify:track:2IXIa1Ont8wZhrCVfhQaAW'
+      spotify: 'spotify:track:2IXIa1Ont8wZhrCVfhQaAW',
+      apple_music: '1440777865'
     }
   },
   {
@@ -862,7 +937,8 @@ export const SONGS: Song[] = [
     title: '1mm',
     kana: 'いちみり',
     subscriptions: {
-      spotify: 'spotify:track:74U47FqdxOtLVRoVMDlcBm'
+      spotify: 'spotify:track:74U47FqdxOtLVRoVMDlcBm',
+      apple_music: '1440777867'
     }
   },
   {
@@ -870,7 +946,8 @@ export const SONGS: Song[] = [
     title: 'Party Maker',
     kana: 'ぱーてぃーめーかー',
     subscriptions: {
-      spotify: 'spotify:track:67I62vEEEMSbYPuT9itVIo'
+      spotify: 'spotify:track:67I62vEEEMSbYPuT9itVIo',
+      apple_music: '1440777878'
     }
   },
   {
@@ -878,7 +955,8 @@ export const SONGS: Song[] = [
     title: 'ふりかえるといるよ',
     kana: 'ふりかえるといるよ',
     subscriptions: {
-      spotify: 'spotify:track:4RuXODR1PyD64ajAhc7jdD'
+      spotify: 'spotify:track:4RuXODR1PyD64ajAhc7jdD',
+      apple_music: '1440778032'
     }
   },
   {
@@ -886,7 +964,8 @@ export const SONGS: Song[] = [
     title: 'Sleeping Beauty',
     kana: 'すりーぴんぐびゅーてぃー',
     subscriptions: {
-      spotify: 'spotify:track:2l2V2jZ5AM8L0AmBmNXTDh'
+      spotify: 'spotify:track:2l2V2jZ5AM8L0AmBmNXTDh',
+      apple_music: '1440778044'
     }
   },
   {
@@ -895,7 +974,8 @@ export const SONGS: Song[] = [
     kana: 'すぺんでぃんぐおーるまいたいむ あるばむみっくす',
     parent: 92,
     subscriptions: {
-      spotify: 'spotify:track:1uO2IobhL7tA1R0qIAtZdR'
+      spotify: 'spotify:track:1uO2IobhL7tA1R0qIAtZdR',
+      apple_music: '1440778046'
     }
   },
   {
@@ -903,7 +983,8 @@ export const SONGS: Song[] = [
     title: 'Dream Land',
     kana: 'どりーむらんど',
     subscriptions: {
-      spotify: 'spotify:track:7jAiYsV0CdQ0SZS4EBqkcT'
+      spotify: 'spotify:track:7jAiYsV0CdQ0SZS4EBqkcT',
+      apple_music: '1440778050'
     }
   },
   {
@@ -912,7 +993,8 @@ export const SONGS: Song[] = [
     kana: 'すぺんでぃんぐおーるまいたいむ らじおみっくす',
     parent: 92,
     subscriptions: {
-      spotify: 'spotify:track:0ogzq2O5VdFgZvEnDAL7mH'
+      spotify: 'spotify:track:0ogzq2O5VdFgZvEnDAL7mH',
+      apple_music: '1440769888'
     }
   },
   {
@@ -921,7 +1003,8 @@ export const SONGS: Song[] = [
     kana: 'すぺんでぃんぐおーるまいたいむ でぃーぶいあんどえるえむみっくす',
     parent: 92,
     subscriptions: {
-      spotify: 'spotify:track:52U4F6iAhYdoJja7272vUS'
+      spotify: 'spotify:track:52U4F6iAhYdoJja7272vUS',
+      apple_music: '1440769894'
     }
   },
   {
@@ -929,7 +1012,8 @@ export const SONGS: Song[] = [
     title: 'Sweet Refrain',
     kana: 'すうぃーとりふれいん',
     subscriptions: {
-      spotify: 'spotify:track:1l2kB5wsToZQkt1eu3WCeq'
+      spotify: 'spotify:track:1l2kB5wsToZQkt1eu3WCeq',
+      apple_music: '1445028026'
     }
   },
   {
@@ -937,7 +1021,8 @@ export const SONGS: Song[] = [
     title: '恋は前傾姿勢',
     kana: 'こいはぜんけいしせい',
     subscriptions: {
-      spotify: 'spotify:track:7GNzzPPmKpGDaVZvluPSkJ'
+      spotify: 'spotify:track:7GNzzPPmKpGDaVZvluPSkJ',
+      apple_music: '1445028035'
     }
   },
   {
@@ -959,7 +1044,8 @@ export const SONGS: Song[] = [
     title: 'Cling Cling',
     kana: 'くりんくりん',
     subscriptions: {
-      spotify: 'spotify:track:1uQxhTUFcO3eQwMwjYRYr9'
+      spotify: 'spotify:track:1uQxhTUFcO3eQwMwjYRYr9',
+      apple_music: '1479641401'
     }
   },
   {
@@ -967,7 +1053,8 @@ export const SONGS: Song[] = [
     title: 'Hold Your Hand',
     kana: 'ほーるどゆあはんど',
     subscriptions: {
-      spotify: 'spotify:track:64eUF5Z6TwYdywqc6QjSRb'
+      spotify: 'spotify:track:64eUF5Z6TwYdywqc6QjSRb',
+      apple_music: '1479641419'
     }
   },
   {
@@ -975,7 +1062,8 @@ export const SONGS: Song[] = [
     title: 'DISPLAY',
     kana: 'でぃすぷれい',
     subscriptions: {
-      spotify: 'spotify:track:2YzuZ4xyxTnpXUx9f2zViL'
+      spotify: 'spotify:track:2YzuZ4xyxTnpXUx9f2zViL',
+      apple_music: '1479641423'
     }
   },
   {
@@ -983,7 +1071,8 @@ export const SONGS: Song[] = [
     title: 'いじわるなハロー',
     kana: 'いじわるなはろー',
     subscriptions: {
-      spotify: 'spotify:track:0EDTww22rirbK6VBZi9vTK'
+      spotify: 'spotify:track:0EDTww22rirbK6VBZi9vTK',
+      apple_music: '1444855090'
     }
   },
   {
@@ -1019,7 +1108,8 @@ export const SONGS: Song[] = [
     title: 'Relax In The City',
     kana: 'りらっくすいんざしてぃ',
     subscriptions: {
-      spotify: 'spotify:track:6AvrTAEOARaQLthsHZOSHZ'
+      spotify: 'spotify:track:6AvrTAEOARaQLthsHZOSHZ',
+      apple_music: '1444864372'
     }
   },
   {
@@ -1027,7 +1117,8 @@ export const SONGS: Song[] = [
     title: 'Pick Me Up',
     kana: 'ぴっくみーあっぷ',
     subscriptions: {
-      spotify: 'spotify:track:7upNL3DFTZvCfawdvslA2Y'
+      spotify: 'spotify:track:7upNL3DFTZvCfawdvslA2Y',
+      apple_music: '1444864376'
     }
   },
   {
@@ -1035,7 +1126,8 @@ export const SONGS: Song[] = [
     title: '透明人間',
     kana: 'とうめいにんげん',
     subscriptions: {
-      spotify: 'spotify:track:157HbYEc238NBIV0VVNYBC'
+      spotify: 'spotify:track:157HbYEc238NBIV0VVNYBC',
+      apple_music: '1444864377'
     }
   },
   {
@@ -1064,7 +1156,8 @@ export const SONGS: Song[] = [
     title: 'STAR TRAIN',
     kana: 'すたーとれいん',
     subscriptions: {
-      spotify: 'spotify:track:4Hau8EK1j7X89Ry5BoHiqL'
+      spotify: 'spotify:track:4Hau8EK1j7X89Ry5BoHiqL',
+      apple_music: '1445046471'
     }
   },
   {
@@ -1072,7 +1165,8 @@ export const SONGS: Song[] = [
     title: 'TOKIMEKI LIGHTS',
     kana: 'ときめきらいつ',
     subscriptions: {
-      spotify: 'spotify:track:0qjkqtjizjSIBn5xdK8iDO'
+      spotify: 'spotify:track:0qjkqtjizjSIBn5xdK8iDO',
+      apple_music: '1445046477'
     }
   },
   {
@@ -1106,7 +1200,8 @@ export const SONGS: Song[] = [
     title: 'Navigate',
     kana: 'なびげーと',
     subscriptions: {
-      spotify: 'spotify:track:5Lghu1F9BPJmwRq2cWochY'
+      spotify: 'spotify:track:5Lghu1F9BPJmwRq2cWochY',
+      apple_music: '1440800555'
     }
   },
   {
@@ -1114,7 +1209,8 @@ export const SONGS: Song[] = [
     title: 'Cosmic Explorer',
     kana: 'こずみっくえくすぷろーらー',
     subscriptions: {
-      spotify: 'spotify:track:3mg3sBY0sKEjVNjoX0Fu6z'
+      spotify: 'spotify:track:3mg3sBY0sKEjVNjoX0Fu6z',
+      apple_music: '1440800828'
     }
   },
   {
@@ -1122,7 +1218,8 @@ export const SONGS: Song[] = [
     title: 'Miracle Worker',
     kana: 'みらくるわーかー',
     subscriptions: {
-      spotify: 'spotify:track:25VIgBIX143oS5N38FvP1q'
+      spotify: 'spotify:track:25VIgBIX143oS5N38FvP1q',
+      apple_music: '1440800954'
     }
   },
   {
@@ -1130,7 +1227,8 @@ export const SONGS: Song[] = [
     title: 'Next Stage with YOU',
     kana: 'ねくすとすてーじうぃずゆー',
     subscriptions: {
-      spotify: 'spotify:track:6EcyUMdCYXLsv9gfNXGx9U'
+      spotify: 'spotify:track:6EcyUMdCYXLsv9gfNXGx9U',
+      apple_music: '1440800964'
     }
   },
   {
@@ -1138,7 +1236,8 @@ export const SONGS: Song[] = [
     title: 'STORY',
     kana: 'すとーりー',
     subscriptions: {
-      spotify: 'spotify:track:6kNdglwzPugzPJlIf5ty3T'
+      spotify: 'spotify:track:6kNdglwzPugzPJlIf5ty3T',
+      apple_music: '1440800970'
     }
   },
   {
@@ -1147,7 +1246,8 @@ export const SONGS: Song[] = [
     kana: 'ふらっしゅ あるばむみっくす',
     parent: 155,
     subscriptions: {
-      spotify: 'spotify:track:5AxccENUicS0XlnG22Ld3u'
+      spotify: 'spotify:track:5AxccENUicS0XlnG22Ld3u',
+      apple_music: '1440800977'
     }
   },
   {
@@ -1156,7 +1256,8 @@ export const SONGS: Song[] = [
     kana: 'すうぃーとりふれいん あるばむみっくす',
     parent: 120,
     subscriptions: {
-      spotify: 'spotify:track:5ituhxbMlxdhTPfQtsh48y'
+      spotify: 'spotify:track:5ituhxbMlxdhTPfQtsh48y',
+      apple_music: '1440801284'
     }
   },
   {
@@ -1164,7 +1265,8 @@ export const SONGS: Song[] = [
     title: 'Baby Face',
     kana: 'べいびーふぇいす',
     subscriptions: {
-      spotify: 'spotify:track:1CnZiSIbOf51PQUKsCgkD6'
+      spotify: 'spotify:track:1CnZiSIbOf51PQUKsCgkD6',
+      apple_music: '1440801293'
     }
   },
   {
@@ -1173,7 +1275,8 @@ export const SONGS: Song[] = [
     kana: 'ときめきらいつ あるばむみっくす',
     parent: 139,
     subscriptions: {
-      spotify: 'spotify:track:4eRjW5H0wOg6JMMQFiAqop'
+      spotify: 'spotify:track:4eRjW5H0wOg6JMMQFiAqop',
+      apple_music: '1440801302'
     }
   },
   {
@@ -1182,7 +1285,8 @@ export const SONGS: Song[] = [
     kana: 'すたーとれいん あるばむみっくす',
     parent: 138,
     subscriptions: {
-      spotify: 'spotify:track:3tAmATRDkqmxV9ZzEwxnkT'
+      spotify: 'spotify:track:3tAmATRDkqmxV9ZzEwxnkT',
+      apple_music: '1440801309'
     }
   },
   {
@@ -1191,7 +1295,8 @@ export const SONGS: Song[] = [
     kana: 'くりんくりん あるばむみっくす',
     parent: 124,
     subscriptions: {
-      spotify: 'spotify:track:4zbibD3jvoXP2tuzp92x8j'
+      spotify: 'spotify:track:4zbibD3jvoXP2tuzp92x8j',
+      apple_music: '1440801628'
     }
   },
   {
@@ -1199,7 +1304,8 @@ export const SONGS: Song[] = [
     title: 'FLASH',
     kana: 'ふらっしゅ',
     subscriptions: {
-      spotify: 'spotify:track:0iCOM7P9YJosI9G6mIvU3K'
+      spotify: 'spotify:track:0iCOM7P9YJosI9G6mIvU3K',
+      apple_music: '1442464415'
     }
   },
   {
@@ -1214,7 +1320,8 @@ export const SONGS: Song[] = [
     title: 'I Don\'t Understand You',
     kana: 'あいどんとあんだーすたんどゆー',
     subscriptions: {
-      spotify: 'spotify:track:2OxAhm502jczd2zrauBLts'
+      spotify: 'spotify:track:2OxAhm502jczd2zrauBLts',
+      apple_music: '1444865952'
     }
   },
   {
@@ -1222,7 +1329,8 @@ export const SONGS: Song[] = [
     title: 'TOKYO GIRL',
     kana: 'とーきょーがーる',
     subscriptions: {
-      spotify: 'spotify:track:5yq8JkSClLJVdfy4ZMUAmB'
+      spotify: 'spotify:track:5yq8JkSClLJVdfy4ZMUAmB',
+      apple_music: '1479021791'
     }
   },
   {
@@ -1230,7 +1338,8 @@ export const SONGS: Song[] = [
     title: '宝石の雨',
     kana: 'ほうせきのあめ',
     subscriptions: {
-      spotify: 'spotify:track:30gxLesaSge9iReVXht14s'
+      spotify: 'spotify:track:30gxLesaSge9iReVXht14s',
+      apple_music: '1479021792'
     }
   },
   {
@@ -1240,7 +1349,7 @@ export const SONGS: Song[] = [
     parent: 158,
     is_instrumental: true,
     subscriptions: {
-      spotify: 'spotify:track:4NJnuKY160h718pLGVtdSw'
+      spotify: 'spotify:track:4NJnuKY160h718pLGVtdSw',
     }
   },
   {
@@ -1250,7 +1359,7 @@ export const SONGS: Song[] = [
     parent: 159,
     is_instrumental: true,
     subscriptions: {
-      spotify: 'spotify:track:18aJN3hnLMsYC5heCmsqEc'
+      spotify: 'spotify:track:18aJN3hnLMsYC5heCmsqEc',
     }
   },
   {
@@ -1258,7 +1367,8 @@ export const SONGS: Song[] = [
     title: 'If you wanna',
     kana: 'いふゆーわな',
     subscriptions: {
-      spotify: 'spotify:track:6ay5Rv1qtGhD20zCCxABeW'
+      spotify: 'spotify:track:6ay5Rv1qtGhD20zCCxABeW',
+      apple_music: '1479021920'
     }
   },
   {
@@ -1266,7 +1376,8 @@ export const SONGS: Song[] = [
     title: 'Everyday',
     kana: 'えぶりでい',
     subscriptions: {
-      spotify: 'spotify:track:0lHhBAr77Fgp58yBRLPg3X'
+      spotify: 'spotify:track:0lHhBAr77Fgp58yBRLPg3X',
+      apple_music: '1479022136'
     }
   },
   {
@@ -1276,7 +1387,7 @@ export const SONGS: Song[] = [
     parent: 162,
     is_instrumental: true,
     subscriptions: {
-      spotify: 'spotify:track:6HiD3ucReeDTViqUksQXBA'
+      spotify: 'spotify:track:6HiD3ucReeDTViqUksQXBA',
     }
   },
   {
@@ -1286,7 +1397,7 @@ export const SONGS: Song[] = [
     parent: 163,
     is_instrumental: true,
     subscriptions: {
-      spotify: 'spotify:track:4d97UGLLqdV90PlatWyWTU'
+      spotify: 'spotify:track:4d97UGLLqdV90PlatWyWTU',
     }
   },
   {
@@ -1294,7 +1405,8 @@ export const SONGS: Song[] = [
     title: '無限未来',
     kana: 'むげんみらい',
     subscriptions: {
-      spotify: 'spotify:track:2C4OMMxxokBekHt64V4tXb'
+      spotify: 'spotify:track:2C4OMMxxokBekHt64V4tXb',
+      apple_music: '1420297620'
     }
   },
   {
@@ -1302,7 +1414,8 @@ export const SONGS: Song[] = [
     title: 'FUSION',
     kana: 'ふゅーじょん',
     subscriptions: {
-      spotify: 'spotify:track:1PeStfyIokiOKhBXFNld2E'
+      spotify: 'spotify:track:1PeStfyIokiOKhBXFNld2E',
+      apple_music: '1420297602'
     }
   },
   {
@@ -1312,7 +1425,7 @@ export const SONGS: Song[] = [
     parent: 166,
     is_instrumental: true,
     subscriptions: {
-      spotify: 'spotify:track:0ea0rbEadCV2tnvftyGISK'
+      spotify: 'spotify:track:0ea0rbEadCV2tnvftyGISK',
     }
   },
   {
@@ -1320,7 +1433,8 @@ export const SONGS: Song[] = [
     title: 'Start-Up',
     kana: 'すたーとあっぷ',
     subscriptions: {
-      spotify: 'spotify:track:5OSq6eQd77tqILDTys2Urx'
+      spotify: 'spotify:track:5OSq6eQd77tqILDTys2Urx',
+      apple_music: '1420297358'
     }
   },
   {
@@ -1328,7 +1442,8 @@ export const SONGS: Song[] = [
     title: 'Future Pop',
     kana: 'ふゅーちゃーぽっぷ',
     subscriptions: {
-      spotify: 'spotify:track:3FdZngjIjSGiUO1YzAQgWn'
+      spotify: 'spotify:track:3FdZngjIjSGiUO1YzAQgWn',
+      apple_music: '1420297359'
     }
   },
   {
@@ -1336,7 +1451,8 @@ export const SONGS: Song[] = [
     title: 'Tiny Baby',
     kana: 'たいにーべいびー',
     subscriptions: {
-      spotify: 'spotify:track:4uuo8z62fFhw2H5CqdrImC'
+      spotify: 'spotify:track:4uuo8z62fFhw2H5CqdrImC',
+      apple_music: '1420297606'
     }
   },
   {
@@ -1344,7 +1460,8 @@ export const SONGS: Song[] = [
     title: 'Let Me Know',
     kana: 'れっとみーのう',
     subscriptions: {
-      spotify: 'spotify:track:2momI8aWOHZ6ZeaiQCYwCu'
+      spotify: 'spotify:track:2momI8aWOHZ6ZeaiQCYwCu',
+      apple_music: '1420297607'
     }
   },
   {
@@ -1352,7 +1469,8 @@ export const SONGS: Song[] = [
     title: '超来輪',
     kana: 'ちょうらいりん',
     subscriptions: {
-      spotify: 'spotify:track:2O81QzrB6vy2O9Pdr5UeZt'
+      spotify: 'spotify:track:2O81QzrB6vy2O9Pdr5UeZt',
+      apple_music: '1420297609'
     }
   },
   {
@@ -1360,7 +1478,8 @@ export const SONGS: Song[] = [
     title: '天空',
     kana: 'てんくう',
     subscriptions: {
-      spotify: 'spotify:track:2mhSyK63991ChIz1GltpAl'
+      spotify: 'spotify:track:2mhSyK63991ChIz1GltpAl',
+      apple_music: '1420297990'
     }
   },
   {
@@ -1368,7 +1487,8 @@ export const SONGS: Song[] = [
     title: 'Challenger',
     kana: 'ちゃれんじゃー',
     subscriptions: {
-      spotify: 'spotify:track:6fUs4sionsOWPPk4wnDHG6'
+      spotify: 'spotify:track:6fUs4sionsOWPPk4wnDHG6',
+      apple_music: '1479640871'
     }
   },
   {
@@ -1376,7 +1496,8 @@ export const SONGS: Song[] = [
     title: 'ナナナナナイロ',
     kana: 'ななななないろ',
     subscriptions: {
-      spotify: 'spotify:track:1rU3LfzDbqfL4FTPuUatox'
+      spotify: 'spotify:track:1rU3LfzDbqfL4FTPuUatox',
+      apple_music: '1479641759'
     }
   },
   {
@@ -1384,7 +1505,8 @@ export const SONGS: Song[] = [
     title: '再生',
     kana: 'さいせい',
     subscriptions: {
-      spotify: 'spotify:track:5ZiAYujs7k4C8ByqZX7n3A'
+      spotify: 'spotify:track:5ZiAYujs7k4C8ByqZX7n3A',
+      apple_music: '1488564841'
     }
   },
   {
