@@ -6,6 +6,7 @@ import { EventsListComponent } from './events-list/events-list.component'
 import { EventsDetailComponent } from './events-detail/events-detail.component'
 import { FormsModule } from '@angular/forms'
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
+import { MatSnackBarModule } from '@angular/material/snack-bar'
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
     FormsModule,
     CommonModule,
     EventsRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MatSnackBarModule
   ]
 })
 export class EventsModule { }
