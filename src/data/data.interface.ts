@@ -30,6 +30,7 @@ export interface Song {
   memo?: string,
   subscriptions?: {
     spotify?: string
+    apple_music?: string
   }
 }
 
