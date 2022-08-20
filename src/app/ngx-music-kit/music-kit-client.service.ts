@@ -33,12 +33,12 @@ export class MusicKitClientService {
       if (window.MusicKit) {
         // Initialize
         this.musicKitInstance = window.MusicKit.configure(config)
-        resolve()
+        resolve(undefined)
       } else {
         // Wait for initialize
         document.addEventListener('musickitloaded', () => {
           this.musicKitInstance = window.MusicKit.configure(config)
-          resolve()
+          resolve(undefined)
         })
       }
     }).then(() => {
