@@ -29,7 +29,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.12.1",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "fuse.js": "^3.4.6",
-    "lodash-es": "^4.17.15",
+    "lodash-es": "^4.17.21",
     "modern-css-reset": "^1.1.0",
     "rxjs": "~6.5.4",
     "spotify-web-api-js": "^1.2.0",
