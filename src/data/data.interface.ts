@@ -49,7 +49,7 @@ export interface Album {
   /** アーティスト。他人のアルバムに入っている場合などで追加の必要があれば。 */
   artist?: string
   /** アルバムの種別。シングル or アルバム */
-  album_type: 'SINGLE' | 'ALBUM' | 'COMPILATION' | 'DIGITAL'
+  album_type: 'SINGLE' | 'ALBUM' | 'COMPILATION' | 'DIGITAL' | 'OTHER'
   /** 発売日 */
   released_on?: string
   /** アルバムの種別。(例: 初回限定・通常) */

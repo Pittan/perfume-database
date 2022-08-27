@@ -1555,12 +1555,13 @@ export const SONGS: Song[] = [
   {
     id: 186,
     title: 'Recollect',
-    kana: 'りこれくと りふれいむ にせんじゅうきゅうばーじょん'
+    kana: 'りこれくと'
   },
   {
     id: 187,
     title: 'Recollect(Reframe2019 ver)',
-    kana: 'りこれくと りふれいむ にせんじゅうきゅうばーじょん'
+    kana: 'りこれくと りふれいむ にせんじゅうきゅうばーじょん',
+    parent: 186,
   },
   {
     id: 188,
@@ -1572,7 +1573,7 @@ export const SONGS: Song[] = [
     id: 189,
     title: 'Record(Reframe2019 ver)',
     kana: 'れこーど りふれいむ にせんじゅうきゅうばーじょん',
-    parent: 187
+    parent: 224
   },
   {
     id: 190,
@@ -1630,6 +1631,134 @@ export const SONGS: Song[] = [
     title: 'Visualization',
     parent: 194,
     kana: 'びじゅあらいぜーしょん'
+  },
+  {
+    id: 201,
+    title: 'Time Warp',
+    kana: 'たいむわーぷ'
+  },
+  {
+    id: 202,
+    title: 'Time Warp -Original Instrumental-',
+    parent: 201,
+    kana: 'たいむわーぷ おりじなるいんすとぅるめんたる',
+    is_instrumental: true,
+  },
+  {
+    id: 204,
+    title: '再生 -Original Instrumental-',
+    parent: 177,
+    kana: 'さいせい おりじなるいんすとぅるめんたる',
+    is_instrumental: true,
+  },
+  {
+    id: 205,
+    title: 'ポリゴンウェイヴ',
+    kana: 'ぽりごんうぇいう'
+  },
+  {
+    id: 206,
+    title: 'Flow',
+    kana: 'ふろー'
+  },
+  {
+    id: 207,
+    title: 'マワルカガミ(polygon wave live ver.)',
+    parent: 220,
+    kana: 'まわるかがみ ぽりごんうぇいゔ らいぶばーじょん'
+  },
+  {
+    id: 208,
+    parent: 206,
+    title: 'Flow (Instrumental)',
+    kana: 'ふろー いんすとぅるめんたる',
+    is_instrumental: true,
+  },
+  {
+    id: 209,
+    title: 'マワルカガミ(polygon wave live ver./ Instrumental)',
+    parent: 207,
+    kana: 'まわるかがみ ぽりごんうぇいゔ らいぶばーじょん いんすとぅるめんたる',
+    is_instrumental: true,
+  },
+  {
+    id: 210,
+    parent: 205,
+    title: 'ポリゴンウェイヴ (Original Mix)',
+    kana: 'ぽりごんうぇいゔ おりじなるみっくす'
+  },
+  {
+    id: 211,
+    parent: 205,
+    title: 'ポリゴンウェイヴ (Remix)',
+    kana: 'ぽりごんうぇいゔ りみっくす'
+  },
+  {
+    id: 212,
+    parent: 205,
+    title: 'ポリゴンウェイヴ (Instrumental)',
+    kana: 'ぽりごんうぇいゔ いんすとぅるめんたる',
+    is_instrumental: true,
+  },
+  {
+    id: 213,
+    title: '∞ループ',
+    kana: 'むげんるーぷ'
+  },
+  {
+    id: 214,
+    title: 'アンドロイド＆',
+    kana: 'あんどろいどあんど'
+  },
+  {
+    id: 215,
+    title: 'システムリブート',
+    kana: 'しすてむりぶーと'
+  },
+  {
+    id: 216,
+    title: 'さよならプラスティックワールド',
+    kana: 'さよならぷらすてぃっくわーるど'
+  },
+  {
+    id: 217,
+    title: 'Plasma',
+    kana: 'ぷらずま',
+  },
+  {
+    id: 218,
+    title: 'Time Warp (v1.1)',
+    parent: 201,
+    kana: 'たいむわーぷ ばーじょん いってんいち',
+  },
+  {
+    id: 219,
+    title: 'Spinning World',
+    kana: 'すぴにんぐわーるど',
+  },
+  {
+    id: 220,
+    title: 'マワルカガミ',
+    kana: 'まわるかがみ',
+  },
+  {
+    id: 221,
+    title: 'Drive\'n The Rain',
+    kana: 'どらいびん ざ れいん',
+  },
+  {
+    id: 222,
+    title: 'ハテナビト',
+    kana: 'はてなびと',
+  },
+  {
+    id: 223,
+    title: 'Intro',
+    kana: 'いんとろ',
+  },
+  {
+    id: 224,
+    title: 'Record',
+    kana: 'れこーど'
   }
 ]
-

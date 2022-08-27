@@ -191,6 +191,42 @@ const ALBUM_10_P_CUBED: Album = {
   ]
 }
 
+const ALBUM_OTHER_POLYGON_WAVE: Album = {
+  album_type: 'OTHER',
+  editions: [
+    {
+      name: '初回限定盤',
+      songs: [[ 210, 205, 211, 212, 213, 214, 215 ]],
+    },
+    {
+      name: '通常盤',
+      songs: [[ 210, 205, 211, 212, 213, 214, 215 ]],
+    }
+  ],
+  id: 11,
+  released_on: '2021/09/22',
+  title: 'ポリゴンウェイヴEP',
+  kana: 'ぽりごんうぇいゔ いーぴー'
+}
+
+const ALBUM_11_PLASMA: Album = {
+  id: 12,
+  title: 'PLASMA',
+  kana: 'ぷらずま',
+  album_type: 'ALBUM',
+  released_on: '2022/07/27',
+  editions: [
+    {
+      name: '初回限定盤',
+      songs: [[ 217, 218, 210, 177, 219, 220, 206, 213, 221, 222, 214, 216 ]],
+    },
+    {
+      name: '通常盤',
+      songs: [[ 217, 218, 210, 177, 219, 220, 206, 213, 221, 222, 214, 216 ]],
+    }
+  ]
+}
+
 export const ALBUMS = [
   ALBUM_1_COMPLETE_BEST,
   ALBUM_2_PRIMA_BOX,
@@ -202,4 +238,6 @@ export const ALBUMS = [
   ALBUM_8_COSMIC_EXPLORER,
   ALBUM_9_FUTURE_POP,
   ALBUM_10_P_CUBED,
+  ALBUM_OTHER_POLYGON_WAVE,
+  ALBUM_11_PLASMA
 ]

@@ -3,6 +3,50 @@ import { MC, PTA } from './constants'
 
 // TODO スプレッドシートから変換したけど細かいところは見きれてない！
 //      メドレーの処理とか他人の曲とか、特殊なアンコールとか
+
+const REFRAME_TOUR_2021_SETLIST = [
+  186, // Recollect
+  126, // display
+  224, // Record
+  190, // Koe - Interlude
+  65, // voice
+  191, // Pose - Analysis
+  192, // Pose - Perspective
+  193, // Body - Analysis
+  167, // fusion
+  41, // edge
+  194, // Kiseki - Visualization
+  37, // secret
+  195, // Lyric Analysis
+  166, // 無限未来
+  117, // dream land
+  175, // challenger
+  210, // polygon original
+]
+
+const POLYGON_2022_SETLIST = [
+  215, // reboot
+  61, // fushiga
+  133, // pmu
+  177, // saisei
+  MC, // MC
+  170, // FP
+  158, // Tokyo
+  57, // islu
+  30, // macaroni
+  205, // polygon
+  214, // Android
+  78, // glitter
+  PTA, // PTA
+  70, // fake
+  24, // poly
+  201, // time warp
+  146, // miracle
+  MC, // mc
+  84, // my color
+  207, // mawaru (polygon)
+]
+
 export const EVENTS: Event[] = [
   {
     id: 1,
@@ -11639,5 +11683,362 @@ export const EVENTS: Event[] = [
       ],
     ],
     live_house: 71
-  }
+  },
+  {
+    id: 356,
+    date: '2020/09/21',
+    name: 'Perfume Imaginary Museum "Time Warp"',
+    event_type: 'LIVE',
+    songs: [
+      [
+        223, // intro
+        199, // opera
+        34, // game
+        18, // electro
+        78, // glitter
+        198, // chrome
+        41, // edge
+        200, // vizu
+        177, // saisei
+        201 // time warp
+      ],
+    ],
+    live_house: 168
+  },
+  {
+    id: 357,
+    date: '2021/08/14',
+    name: 'Perfume LIVE 2021 [polygon wave]',
+    event_type: 'LIVE',
+    tour_id: 24,
+    sub_name: '1日目',
+    songs: [
+      [
+        215, // reboot
+        61, // fushiga
+        133, // pmu
+        177, // saisei
+        MC, // MC
+        170, // FP
+        158, // Tokyo
+        57, // islu
+        30, // macaroni
+        205, // polygon
+        166, // mugen
+        78, // glitter
+        PTA, // PTA
+        70, // fake
+        24, // poly
+        201, // time warp
+        146, // miracle
+        MC, // mc
+        84, // my color
+        207, // mawaru (polygon)
+      ],
+    ],
+    live_house: 169
+  },
+  {
+    id: 358,
+    date: '2021/08/15',
+    name: 'Perfume LIVE 2021 [polygon wave]',
+    event_type: 'LIVE',
+    tour_id: 24,
+    sub_name: '2日目',
+    songs: [
+      [
+        215, // reboot
+        61, // fushiga
+        133, // pmu
+        177, // saisei
+        MC, // MC
+        170, // FP
+        158, // Tokyo
+        57, // islu
+        30, // macaroni
+        205, // polygon
+        166, // mugen
+        78, // glitter
+        PTA, // PTA
+        70, // fake
+        24, // poly
+        201, // time warp
+        146, // miracle
+        MC, // mc
+        84, // my color
+        207, // mawaru (polygon)
+      ],
+    ],
+    live_house: 169
+  },
+
+  // TODO Reframeの会場を埋める
+  {
+    id: 359,
+    date: '2021/11/12',
+    name: 'Reframe Tour 2021',
+    event_type: 'LIVE',
+    tour_id: 25,
+    sub_name: '東京公演 1日目',
+    songs: [
+      [
+        ...REFRAME_TOUR_2021_SETLIST
+      ],
+    ],
+    live_house: 167
+  },
+  {
+    id: 360,
+    date: '2021/11/13',
+    name: 'Reframe Tour 2021',
+    event_type: 'LIVE',
+    tour_id: 25,
+    sub_name: '東京公演 2日目',
+    songs: [
+      [
+        ...REFRAME_TOUR_2021_SETLIST
+      ],
+    ],
+    live_house: 167
+  },
+  {
+    id: 361,
+    date: '2021/11/14',
+    name: 'Reframe Tour 2021',
+    event_type: 'LIVE',
+    tour_id: 25,
+    sub_name: '東京公演 3日目',
+    songs: [
+      [
+        ...REFRAME_TOUR_2021_SETLIST
+      ],
+    ],
+    live_house: 167
+  },
+  {
+    id: 362,
+    date: '2021/11/19',
+    name: 'Reframe Tour 2021',
+    event_type: 'LIVE',
+    tour_id: 25,
+    sub_name: '石川公演 1日目',
+    songs: [
+      [
+        ...REFRAME_TOUR_2021_SETLIST
+      ],
+    ],
+    live_house: 170
+  },
+  {
+    id: 363,
+    date: '2021/11/20',
+    name: 'Reframe Tour 2021',
+    event_type: 'LIVE',
+    tour_id: 25,
+    sub_name: '石川公演 2日目',
+    songs: [
+      [
+        ...REFRAME_TOUR_2021_SETLIST
+      ],
+    ],
+    live_house: 170
+  },
+  {
+    id: 364,
+    date: '2021/12/02',
+    name: 'Reframe Tour 2021',
+    event_type: 'LIVE',
+    tour_id: 25,
+    sub_name: '愛知公演 1日目',
+    songs: [
+      [
+        ...REFRAME_TOUR_2021_SETLIST
+      ],
+    ],
+    live_house: 171
+  },
+  {
+    id: 365,
+    date: '2021/12/03',
+    name: 'Reframe Tour 2021',
+    event_type: 'LIVE',
+    tour_id: 25,
+    sub_name: '愛知公演 2日目',
+    songs: [
+      [
+        ...REFRAME_TOUR_2021_SETLIST
+      ],
+    ],
+    live_house: 171
+  },
+  {
+    id: 366,
+    date: '2021/12/07',
+    name: 'Reframe Tour 2021',
+    event_type: 'LIVE',
+    tour_id: 25,
+    sub_name: '兵庫公演 1日目',
+    songs: [
+      [
+        ...REFRAME_TOUR_2021_SETLIST
+      ],
+    ],
+    live_house: 172
+  },
+  {
+    id: 367,
+    date: '2021/12/09',
+    name: 'Reframe Tour 2021',
+    event_type: 'LIVE',
+    tour_id: 25,
+    sub_name: '兵庫公演 2日目',
+    songs: [
+      [
+        ...REFRAME_TOUR_2021_SETLIST
+      ],
+    ],
+    live_house: 172
+  },
+  {
+    id: 368,
+    date: '2021/12/10',
+    name: 'Reframe Tour 2021',
+    event_type: 'LIVE',
+    tour_id: 25,
+    sub_name: '兵庫公演 3日目',
+    songs: [
+      [
+        ...REFRAME_TOUR_2021_SETLIST
+      ],
+    ],
+    live_house: 172
+  },
+  {
+    id: 369,
+    date: '2021/12/15',
+    name: 'Reframe Tour 2021',
+    event_type: 'LIVE',
+    tour_id: 25,
+    sub_name: '広島公演 1日目',
+    songs: [
+      [
+        ...REFRAME_TOUR_2021_SETLIST
+      ],
+    ],
+    live_house: 146
+  },
+  {
+    id: 370,
+    date: '2021/12/17',
+    name: 'Reframe Tour 2021',
+    event_type: 'LIVE',
+    tour_id: 25,
+    sub_name: '広島公演 2日目',
+    songs: [
+      [
+        ...REFRAME_TOUR_2021_SETLIST
+      ],
+    ],
+    live_house: 146
+  },
+  {
+    id: 371,
+    date: '2021/12/18',
+    name: 'Reframe Tour 2021',
+    event_type: 'LIVE',
+    tour_id: 25,
+    sub_name: '広島公演 3日目',
+    songs: [
+      [
+        ...REFRAME_TOUR_2021_SETLIST
+      ],
+    ],
+    live_house: 146
+  },
+  {
+    id: 372,
+    date: '2022/01/09',
+    name: 'Perfume LIVE 2022 [polygon wave]',
+    event_type: 'LIVE',
+    tour_id: 26,
+    sub_name: '1日目',
+    songs: [
+      [
+        ...POLYGON_2022_SETLIST
+      ],
+    ],
+    live_house: 169
+  },
+  {
+    id: 373,
+    date: '2022/01/10',
+    name: 'Perfume LIVE 2022 [polygon wave]',
+    event_type: 'LIVE',
+    tour_id: 26,
+    sub_name: '2日目',
+    songs: [
+      [
+        ...POLYGON_2022_SETLIST
+      ],
+    ],
+    live_house: 169
+  },
+  {
+    id: 374,
+    date: '2022/01/12',
+    name: 'Perfume LIVE 2022 [polygon wave]',
+    event_type: 'LIVE',
+    tour_id: 26,
+    sub_name: '3日目',
+    songs: [
+      [
+        ...POLYGON_2022_SETLIST
+      ],
+    ],
+    live_house: 169
+  },
+  {
+    id: 375,
+    date: '2022/01/13',
+    name: 'Perfume LIVE 2022 [polygon wave]',
+    event_type: 'LIVE',
+    tour_id: 26,
+    sub_name: '4日目',
+    songs: [
+      [
+        ...POLYGON_2022_SETLIST
+      ],
+    ],
+    live_house: 169
+  },
+  {
+    id: 376,
+    date: '2022/01/15',
+    name: 'Perfume LIVE 2022 [polygon wave]',
+    event_type: 'LIVE',
+    tour_id: 26,
+    sub_name: '5日目',
+    songs: [
+      [
+        ...POLYGON_2022_SETLIST
+      ],
+    ],
+    live_house: 169
+  },
+  {
+    id: 377,
+    date: '2022/01/16',
+    name: 'Perfume LIVE 2022 [polygon wave]',
+    event_type: 'LIVE',
+    tour_id: 26,
+    sub_name: '6日目',
+    songs: [
+      [
+        ...POLYGON_2022_SETLIST
+      ],
+    ],
+    live_house: 169
+  },
 ]
+
+

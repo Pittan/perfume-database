@@ -525,6 +525,74 @@ const SG_31_MUGEN: Album = {
   kana: 'むげんみらい'
 }
 
+const SG_32_TIME_WARP: Album = {
+  album_type: 'SINGLE',
+  editions: [
+    {
+      name: '完全生産限定盤',
+      songs: [[ 200, 177, 201, 202 ]],
+    },
+    {
+      name: '初回限定盤',
+      songs: [[ 200, 177, 201, 202 ]],
+    },
+    {
+      name: '通常盤',
+      songs: [[ 200, 177, 201, 202 ]],
+    }
+  ],
+  id: 42,
+  released_on: '2020/09/16',
+  title: 'Time Warp',
+  kana: 'たいむわーぷ'
+}
+
+const SG_DG_POLYGON: Album = {
+  album_type: 'DIGITAL',
+  editions: [
+    {
+      name: 'デジタル配信',
+      songs: [[ 205 ]],
+    },
+  ],
+  id: 43,
+  released_on: '2021/07/02',
+  title: 'ポリゴンウェイヴ',
+  kana: 'ぽりごんうぇいゔ'
+}
+
+const SG_33_FLOW: Album = {
+  album_type: 'SINGLE',
+  editions: [
+    {
+      name: '初回限定盤',
+      songs: [[ 206, 207, 208, 209 ]],
+    },
+    {
+      name: '通常盤',
+      songs: [[ 206, 207, 208, 209 ]],
+    }
+  ],
+  id: 44,
+  released_on: '2022/03/09',
+  title: 'Flow',
+  kana: 'ふろー'
+}
+
+const SG_DG_PLASTIC: Album = {
+  album_type: 'DIGITAL',
+  editions: [
+    {
+      name: 'デジタル',
+      songs: [[ 216 ]],
+    },
+  ],
+  id: 45,
+  released_on: '2022/04/29',
+  title: 'さよならプラスティックワールド',
+  kana: 'さよならぷらすてぃっくわーるど'
+}
+
 export const SINGLES: Album[] = [
   SG_01_OMAJINAI,
   SG_02_KARESHI,
@@ -556,5 +624,9 @@ export const SINGLES: Album[] = [
   SG_28_I_DONT,
   SG_29_TOKYO_GIRL,
   SG_30_IFW,
-  SG_31_MUGEN
+  SG_31_MUGEN,
+  SG_32_TIME_WARP,
+  SG_DG_POLYGON,
+  SG_33_FLOW,
+  SG_DG_PLASTIC
 ]
