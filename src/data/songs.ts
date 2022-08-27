@@ -1644,14 +1644,9 @@ export const SONGS: Song[] = [
     is_instrumental: true,
   },
   {
-    id: 203,
-    title: '再生',
-    kana: 'さいせい'
-  },
-  {
     id: 204,
     title: '再生 -Original Instrumental-',
-    parent: 203,
+    parent: 177,
     kana: 'さいせい おりじなるいんすとぅるめんたる',
     is_instrumental: true,
   },
