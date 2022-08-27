@@ -203,14 +203,14 @@ const ALBUM_OTHER_POLYGON_WAVE: Album = {
       songs: [[ 210, 205, 211, 212, 213, 214, 215 ]],
     }
   ],
-  id: 11,
+  id: 46,
   released_on: '2021/09/22',
   title: 'ポリゴンウェイヴEP',
   kana: 'ぽりごんうぇいゔ いーぴー'
 }
 
 const ALBUM_11_PLASMA: Album = {
-  id: 12,
+  id: 47,
   title: 'PLASMA',
   kana: 'ぷらずま',
   album_type: 'ALBUM',
