@@ -171,5 +171,21 @@ export const TOURS: Tour[] = [
     from: '2020/02/01',
     to: '2020/02/26',
     related_album: 10
-  }
+  },
+  {
+    // polygon 2021
+    id: 24,
+    name: 'Perfume LIVE 2021 [polygon wave]',
+    kana: 'ぱふゅーむらいぶ にせんにじゅういち ぽりごんうえいゔ',
+    from: '2021/08/14',
+    to: '2021/08/15',
+    related_album: 45
+  },
+  {
+    id: 25,
+    name: 'Reframe Tour 2021',
+    kana: 'りふれいむつあー にせんにじゅういち',
+    from: '2021/11/12',
+    to: '2021/12/18',
+  },
 ]
