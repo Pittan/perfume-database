@@ -1712,8 +1712,8 @@ export const SONGS: Song[] = [
   },
   {
     id: 215,
-    title: 'システムリブート(Perfume LIVE 2021 [polygon wave] intro)',
-    kana: 'しすてむりぶーと ぱふゅーむらいぶ にせんにじゅういち ぽりごんうぇいゔ いんとろ'
+    title: 'システムリブート',
+    kana: 'しすてむりぶーと'
   },
   {
     id: 216,

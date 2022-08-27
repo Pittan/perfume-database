@@ -188,4 +188,22 @@ export const TOURS: Tour[] = [
     from: '2021/11/12',
     to: '2021/12/18',
   },
+  {
+    // polygon 2022
+    id: 26,
+    name: 'Perfume LIVE 2022 [polygon wave]',
+    kana: 'ぱふゅーむらいぶ にせんにじゅうに ぽりごんうえいゔ',
+    from: '2022/01/09',
+    to: '2022/01/16',
+    related_album: 45
+  },
+  {
+    // PLASMA
+    id: 27,
+    name: 'Perfume 9th Tour 2022 "PLASMA"',
+    kana: 'ぱふゅーむ ないんすつあー にせんにじゅうに ぷらずま',
+    from: '2022/08/20',
+    to: '2022/11/06',
+    related_album: 12
+  },
 ]

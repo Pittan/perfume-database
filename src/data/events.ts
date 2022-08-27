@@ -24,6 +24,29 @@ const REFRAME_TOUR_2021_SETLIST = [
   210, // polygon original
 ]
 
+const POLYGON_2022_SETLIST = [
+  215, // reboot
+  61, // fushiga
+  133, // pmu
+  177, // saisei
+  MC, // MC
+  170, // FP
+  158, // Tokyo
+  57, // islu
+  30, // macaroni
+  205, // polygon
+  214, // Android
+  78, // glitter
+  PTA, // PTA
+  70, // fake
+  24, // poly
+  201, // time warp
+  146, // miracle
+  MC, // mc
+  84, // my color
+  207, // mawaru (polygon)
+]
+
 export const EVENTS: Event[] = [
   {
     id: 1,
@@ -11691,6 +11714,7 @@ export const EVENTS: Event[] = [
     sub_name: '1日目',
     songs: [
       [
+        215, // reboot
         61, // fushiga
         133, // pmu
         177, // saisei
@@ -11723,6 +11747,7 @@ export const EVENTS: Event[] = [
     sub_name: '2日目',
     songs: [
       [
+        215, // reboot
         61, // fushiga
         133, // pmu
         177, // saisei
@@ -11929,6 +11954,90 @@ export const EVENTS: Event[] = [
       ],
     ],
     live_house: 146
+  },
+  {
+    id: 372,
+    date: '2022/01/09',
+    name: 'Perfume LIVE 2022 [polygon wave]',
+    event_type: 'LIVE',
+    tour_id: 26,
+    sub_name: '1日目',
+    songs: [
+      [
+        ...POLYGON_2022_SETLIST
+      ],
+    ],
+    live_house: 169
+  },
+  {
+    id: 373,
+    date: '2022/01/10',
+    name: 'Perfume LIVE 2022 [polygon wave]',
+    event_type: 'LIVE',
+    tour_id: 26,
+    sub_name: '2日目',
+    songs: [
+      [
+        ...POLYGON_2022_SETLIST
+      ],
+    ],
+    live_house: 169
+  },
+  {
+    id: 374,
+    date: '2022/01/12',
+    name: 'Perfume LIVE 2022 [polygon wave]',
+    event_type: 'LIVE',
+    tour_id: 26,
+    sub_name: '3日目',
+    songs: [
+      [
+        ...POLYGON_2022_SETLIST
+      ],
+    ],
+    live_house: 169
+  },
+  {
+    id: 375,
+    date: '2022/01/13',
+    name: 'Perfume LIVE 2022 [polygon wave]',
+    event_type: 'LIVE',
+    tour_id: 26,
+    sub_name: '4日目',
+    songs: [
+      [
+        ...POLYGON_2022_SETLIST
+      ],
+    ],
+    live_house: 169
+  },
+  {
+    id: 376,
+    date: '2022/01/15',
+    name: 'Perfume LIVE 2022 [polygon wave]',
+    event_type: 'LIVE',
+    tour_id: 26,
+    sub_name: '5日目',
+    songs: [
+      [
+        ...POLYGON_2022_SETLIST
+      ],
+    ],
+    live_house: 169
+  },
+  {
+    id: 377,
+    date: '2022/01/16',
+    name: 'Perfume LIVE 2022 [polygon wave]',
+    event_type: 'LIVE',
+    tour_id: 26,
+    sub_name: '6日目',
+    songs: [
+      [
+        ...POLYGON_2022_SETLIST
+      ],
+    ],
+    live_house: 169
   },
 ]
 
