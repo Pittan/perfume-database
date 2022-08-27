@@ -1555,12 +1555,13 @@ export const SONGS: Song[] = [
   {
     id: 186,
     title: 'Recollect',
-    kana: 'りこれくと りふれいむ にせんじゅうきゅうばーじょん'
+    kana: 'りこれくと'
   },
   {
     id: 187,
     title: 'Recollect(Reframe2019 ver)',
-    kana: 'りこれくと りふれいむ にせんじゅうきゅうばーじょん'
+    kana: 'りこれくと りふれいむ にせんじゅうきゅうばーじょん',
+    parent: 186,
   },
   {
     id: 188,
@@ -1572,7 +1573,7 @@ export const SONGS: Song[] = [
     id: 189,
     title: 'Record(Reframe2019 ver)',
     kana: 'れこーど りふれいむ にせんじゅうきゅうばーじょん',
-    parent: 187
+    parent: 224
   },
   {
     id: 190,
@@ -1750,4 +1751,14 @@ export const SONGS: Song[] = [
     title: 'ハテナビト',
     kana: 'はてなびと',
   },
+  {
+    id: 223,
+    title: 'Intro',
+    kana: 'いんとろ',
+  },
+  {
+    id: 224,
+    title: 'Record',
+    kana: 'れこーど'
+  }
 ]
