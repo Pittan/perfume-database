@@ -90,12 +90,17 @@ function checkEvents () {
     e.songs.forEach(section => {
       section.forEach(s => {
         const song = SONGS.find(so => so.id === s)
-        if (s === MC) {
-          log('-- MC')
+        if (typeof s !== 'number') {
+          if (s.type === 'MEDLEY') {
+            // TODO check medley
+            return
+          }
+          log(`Special type ${JSON.stringify(s)}`)
           return
         }
+
         if (!song) {
-          throw Error(`Couldn\'t find song on ${e.name} ${e.id}`)
+          throw Error(`Couldn\'t find matching song for id: ${JSON.stringify(s)} on ${e.name} (event ID:${e.id})`)
         }
         log(`-- ${song.title}`)
       })

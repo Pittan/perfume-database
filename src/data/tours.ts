@@ -179,7 +179,7 @@ export const TOURS: Tour[] = [
     kana: 'ぱふゅーむらいぶ にせんにじゅういち ぽりごんうえいゔ',
     from: '2021/08/14',
     to: '2021/08/15',
-    related_album: 45
+    related_album: 46
   },
   {
     id: 25,
@@ -195,7 +195,7 @@ export const TOURS: Tour[] = [
     kana: 'ぱふゅーむらいぶ にせんにじゅうに ぽりごんうえいゔ',
     from: '2022/01/09',
     to: '2022/01/16',
-    related_album: 45
+    related_album: 46
   },
   {
     // PLASMA
@@ -204,6 +204,6 @@ export const TOURS: Tour[] = [
     kana: 'ぱふゅーむ ないんすつあー にせんにじゅうに ぷらずま',
     from: '2022/08/20',
     to: '2022/11/06',
-    related_album: 12
+    related_album: 47
   },
 ]

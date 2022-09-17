@@ -1677,7 +1677,7 @@ export const SONGS: Song[] = [
   {
     id: 209,
     title: 'マワルカガミ(polygon wave live ver./ Instrumental)',
-    parent: 207,
+    parent: 220,
     kana: 'まわるかがみ ぽりごんうぇいゔ らいぶばーじょん いんすとぅるめんたる',
     is_instrumental: true,
   },
