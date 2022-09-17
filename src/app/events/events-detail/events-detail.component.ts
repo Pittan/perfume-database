@@ -27,6 +27,9 @@ export class EventsDetailComponent implements OnInit {
 
   busy = ''
 
+  hasSpoiler = true
+  userAgreedWithSpoiler = false;
+
   constructor (
     private events: EventsService,
     private activatedRoute: ActivatedRoute,
@@ -45,6 +48,10 @@ export class EventsDetailComponent implements OnInit {
       this.event = this.events.getEventById(this.id)
       if (this.event.tour_id) {
         this.relatedTour = this.events.getRelatedTour(this.event.tour_id)
+      }
+
+      if (!(this.relatedTour.prevent_spoiler || this.event.prevent_spoiler)) {
+        this.hasSpoiler = false
       }
 
       if (this.event.live_house) {
