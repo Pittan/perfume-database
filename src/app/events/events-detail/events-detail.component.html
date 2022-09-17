@@ -2,55 +2,67 @@
   {{event.name}}
   <ng-container *ngIf="event.sub_name"><br><small>{{event.sub_name}}</small></ng-container>
 </h1>
-<!-- TODO 会場情報を検索して表示すること-->
 
-<h2>Create playlist</h2>
-<div class="playlist">
-  <button class="spotify" [disabled]="busy === 'spotify'" (click)="generatePlaylist('spotify')">
-    {{ busy === 'spotify' ? 'Please wait...' : 'Create playlist on Spotify' }}
-  </button>
-  <button class="apple" [disabled]="busy === 'appleMusic'" (click)="generatePlaylist('appleMusic')">
-    {{ busy === 'appleMusic' ? 'Please wait...' : 'Create playlist on Apple Music' }}
-  </button>
+<div class="spoiler-alert" *ngIf="hasSpoiler">
+  <div class="title">
+    ネタバレ注意
+  </div>
+  <div class="message">
+    このツアーは開催期間中、またはその他の理由によりセットリストのネタバレが制限されています。
+  </div>
+  <button type="button" *ngIf="!userAgreedWithSpoiler" (click)="userAgreedWithSpoiler = true">セットリストを表示する</button>
 </div>
 
-<ng-container *ngIf="relatedTour">
-  <h2>Tour</h2>
-  <a class="list-item" routerLink="/tours/{{relatedTour.id}}">
+<ng-template [ngIf]="!hasSpoiler || (hasSpoiler && userAgreedWithSpoiler)">
+
+  <h2>Create playlist</h2>
+  <div class="playlist">
+    <button class="spotify" [disabled]="busy === 'spotify'" (click)="generatePlaylist('spotify')">
+      {{ busy === 'spotify' ? 'Please wait...' : 'Create playlist on Spotify' }}
+    </button>
+    <button class="apple" [disabled]="busy === 'appleMusic'" (click)="generatePlaylist('appleMusic')">
+      {{ busy === 'appleMusic' ? 'Please wait...' : 'Create playlist on Apple Music' }}
+    </button>
+  </div>
+
+  <ng-container *ngIf="relatedTour">
+    <h2>Tour</h2>
+    <a class="list-item" routerLink="/tours/{{relatedTour.id}}">
     <span class="title">
       {{relatedTour.name}}
     </span>
-    <span class="detail">{{relatedTour.from}} 〜 {{relatedTour.to}}</span>
-  </a>
-</ng-container>
-
-<ng-container *ngIf="liveHouse">
-  <h2>Place</h2>
-  <p>{{liveHouse.name}}</p>
-</ng-container>
-
-<h2>Set list</h2>
-<div class="section" *ngFor="let section of event.songs">
-  <ng-container *ngFor="let song of section">
-    <!-- SongID -->
-    <a class="list-item" *ngIf="!song.title" routerLink="/songs/{{song}}">
-      <span class="title">{{getSongTitle(song)}}</span>
+      <span class="detail">{{relatedTour.from}} 〜 {{relatedTour.to}}</span>
     </a>
-
-    <!-- SetListItemDefinition -->
-    <ng-container *ngIf="song.title">
-      <div class="list-item no-hover" *ngIf="song.title">
-        <span class="title">{{getSongTitle(song)}}</span>
-        <ng-container *ngIf="song.songs">
-          <ng-container *ngFor="let s of song.songs">
-            <a class="list-item child" *ngIf="!s.title else nonClickable" routerLink="/songs/{{s}}" >{{getSongTitle(s)}}</a>
-            <ng-template #nonClickable>
-              <div class="list-item no-hover child">{{getSongTitle(s)}}</div>
-            </ng-template>
-          </ng-container>
-        </ng-container>
-      </div>
-
-    </ng-container>
   </ng-container>
-</div>
+
+  <ng-container *ngIf="liveHouse">
+    <h2>Place</h2>
+    <p>{{liveHouse.name}}</p>
+  </ng-container>
+
+  <h2>Set list</h2>
+  <div class="section" *ngFor="let section of event.songs">
+    <ng-container *ngFor="let song of section">
+      <!-- SongID -->
+      <a class="list-item" *ngIf="!song.title" routerLink="/songs/{{song}}">
+        <span class="title">{{getSongTitle(song)}}</span>
+      </a>
+
+      <!-- SetListItemDefinition -->
+      <ng-container *ngIf="song.title">
+        <div class="list-item no-hover" *ngIf="song.title">
+          <span class="title">{{getSongTitle(song)}}</span>
+          <ng-container *ngIf="song.songs">
+            <ng-container *ngFor="let s of song.songs">
+              <a class="list-item child" *ngIf="!s.title else nonClickable" routerLink="/songs/{{s}}" >{{getSongTitle(s)}}</a>
+              <ng-template #nonClickable>
+                <div class="list-item no-hover child">{{getSongTitle(s)}}</div>
+              </ng-template>
+            </ng-container>
+          </ng-container>
+        </div>
+
+      </ng-container>
+    </ng-container>
+  </div>
+</ng-template>

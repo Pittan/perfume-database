@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core'
-import { Event, EVENTS, PLACES, SetListItemDefinition, Song, SongId, SONGS } from '../../data'
+import { Event, EVENTS, PLACES, SetListItemDefinition, Song, SongId, SONGS, Tour, TOURS } from '../../data'
 import { flatten } from 'lodash-es'
 
 export interface GetSongsOptions {
   removeInstrumental?: boolean
 }
 
-type EventForList = Event & { live_house_name?: string, isRelatedHit?: boolean }
+type EventForList = Event & { live_house_name?: string, isRelatedHit?: boolean, tour?: Tour, contains_spoiler: boolean }
 
 @Injectable({
   providedIn: 'root'
@@ -52,9 +52,12 @@ export class SongsService {
         return relatedSongs.includes(item)
       })
     }).map((ev: EventForList) => {
+      // 会場情報を追加
       return {
         ...ev,
-        live_house_name: PLACES.find(p => p.id === ev.live_house)?.name
+        live_house_name: PLACES.find(p => p.id === ev.live_house)?.name,
+        tour: TOURS.find(tour => tour.id === ev.tour_id),
+        contains_spoiler: ev.prevent_spoiler || ev?.tour?.prevent_spoiler
       }
     }).map((ev: EventForList) => {
       const flattened = flatten(ev.songs)

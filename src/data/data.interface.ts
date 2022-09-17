@@ -103,6 +103,9 @@ export interface Event {
   songs?: SetListItem[][]
   /** フリーメモ。 */
   memo?: string
+
+  /** ネタバレ禁止期間中かどうか (関連している tour のネタバレ禁止フラグが優先されます) */
+  prevent_spoiler?: boolean
 }
 
 /**
@@ -144,4 +147,7 @@ export interface Tour {
   to: string
   /** 関連するアルバムがある場合はそのID */
   related_album?: AlbumId
+
+  /** ネタバレ禁止期間中かどうか */
+  prevent_spoiler?: boolean
 }

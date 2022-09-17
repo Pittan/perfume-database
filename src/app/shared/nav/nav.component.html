@@ -1,12 +1,21 @@
 <div class="backdrop" [class.gray]="menu.isMobileView" (click)="closeIfNeeded()">
-  <nav (click)="preventClick($event)">
-    <a routerLink="/songs" routerLinkActive="current" (click)="closeIfNeeded()">Songs</a>
-    <a routerLink="/albums" routerLinkActive="current" (click)="closeIfNeeded()">Albums</a>
-    <a routerLink="/tours" routerLinkActive="current" (click)="closeIfNeeded()">Tours</a>
-    <a routerLink="/events" routerLinkActive="current" (click)="closeIfNeeded()">Events</a>
-    <!-- その他の表示方法はメニューに格納 -->
-    <!--  <a routerLink="/events">Events</a>-->
-    <!--  <a routerLink="/events">Places</a>-->
-  </nav>
+  <div class="container">
+    <nav (click)="preventClick($event)">
+      <a routerLink="/songs" routerLinkActive="current" (click)="closeIfNeeded()">Songs</a>
+      <a routerLink="/albums" routerLinkActive="current" (click)="closeIfNeeded()">Albums</a>
+      <a routerLink="/tours" routerLinkActive="current" (click)="closeIfNeeded()">Tours</a>
+      <a routerLink="/events" routerLinkActive="current" (click)="closeIfNeeded()">Events</a>
+    </nav>
+
+    <div class="view-header" (click)="preventSliderClick($event)">
+      <label class="inst-switch" for="inst-switch">
+        Show Spoiler
+        <label class="switch">
+          <input type="checkbox" id="inst-switch" [(ngModel)]="allowSpoiler" (ngModelChange)="allowSpoilerChanged($event)">
+          <span class="slider"></span>
+        </label>
+      </label>
+    </div>
+  </div>
 </div>
 

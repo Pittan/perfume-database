@@ -187,6 +187,7 @@ export const TOURS: Tour[] = [
     kana: 'りふれいむつあー にせんにじゅういち',
     from: '2021/11/12',
     to: '2021/12/18',
+    prevent_spoiler: true
   },
   {
     // polygon 2022

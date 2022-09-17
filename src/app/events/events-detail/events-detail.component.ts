@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core'
+import {Component, OnDestroy, OnInit} from '@angular/core'
 import { Album, Event, LiveHouse, SetListItem, SetListItemDefinition, SongId, SONGS, Tour } from '../../../data'
 import { ActivatedRoute } from '@angular/router'
 import { EventsService } from '../events.service'
@@ -9,15 +9,18 @@ import { MatSnackBar } from '@angular/material/snack-bar'
 import { AuthService } from '../../shared/auth.service'
 import { MusicKitClientService } from '../../ngx-music-kit/music-kit-client.service'
 import { environment } from '../../../environments/environment'
+import { Subscription } from 'rxjs';
+import {SettingsService} from "../../shared/settings.service";
 
 @Component({
   selector: 'app-events-detail',
   templateUrl: './events-detail.component.html',
   styleUrls: ['./events-detail.component.sass']
 })
-export class EventsDetailComponent implements OnInit {
+export class EventsDetailComponent implements OnInit, OnDestroy {
 
   private id: number
+  private subscription = new Subscription()
 
   event: Event
 
@@ -27,6 +30,9 @@ export class EventsDetailComponent implements OnInit {
 
   busy = ''
 
+  hasSpoiler = true
+  userAgreedWithSpoiler = false
+
   constructor (
     private events: EventsService,
     private activatedRoute: ActivatedRoute,
@@ -34,10 +40,16 @@ export class EventsDetailComponent implements OnInit {
     private spotify: SpotifyService,
     private snackBar: MatSnackBar,
     private auth: AuthService,
-    private appleMusic: MusicKitClientService
+    private appleMusic: MusicKitClientService,
+    private settings: SettingsService
   ) { }
 
   ngOnInit (): void {
+    this.subscription.add(
+      this.settings.allowSpoiler.subscribe(val => {
+        this.userAgreedWithSpoiler = val;
+      })
+    )
     this.activatedRoute.params.subscribe(params => {
       if (params['id']) {
         this.id = Number(params['id'])
@@ -45,6 +57,10 @@ export class EventsDetailComponent implements OnInit {
       this.event = this.events.getEventById(this.id)
       if (this.event.tour_id) {
         this.relatedTour = this.events.getRelatedTour(this.event.tour_id)
+      }
+
+      if (!(this.relatedTour.prevent_spoiler || this.event.prevent_spoiler)) {
+        this.hasSpoiler = false
       }
 
       if (this.event.live_house) {
@@ -121,6 +137,10 @@ export class EventsDetailComponent implements OnInit {
         })
       })
     }
+  }
+
+  ngOnDestroy () {
+    this.subscription.unsubscribe()
   }
 
   getSongTitle (item: SetListItem) {
