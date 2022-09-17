@@ -1,5 +1,14 @@
 <h1>{{tour.name}}</h1>
 
+<div class="spoiler-alert" *ngIf="tour.prevent_spoiler">
+  <div class="title">
+    ネタバレ注意
+  </div>
+  <div class="message">
+    このツアーは開催期間中、またはその他に理由によりセットリストのネタバレが制限されています。
+  </div>
+</div>
+
 <h2>Date</h2>
 <p>{{tour.from}} 〜 {{tour.to}}</p>
 
