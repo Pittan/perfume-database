@@ -1207,4 +1207,11 @@ export const PLACES: LiveHouse[] = [
     place: '兵庫',
     // alias: ,
   },
+  {
+    id: 173,
+    name: '有明アリーナ',
+    kana: 'ありあけありーな',
+    place: '東京',
+    // alias: ,
+  },
 ]
