@@ -12039,6 +12039,270 @@ export const EVENTS: Event[] = [
     ],
     live_house: 169
   },
+  {
+    id: 378,
+    date: '2022/08/20',
+    name: 'Perfume 9th Tour 2022 “PLASMA”',
+    event_type: 'LIVE',
+    tour_id: 27,
+    sub_name: '東京公演 1日目',
+    songs: [
+      [
+        217, // plasma
+        206, // flow
+        210, // polygon original mix
+        177, // saisei
+        MC,
+        221, // dntr
+        222, // hatena
+        62, // natural
+        218, // time warp 11
+        213, // mugen
+        219, // spinning
+        214, // android
+        220, // mawaru
+        48, // ord
+        PTA,
+        113, // party
+        39, // puppy
+        138, // star train
+        216, // sayonara
+        217, // plasma
+      ],
+    ],
+    live_house: 173
+  },
+  {
+    id: 379,
+    date: '2022/08/21',
+    name: 'Perfume 9th Tour 2022 “PLASMA”',
+    event_type: 'LIVE',
+    tour_id: 27,
+    sub_name: '東京公演 2日目',
+    songs: [
+      [
+        217, // plasma
+        206, // flow
+        210, // polygon original mix
+        177, // saisei
+        MC,
+        221, // dntr
+        222, // hatena
+        62, // natural
+        218, // time warp 11
+        213, // mugen
+        219, // spinning
+        214, // android
+        220, // mawaru
+        48, // ord
+        PTA,
+        113, // party
+        39, // puppy
+        138, // star train
+        216, // sayonara
+        217, // plasma
+      ],
+    ],
+    live_house: 173
+  },
+  {
+    id: 380,
+    date: '2022/08/31',
+    name: 'Perfume 9th Tour 2022 “PLASMA”',
+    event_type: 'LIVE',
+    tour_id: 27,
+    sub_name: '愛知公演 1日目',
+    songs: [
+      [
+        217, // plasma
+        206, // flow
+        210, // polygon original mix
+        177, // saisei
+        MC,
+        221, // dntr
+        222, // hatena
+        62, // natural
+        218, // time warp 11
+        213, // mugen
+        219, // spinning
+        214, // android
+        220, // mawaru
+        PTA,
+        113, // party
+        48, // ord
+        39, // puppy
+        138, // star train
+        216, // sayonara
+        217, // plasma
+      ],
+    ],
+    live_house: 63
+  },
+  {
+    id: 381,
+    date: '2022/09/01',
+    name: 'Perfume 9th Tour 2022 “PLASMA”',
+    event_type: 'LIVE',
+    tour_id: 27,
+    sub_name: '愛知公演 2日目',
+    songs: [
+      [
+        217, // plasma
+        206, // flow
+        210, // polygon original mix
+        177, // saisei
+        MC,
+        221, // dntr
+        222, // hatena
+        62, // natural
+        218, // time warp 11
+        213, // mugen
+        219, // spinning
+        214, // android
+        220, // mawaru
+        PTA,
+        113, // party
+        18, // electro
+        39, // puppy
+        138, // star train
+        216, // sayonara
+        217, // plasma
+      ],
+    ],
+    live_house: 63
+  },
+  {
+    id: 382,
+    date: '2022/09/06',
+    name: 'Perfume 9th Tour 2022 “PLASMA”',
+    event_type: 'LIVE',
+    tour_id: 27,
+    sub_name: '大阪公演 1日目',
+    songs: [
+      [
+        217, // plasma
+        206, // flow
+        210, // polygon original mix
+        177, // saisei
+        MC,
+        221, // dntr
+        222, // hatena
+        62, // natural
+        218, // time warp 11
+        213, // mugen
+        219, // spinning
+        214, // android
+        220, // mawaru
+        PTA,
+        113, // party
+        48, // ord
+        39, // puppy
+        138, // star train
+        216, // sayonara
+        217, // plasma
+      ],
+    ],
+    live_house: 52
+  },
+  {
+    id: 383,
+    date: '2022/09/07',
+    name: 'Perfume 9th Tour 2022 “PLASMA”',
+    event_type: 'LIVE',
+    tour_id: 27,
+    sub_name: '大阪公演 2日目',
+    songs: [
+      [
+        217, // plasma
+        206, // flow
+        210, // polygon original mix
+        177, // saisei
+        MC,
+        221, // dntr
+        222, // hatena
+        62, // natural
+        218, // time warp 11
+        213, // mugen
+        219, // spinning
+        214, // android
+        220, // mawaru
+        PTA,
+        113, // party
+        18, // electro
+        39, // puppy
+        138, // star train
+        216, // sayonara
+        217, // plasma
+      ],
+    ],
+    live_house: 52
+  },
+  {
+    id: 384,
+    date: '2022/09/17',
+    name: 'Perfume 9th Tour 2022 “PLASMA”',
+    event_type: 'LIVE',
+    tour_id: 27,
+    sub_name: '広島公演 1日目',
+    songs: [
+      [
+        217, // plasma
+        206, // flow
+        210, // polygon original mix
+        177, // saisei
+        MC,
+        221, // dntr
+        222, // hatena
+        62, // natural
+        218, // time warp 11
+        213, // mugen
+        219, // spinning
+        214, // android
+        220, // mawaru
+        PTA,
+        113, // party
+        24, // poly
+        39, // puppy
+        138, // star train
+        216, // sayonara
+        217, // plasma
+      ],
+    ],
+    live_house: 86
+  },
+  {
+    id: 385,
+    date: '2022/09/18',
+    name: 'Perfume 9th Tour 2022 “PLASMA”',
+    event_type: 'LIVE',
+    tour_id: 27,
+    sub_name: '広島公演 2日目',
+    songs: [
+      [
+        217, // plasma
+        206, // flow
+        210, // polygon original mix
+        177, // saisei
+        MC,
+        221, // dntr
+        222, // hatena
+        62, // natural
+        218, // time warp 11
+        213, // mugen
+        219, // spinning
+        214, // android
+        220, // mawaru
+        PTA,
+        113, // party
+        18, // electro
+        39, // puppy
+        138, // star train
+        216, // sayonara
+        217, // plasma
+      ],
+    ],
+    live_house: 86
+  },
 ]
 
 
