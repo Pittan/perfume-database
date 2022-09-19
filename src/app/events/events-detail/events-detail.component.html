@@ -15,15 +15,16 @@
 
 <ng-template [ngIf]="!hasSpoiler || (hasSpoiler && userAgreedWithSpoiler)">
 
-  <h2>Create playlist</h2>
-  <div class="playlist">
-    <button class="spotify" [disabled]="busy === 'spotify'" (click)="generatePlaylist('spotify')">
-      {{ busy === 'spotify' ? 'Please wait...' : 'Create playlist on Spotify' }}
-    </button>
-    <button class="apple" [disabled]="busy === 'appleMusic'" (click)="generatePlaylist('appleMusic')">
-      {{ busy === 'appleMusic' ? 'Please wait...' : 'Create playlist on Apple Music' }}
-    </button>
-  </div>
+<!-- Temporary disable playlist creation -->
+<!--  <h2>Create playlist</h2>-->
+<!--  <div class="playlist">-->
+<!--    <button class="spotify" [disabled]="busy === 'spotify'" (click)="generatePlaylist('spotify')">-->
+<!--      {{ busy === 'spotify' ? 'Please wait...' : 'Create playlist on Spotify' }}-->
+<!--    </button>-->
+<!--    <button class="apple" [disabled]="busy === 'appleMusic'" (click)="generatePlaylist('appleMusic')">-->
+<!--      {{ busy === 'appleMusic' ? 'Please wait...' : 'Create playlist on Apple Music' }}-->
+<!--    </button>-->
+<!--  </div>-->
 
   <ng-container *ngIf="relatedTour">
     <h2>Tour</h2>
