@@ -13,9 +13,10 @@ import { Subscription } from 'rxjs';
 import {SettingsService} from "../../shared/settings.service";
 
 @Component({
-  selector: 'app-events-detail',
-  templateUrl: './events-detail.component.html',
-  styleUrls: ['./events-detail.component.sass']
+    selector: 'app-events-detail',
+    templateUrl: './events-detail.component.html',
+    styleUrls: ['./events-detail.component.sass'],
+    standalone: false
 })
 export class EventsDetailComponent implements OnInit, OnDestroy {
 

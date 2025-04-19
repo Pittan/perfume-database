@@ -9,9 +9,10 @@ import {Subscription} from "rxjs";
 type EventForList = Event & { live_house_name?: string, isRelatedHit?: boolean }
 
 @Component({
-  selector: 'app-songs-detail',
-  templateUrl: './songs-detail.component.html',
-  styleUrls: ['./songs-detail.component.sass']
+    selector: 'app-songs-detail',
+    templateUrl: './songs-detail.component.html',
+    styleUrls: ['./songs-detail.component.sass'],
+    standalone: false
 })
 export class SongsDetailComponent implements OnInit, OnDestroy {
 

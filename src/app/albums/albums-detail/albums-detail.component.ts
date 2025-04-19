@@ -5,9 +5,10 @@ import { Album, Tour } from '../../../data'
 import { Title } from '@angular/platform-browser'
 
 @Component({
-  selector: 'app-albums-detail',
-  templateUrl: './albums-detail.component.html',
-  styleUrls: ['./albums-detail.component.sass']
+    selector: 'app-albums-detail',
+    templateUrl: './albums-detail.component.html',
+    styleUrls: ['./albums-detail.component.sass'],
+    standalone: false
 })
 export class AlbumsDetailComponent implements OnInit {
 

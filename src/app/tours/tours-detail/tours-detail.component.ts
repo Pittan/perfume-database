@@ -8,9 +8,10 @@ import { Title } from '@angular/platform-browser'
 type EventForList = Event & { live_house_name?: string }
 
 @Component({
-  selector: 'app-tours-detail',
-  templateUrl: './tours-detail.component.html',
-  styleUrls: ['./tours-detail.component.sass']
+    selector: 'app-tours-detail',
+    templateUrl: './tours-detail.component.html',
+    styleUrls: ['./tours-detail.component.sass'],
+    standalone: false
 })
 export class ToursDetailComponent implements OnInit {
 
