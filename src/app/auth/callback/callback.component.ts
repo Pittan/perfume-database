@@ -2,7 +2,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core'
 import { ActivatedRoute, Router } from '@angular/router'
 import { Subscription } from 'rxjs'
 import { SPOTIFY_AUTH_CALLBACK_STATE, SPOTIFY_UUID_LS_KEY, SpotifyService } from '../../shared/spotify.service'
-import { MatLegacySnackBar as MatSnackBar } from '@angular/material/legacy-snack-bar'
+import { MatSnackBar } from '@angular/material/snack-bar'
 
 @Component({
     selector: 'app-callback',

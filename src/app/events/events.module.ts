@@ -6,7 +6,7 @@ import { EventsListComponent } from './events-list/events-list.component'
 import { EventsDetailComponent } from './events-detail/events-detail.component'
 import { FormsModule } from '@angular/forms'
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
-import { MatLegacySnackBarModule as MatSnackBarModule } from '@angular/material/legacy-snack-bar'
+import { MatSnackBarModule } from '@angular/material/snack-bar'
 
 
 @NgModule({
