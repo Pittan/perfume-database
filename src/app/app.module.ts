@@ -7,9 +7,9 @@ import { HomeComponent } from './home/home.component'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { SharedModule } from './shared/shared.module'
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
-import { MatDialogModule } from '@angular/material/dialog'
+import { MatLegacyDialogModule as MatDialogModule } from '@angular/material/legacy-dialog'
 import { HttpClientModule } from '@angular/common/http'
-import { MatSnackBarModule } from '@angular/material/snack-bar'
+import { MatLegacySnackBarModule as MatSnackBarModule } from '@angular/material/legacy-snack-bar'
 
 @NgModule({
   declarations: [

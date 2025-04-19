@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common'
 
 import { AuthRoutingModule } from './auth-routing.module'
 import { CallbackComponent } from './callback/callback.component'
-import { MatSnackBarModule } from '@angular/material/snack-bar'
+import { MatLegacySnackBarModule as MatSnackBarModule } from '@angular/material/legacy-snack-bar'
 
 @NgModule({
   declarations: [CallbackComponent],
