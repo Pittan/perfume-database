@@ -1,14 +1,16 @@
-@import '../../constants'
+@use '../../constants' as c
+@use 'sass:color'
+
 
 \:host
   display: block
   overflow: hidden
 
-  @include media-query()
+  @include c.media-query()
     width: 238px
     border-right: 1px solid #EAECF0
 
-  @include media-query(lg)
+  @include c.media-query(lg)
     width: 258px
 
   .backdrop.gray
@@ -23,7 +25,7 @@
     padding: 16px
     background-color: #ffffff
 
-    @include media-query()
+    @include c.media-query()
       padding: 40px 16px
 
   nav
@@ -105,7 +107,7 @@
       border-color: #2196F3
 
     input:focus:checked + .slider
-      border-color: lighten(#2196F3, 28deg)
+      border-color: color.adjust(#2196F3, $lightness: 28%)
 
     input:checked + .slider:before
       transform: translateX(20px)

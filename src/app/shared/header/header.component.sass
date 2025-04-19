@@ -1,4 +1,5 @@
-@import '../../constants'
+@use '../../constants' as c
+
 
 \:host
   background-color: #fff
@@ -6,20 +7,20 @@
   display: flex
   align-items: center
   justify-content: space-between
-  height: $header-height-sm
+  height: c.$header-height-sm
   width: 100%
-  @include media-query(sm)
+  @include c.media-query(sm)
     padding: 0 4px 0 16px
 
-  @include media-query()
+  @include c.media-query()
     padding: 0 32px
-    height: $header-height-md
+    height: c.$header-height-md
 
     button
       display: none
 
-  @include media-query(lg)
-    height: $header-height-lg
+  @include c.media-query(lg)
+    height: c.$header-height-lg
 
   a
     text-decoration: none

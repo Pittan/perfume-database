@@ -1,14 +1,16 @@
-@import '../../constants'
+@use '../../constants' as c
+@use 'sass:color'
+
 
 \:host
   display: block
   color: #424242
   min-height: 100vh
 
-  @include media-query(sm)
+  @include c.media-query(sm)
     padding: 16px
 
-  @include media-query(md)
+  @include c.media-query(md)
     padding: 24px 36px 16px
 
 .search-input
@@ -106,7 +108,7 @@
       border-color: #2196F3
 
     input:focus:checked + .slider
-      border-color: lighten(#2196F3, 28deg)
+      border-color: color.adjust(#2196F3, $lightness: 28%)
 
     input:checked + .slider:before
       transform: translateX(20px)
@@ -126,7 +128,7 @@
   transition: .4s ease-in background-color
 
   &:hover, &:focus
-    background-color: lighten(#EAECF0, 3deg)
+    background-color: color.adjust(#EAECF0, $lightness: 3%)
     transition: .2s ease-out background-color
 
   .title

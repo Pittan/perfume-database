@@ -1,14 +1,16 @@
-@import '../../constants'
+@use '../../constants' as c
+@use 'sass:color'
+
 
 \:host
   display: block
   color: #424242
   min-height: 100vh
 
-  @include media-query(sm)
+  @include c.media-query(sm)
     padding: 16px
 
-  @include media-query(md)
+  @include c.media-query(md)
     padding: 24px 36px 16px
 
 .spoiler-alert
@@ -91,7 +93,7 @@ h2
   transition: .4s ease-in background-color
 
   &:hover, &:focus
-    background-color: lighten(#EAECF0, 3deg)
+    background-color: color.adjust(#EAECF0, $lightness: 3%)
     transition: .2s ease-out background-color
 
   &.no-hover
@@ -100,19 +102,19 @@ h2
       background-color: #EAECF0
 
   &.child
-    background-color: darken(#EAECF0, 3deg)
+    background-color: color.adjust(#EAECF0, $lightness: -3%)
 
     &:nth-child(2)
       margin-top: 8px
 
     &:hover, &:focus
-      background-color: lighten(#EAECF0, 1deg)
+      background-color: color.adjust(#EAECF0, $lightness: 1%)
       transition: .2s ease-out background-color
 
     &.no-hover
       cursor: auto
       &:hover, &:focus
-        background-color: darken(#EAECF0, 3deg)
+        background-color: color.adjust(#EAECF0, $lightness: -3%)
 
   .title
     margin-bottom: 2px
