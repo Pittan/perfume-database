@@ -1,14 +1,15 @@
-@import '../constants'
+@use '../constants' as c
+
 
 \:host
   display: block
   color: #424242
   min-height: 100vh
 
-  @include media-query(sm)
+  @include c.media-query(sm)
     padding: 16px
 
-  @include media-query(md)
+  @include c.media-query(md)
     padding: 24px 36px 16px
 
   h1

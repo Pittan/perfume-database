@@ -4,9 +4,10 @@ import {SettingsService} from "../settings.service";
 import {Subscription} from "rxjs";
 
 @Component({
-  selector: 'app-nav',
-  templateUrl: './nav.component.html',
-  styleUrls: ['./nav.component.sass']
+    selector: 'app-nav',
+    templateUrl: './nav.component.html',
+    styleUrls: ['./nav.component.sass'],
+    standalone: false
 })
 export class NavComponent implements OnInit {
 

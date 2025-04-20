@@ -1,4 +1,4 @@
-@import './constants'
+@use './constants' as c
 
 $footer-height: 45px
 \:host
@@ -6,30 +6,30 @@ $footer-height: 45px
   min-height: 100vh
 
 .main-layout
-  padding-top: $header-height-sm
+  padding-top: c.$header-height-sm
   min-height: 100%
   overflow-x: hidden
   overflow-y: scroll
   display: flex
   justify-content: center
 
-  @include media-query()
-    padding-top: $header-height-md
-    padding-left: $app-nav-width-md
+  @include c.media-query()
+    padding-top: c.$header-height-md
+    padding-left: c.$app-nav-width-md
 
-  @include media-query(lg)
-    padding-top: $header-height-lg
-    padding-left: $app-nav-width-lg
+  @include c.media-query(lg)
+    padding-top: c.$header-height-lg
+    padding-left: c.$app-nav-width-lg
 
   .container
     overflow-x: hidden
-    @include media-query(sm)
+    @include c.media-query(sm)
       max-width: 100vw
 
-    @include media-query()
+    @include c.media-query()
       max-width: 700px
 
-    @include media-query(lg)
+    @include c.media-query(lg)
       max-width: 900px
 
 app-header
@@ -41,18 +41,18 @@ app-header
 app-nav
   position: fixed
   z-index: 50
-  top: $header-height-sm
+  top: c.$header-height-sm
   left: 0
-  width: $app-nav-width-sm
+  width: c.$app-nav-width-sm
   height: 100vh
 
-  @include media-query()
+  @include c.media-query()
     height: 100vh
-    width: $app-nav-width-md
-    top: $header-height-md
-  @include media-query(lg)
-    width: $app-nav-width-lg
-    top: $header-height-lg
+    width: c.$app-nav-width-md
+    top: c.$header-height-md
+  @include c.media-query(lg)
+    width: c.$app-nav-width-lg
+    top: c.$header-height-lg
 
 .container
   flex: 1

@@ -2,9 +2,10 @@ import { Component, OnInit } from '@angular/core'
 import { SPOTIFY_AUTH_CALLBACK_STATE, SpotifyService } from '../spotify.service'
 
 @Component({
-  selector: 'app-auth',
-  templateUrl: './auth.component.html',
-  styleUrls: ['./auth.component.sass']
+    selector: 'app-auth',
+    templateUrl: './auth.component.html',
+    styleUrls: ['./auth.component.sass'],
+    standalone: false
 })
 export class AuthComponent implements OnInit {
 

@@ -21,21 +21,22 @@ const FUSE_OPTIONS = {
 }
 
 @Component({
-  selector: 'app-albums-list',
-  templateUrl: './albums-list.component.html',
-  styleUrls: ['./albums-list.component.sass'],
-  animations: [
-    trigger('fadeIn', [
-      transition(':enter', [
-        style({ opacity: '0' }),
-        animate('.4s cubic-bezier(0.36,0.66,0.04,1)', style({ opacity: '1' })),
-      ]),
-      transition(':leave', [
-        style({ opacity: '1', height: '*', marginBottom: '*' }),
-        animate('.2s cubic-bezier(0.36,0.66,0.04,1)', style({ opacity: '0', height: '0', marginBottom: '0' })),
-      ]),
-    ]),
-  ]
+    selector: 'app-albums-list',
+    templateUrl: './albums-list.component.html',
+    styleUrls: ['./albums-list.component.sass'],
+    animations: [
+        trigger('fadeIn', [
+            transition(':enter', [
+                style({ opacity: '0' }),
+                animate('.4s cubic-bezier(0.36,0.66,0.04,1)', style({ opacity: '1' })),
+            ]),
+            transition(':leave', [
+                style({ opacity: '1', height: '*', marginBottom: '*' }),
+                animate('.2s cubic-bezier(0.36,0.66,0.04,1)', style({ opacity: '0', height: '0', marginBottom: '0' })),
+            ]),
+        ]),
+    ],
+    standalone: false
 })
 export class AlbumsListComponent implements OnInit {
 

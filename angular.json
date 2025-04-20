@@ -73,18 +73,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "perfume-database:build"
+            "buildTarget": "perfume-database:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "perfume-database:build:production"
+              "buildTarget": "perfume-database:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "perfume-database:build"
+            "buildTarget": "perfume-database:build"
           }
         },
         "test": {

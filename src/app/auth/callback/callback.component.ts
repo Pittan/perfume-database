@@ -5,9 +5,10 @@ import { SPOTIFY_AUTH_CALLBACK_STATE, SPOTIFY_UUID_LS_KEY, SpotifyService } from
 import { MatSnackBar } from '@angular/material/snack-bar'
 
 @Component({
-  selector: 'app-callback',
-  templateUrl: './callback.component.html',
-  styleUrls: ['./callback.component.sass']
+    selector: 'app-callback',
+    templateUrl: './callback.component.html',
+    styleUrls: ['./callback.component.sass'],
+    standalone: false
 })
 export class CallbackComponent implements OnInit, OnDestroy {
 

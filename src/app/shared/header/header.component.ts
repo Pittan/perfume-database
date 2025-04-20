@@ -3,9 +3,10 @@ import { MenuService } from '../menu.service'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.sass']
+    selector: 'app-header',
+    templateUrl: './header.component.html',
+    styleUrls: ['./header.component.sass'],
+    standalone: false
 })
 export class HeaderComponent implements OnInit {
 
